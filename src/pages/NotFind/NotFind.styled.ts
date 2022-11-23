@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export const NotFind = styled.div`
+export const NotFindStyled = styled.div`
 
 `

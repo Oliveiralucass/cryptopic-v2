@@ -2,6 +2,8 @@ import React from 'react'
 
 export const NotFind = () => {
   return (
-    <div>NotFind</div>
+    <div>NotFind
+      <h1>aaa</h1>
+    </div>
   )
 }
