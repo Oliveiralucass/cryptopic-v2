@@ -3,42 +3,42 @@
         "name": "Bitcoin",
         "id": 1,
         "symbol": "BTC",
-        "img": "D:/PIC/images/BTCLogo.png",
+        "img": "BTCLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/bitcoin/bitcoin.html"
     },
     {
         "name": "Ethereum",
         "id": 2,
         "symbol": "ETH",
-        "img": "D:/PIC/images/ETHLogo.png",
+        "img": "ETHLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/ethereum/ethereum.html"
     },
     {
         "name": "BNB",
         "id": 3,
         "symbol": "BNB",
-        "img": "D:/PIC/images/BNBLogo.png",
+        "img": "BNBLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/bnb/bnb.html"
     },
     {
         "name": "Cardano",
         "id": 4,
         "symbol": "ADA",
-        "img": "D:/PIC/images/ADALogo.png",
+        "img": "ADALogo.png",
         "url": "D:/PIC/src/cryptocurrencies/cardano/cardano.html"
     },
     {
         "name": "Solana",
         "id": 5,
         "symbol": "SOL",
-        "img": "D:/PIC/images/SOLLogo.png",
+        "img": "SOLLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/solana/solana.html"
     },
     {
         "name": "Terra",
         "id": 6,
         "symbol": "LUNA",
-        "img": "D:/PIC/images/LUNALogo.png",
+        "img": "LUNALogo.png",
         "url": "D:/PIC/src/cryptocurrencies/terra/terra.html"
     },
 
@@ -46,14 +46,14 @@
         "name": "Avalanche",
         "id": 7,
         "symbol": "AVAX",
-        "img": "D:/PIC/images/AVAXLogo.png",
+        "img": "AVAXLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/avalanche/avalanche.html"
     },
     {
         "name": "Polkadot",
         "id": 8,
         "symbol": "DOT",
-        "img": "D:/PIC/images/DOTLogo.png",
+        "img": "DOTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/polkadot/polkadot.html"
     },
 
@@ -61,245 +61,245 @@
         "name": "Polygon",
         "id": 9,
         "symbol": "MATIC",
-        "img": "D:/PIC/images/MATICLogo.png",
+        "img": "MATICLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/polygon/polygon.html"
     },
     {
         "name": "Cosmos",
         "id": 10,
         "symbol": "ATOM",
-        "img": "D:/PIC/images/ATOMLogo.png",
+        "img": "ATOMLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/cosmos/cosmos.html"
     },
     {
         "name": "Chainlink",
         "id": 11,
         "symbol": "LINK",
-        "img": "D:/PIC/images/LINKLogo.png",
+        "img": "LINKLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/chainlink/chainlink.html"
     },
     {
         "name": "Algorand",
         "id": 12,
         "symbol": "ALGO",
-        "img": "D:/PIC/images/ALGOLogo.png",
+        "img": "ALGOLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/algorand/algorand.html"
     },
     {
         "name": "Binance USD",
         "id": 13,
         "symbol": "BUSD",
-        "img": "D:/PIC/images/BUSDLogo.png",
+        "img": "BUSDLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/binance-usd/binance-usd.html"
     },
     {
         "name": "Bitcoin Cash",
         "id": 14,
         "symbol": "BCH",
-        "img": "D:/PIC/images/BCHLogo.png",
+        "img": "BCHLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/bitcoin-cash/bitcoin-cash.html"
     },
     {
         "name": "Cronos",
         "id": 15,
         "symbol": "CRO",
-        "img": "D:/PIC/images/CROLogo.png",
+        "img": "CROLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/cronos/cronos.html"
     },
     {
         "name": "DAI",
         "id": 16,
         "symbol": "DAI",
-        "img": "D:/PIC/images/DAILogo.png",
+        "img": "DAILogo.png",
         "url": "D:/PIC/src/cryptocurrencies/dai/dai.html"
     },
     {
         "name": "Dogecoin",
         "id": 17,
         "symbol": "DOGE",
-        "img": "D:/PIC/images/DOGELogo.png",
+        "img": "DOGELogo.png",
         "url": "D:/PIC/src/cryptocurrencies/dogecoin/dogecoin.html"
     },
     {
         "name": "FTX Token",
         "id": 18,
         "symbol": "FTT",
-        "img": "D:/PIC/images/FTTLogo.png",
+        "img": "FTTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/ftx-token/ftx-token.html"
     },
     {
         "name": "Litecoin",
         "id": 19,
         "symbol": "LTC",
-        "img": "D:/PIC/images/LTCLogo.png",
+        "img": "LTCLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/litecoin/litecoin.html"
     },
     {
         "name": "Near Protocol",
         "id": 20,
         "symbol": "NEAR",
-        "img": "D:/PIC/images/NEARLogo.png",
+        "img": "NEARLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/near-protocol/near-protocol.html"
     },
     {
         "name": "Shiba Inu",
         "id": 21,
         "symbol": "SHIB",
-        "img": "D:/PIC/images/SHIBLogo.png",
+        "img": "SHIBLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/shiba-inu/shiba-inu.html"
     },
     {
         "name": "TerraUSD",
         "id": 22,
         "symbol": "UST",
-        "img": "D:/PIC/images/USTLogo.png",
+        "img": "USTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/terrausd/terrausd.html"
     },
     {
         "name": "Tether",
         "id": 23,
         "symbol": "USDT",
-        "img": "D:/PIC/images/USDTLogo.png",
+        "img": "USDTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/tether/tether.html"
     },
     {
         "name": "Tron",
         "id": 24,
         "symbol": "TRX",
-        "img": "D:/PIC/images/TRXLogo.png",
+        "img": "TRXLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/tron/tron.html"
     },
     {
         "name": "Uniswap",
         "id": 25,
         "symbol": "UNI",
-        "img": "D:/PIC/images/UNILogo.png",
+        "img": "UNILogo.png",
         "url": "D:/PIC/src/cryptocurrencies/uniswap/uniswap.html"
     },
     {
         "name": "USD Coin",
         "id": 26,
         "symbol": "USDC",
-        "img": "D:/PIC/images/USDCLogo.png",
+        "img": "USDCLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/usdc-coin/usd-coin.html"
     },
     {
         "name": "Wrapped Bitcoin",
         "id": 27,
         "symbol": "WBTC",
-        "img": "D:/PIC/images/WBTCLogo.png",
+        "img": "WBTCLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/wrapped-bitcoin/wrapped-bitcoin.html"
     },
     {
         "name": "XRP",
         "id": 28,
         "symbol": "XRP",
-        "img": "D:/PIC/images/XRPLogo.png",
+        "img": "XRPLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/xrp/xrp.html"
     },
     {
         "name": "UNUS SED LEO",
         "id": 29,
         "symbol": "LEO",
-        "img": "D:/PIC/images/LEOLogo.png",
+        "img": "LEOLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/unus-sed-leo/unus-sed-leo.html"
     },
     {
         "name": "ApeCoin",
         "id": 30,
         "symbol": "APE",
-        "img": "D:/PIC/images/APELogo.png",
+        "img": "APELogo.png",
         "url": "D:/PIC/src/cryptocurrencies/apecoin/apecoin.html"
     },
     {
         "name": "Stellar",
         "id": 31,
         "symbol": "XLM",
-        "img": "D:/PIC/images/XLMLogo.png",
+        "img": "XLMLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/stellar/stellar.html"
     },
     {
         "name": "Monero",
         "id": 32,
         "symbol": "XMR",
-        "img": "D:/PIC/images/XMRLogo.png",
+        "img": "XMRLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/monero/monero.html"
     },
     {
         "name": "Ethereum Classic",
         "id": 33,
         "symbol": "ETC",
-        "img": "D:/PIC/images/ETCLogo.png",
+        "img": "ETCLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/ethereum-classic/ethereum-classic.html"
     },
     {
         "name": "Hedera",
         "id": 34,
         "symbol": "HBAR",
-        "img": "D:/PIC/images/HBARLogo.png",
+        "img": "HBARLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/hedera/hedera.html"
     },
     {
         "name": "Filecoin",
         "id": 35,
         "symbol": "FIL",
-        "img": "D:/PIC/images/FILLogo.png",
+        "img": "FILLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/filecoin/filecoin.html"
     },
     {
         "name": "Decentraland",
         "id": 36,
         "symbol": "MANA",
-        "img": "D:/PIC/images/MANALogo.png",
+        "img": "MANALogo.png",
         "url": "D:/PIC/src/cryptocurrencies/decentraland/decentraland.html"
     },
     {
         "name": "Internet Computer",
         "id": 37,
         "symbol": "ICP",
-        "img": "D:/PIC/images/ICPLogo.png",
+        "img": "ICPLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/internet-computer/internet-computer.html"
     },
     {
         "name": "VeChain",
         "id": 38,
         "symbol": "VET",
-        "img": "D:/PIC/images/VETLogo.png",
+        "img": "VETLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/vechain/vechain.html"
     },
     {
         "name": "Elrond",
         "id": 39,
         "symbol": "EGLD",
-        "img": "D:/PIC/images/EGLDLogo.png",
+        "img": "EGLDLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/elrond/elrond.html"
     },
     {
         "name": "The Sandbox",
         "id": 40,
         "symbol": "SAND",
-        "img": "D:/PIC/images/SANDLogo.png",
+        "img": "SANDLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/the-sandbox/the-sandbox.html"
     },
     {
         "name": "Theta Network",
         "id": 41,
         "symbol": "THETA",
-        "img": "D:/PIC/images/THETALogo.png",
+        "img": "THETALogo.png",
         "url": "D:/PIC/src/cryptocurrencies/theta-network/theta-network.html"
     },
     {
         "name": "Axie Infinity",
         "id": 42,
         "symbol": "AXS",
-        "img": "D:/PIC/images/AXSLogo.png",
+        "img": "AXSLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/axie-infinity/axie-infinity.html"
     },
     {
         "name": "Fantom",
         "id": 43,
         "symbol": "FTM",
-        "img": "D:/PIC/images/FTMLogo.png",
+        "img": "FTMLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/fantom/fantom.html"
     },
 
@@ -307,231 +307,231 @@
         "name": "PancakeSwap",
         "id": 44,
         "symbol": "CAKE",
-        "img": "D:/PIC/images/CAKELogo.png",
+        "img": "CAKELogo.png",
         "url": "D:/PIC/src/cryptocurrencies/pancakeswap/pancakeswap.html"
     },
     {
         "name": "Tezos",
         "id": 45,
         "symbol": "XTZ",
-        "img": "D:/PIC/images/XTZLogo.png",
+        "img": "XTZLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/tezos/tezos.html"
     },
     {
         "name": "THORChain",
         "id": 46,
         "symbol": "RUNE",
-        "img": "D:/PIC/images/RUNELogo.png",
+        "img": "RUNELogo.png",
         "url": "D:/PIC/src/cryptocurrencies/thorchain/thorchain.html"
     },
     {
         "name": "Klaytn",
         "id": 47,
         "symbol": "KLAY",
-        "img": "D:/PIC/images/KLAYLogo.png",
+        "img": "KLAYLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/klaytn/klaytn.html"
     },
     {
         "name": "EOS",
         "id": 48,
         "symbol": "EOS",
-        "img": "D:/PIC/images/EOSLogo.png",
+        "img": "EOSLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/eos/eos.html"
     },
     {
         "name": "Zcash",
         "id": 49,
         "symbol": "ZEC",
-        "img": "D:/PIC/images/ZECLogo.png",
+        "img": "ZECLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/zcash/zcash.html"
     },
     {
         "name": "Aave",
         "id": 50,
         "symbol": "AAVE",
-        "img": "D:/PIC/images/AAVELogo.png",
+        "img": "AAVELogo.png",
         "url": "D:/PIC/src/cryptocurrencies/aave/aave.html"
     },
     {
         "name": "STEPN",
         "id": 51,
         "symbol": "GMT",
-        "img": "D:/PIC/images/GMTLogo.png",
+        "img": "GMTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/stepn/stepn.html"
     },
     {
         "name": "Helium",
         "id": 52,
         "symbol": "HNT",
-        "img": "D:/PIC/images/HNTLogo.png",
+        "img": "HNTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/helium/helium.html"
     },
     {
         "name": "Flow",
         "id": 53,
         "symbol": "FLOW",
-        "img": "D:/PIC/images/FLOWLogo.png",
+        "img": "FLOWLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/flow/flow.html"
     },
     {
         "name": "KuCoin Token",
         "id": 54,
         "symbol": "KCS",
-        "img": "D:/PIC/images/KCSLogo.png",
+        "img": "KCSLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/kucoin-token/kucoin-token.html"
     },
     {
         "name": "Waves",
         "id": 55,
         "symbol": "WAVES",
-        "img": "D:/PIC/images/WAVESLogo.png",
+        "img": "WAVESLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/waves/waves.html"
     },
     {
         "name": "IOTA",
         "id": 56,
         "symbol": "MIOTA",
-        "img": "D:/PIC/images/MIOTALogo.png",
+        "img": "MIOTALogo.png",
         "url": "D:/PIC/src/cryptocurrencies/iota/iota.html"
     },
     {
         "name": "BitTorrent-New",
         "id": 57,
         "symbol": "BTT",
-        "img": "D:/PIC/images/BTTLogo.png",
+        "img": "BTTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/bittorrent-new/bittorrent-new.html"
     },
     {
         "name": "Maker",
         "id": 58,
         "symbol": "MKR",
-        "img": "D:/PIC/images/MKRLogo.png",
+        "img": "MKRLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/maker/maker.html"
     },
     {
         "name": "eCash",
         "id": 59,
         "symbol": "XEC",
-        "img": "D:/PIC/images/XECLogo.png",
+        "img": "XECLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/ecash/ecash.html"
     },
     {
         "name": "The Graph",
         "id": 60,
         "symbol": "GRT",
-        "img": "D:/PIC/images/GRTLogo.png",
+        "img": "GRTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/the-graph/the-graph.html"
     },
     {
         "name": "Bitcoin SV",
         "id": 61,
         "symbol": "BSV",
-        "img": "D:/PIC/images/BSVLogo.png",
+        "img": "BSVLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/bitcoin-sv/bitcoin-sv.html"
     },
     {
         "name": "Convex Finance",
         "id": 62,
         "symbol": "CVX",
-        "img": "D:/PIC/images/CVXLogo.png",
+        "img": "CVXLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/convex-finance/convex-finance.html"
     },
     {
         "name": "Huobi Token",
         "id": 63,
         "symbol": "HT",
-        "img": "D:/PIC/images/HTLogo.png",
+        "img": "HTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/huobi-token/huobi-token.html"
     },
     {
         "name": "Stacks",
         "id": 64,
         "symbol": "STX",
-        "img": "D:/PIC/images/STXLogo.png",
+        "img": "STXLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/stacks/stacks.html"
     },
     {
         "name": "Neo",
         "id": 65,
         "symbol": "NEO",
-        "img": "D:/PIC/images/NEOLogo.png",
+        "img": "NEOLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/neo/neo.html"
     },
     {
         "name": "TrueUSD",
         "id": 66,
         "symbol": "TUSD",
-        "img": "D:/PIC/images/TUSDLogo.png",
+        "img": "TUSDLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/trueusd/trueusd.html"
     },
     {
         "name": "Kusama",
         "id": 67,
         "symbol": "KSM",
-        "img": "D:/PIC/images/KSMLogo.png",
+        "img": "KSMLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/kusama/kusama.html"
     },
     {
         "name": "Zilliqa",
         "id": 68,
         "symbol": "ZIL",
-        "img": "D:/PIC/images/ZILLogo.png",
+        "img": "ZILLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/zilliqa/zilliqa.html"
     },
     {
         "name": "Harmony",
         "id": 69,
         "symbol": "ONE",
-        "img": "D:/PIC/images/ONELogo.png",
+        "img": "ONELogo.png",
         "url": "D:/PIC/src/cryptocurrencies/harmony/harmony.html"
     },
     {
         "name": "Quant",
         "id": 70,
         "symbol": "QNT",
-        "img": "D:/PIC/images/QNTLogo.png",
+        "img": "QNTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/quant/quant.html"
     },
     {
         "name": "Gala",
         "id": 71,
         "symbol": "GALA",
-        "img": "D:/PIC/images/GALALogo.png",
+        "img": "GALALogo.png",
         "url": "D:/PIC/src/cryptocurrencies/gala/gala.html"
     },
     {
         "name": "Nexo",
         "id": 72,
         "symbol": "NEXO",
-        "img": "D:/PIC/images/NEXOLogo.png",
+        "img": "NEXOLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/nexo/nexo.html"
     },
     {
         "name": "Celo",
         "id": 73,
         "symbol": "CELO",
-        "img": "D:/PIC/images/CELOLogo.png",
+        "img": "CELOLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/celo/celo.html"
     },
     {
         "name": "Chiliz",
         "id": 74,
         "symbol": "CHZ",
-        "img": "D:/PIC/images/CHZLogo.png",
+        "img": "CHZLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/chiliz/chiliz.html"
     },
     {
         "name": "Curve DAO Token",
         "id": 75,
         "symbol": "CRV",
-        "img": "D:/PIC/images/CRVLogo.png",
+        "img": "CRVLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/curve-dao-token/curve-dao-token.html"
     },
     {
         "name": "OKB",
         "id": 76,
         "symbol": "OKB",
-        "img": "D:/PIC/images/OKBLogo.png",
+        "img": "OKBLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/okb/okb.html"
     },
 
@@ -539,168 +539,168 @@
         "name": "Enjin Coin",
         "id": 77,
         "symbol": "ENJ",
-        "img": "D:/PIC/images/ENJLogo.png",
+        "img": "ENJLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/enjin-coin/enjin-coin.html"
     },
     {
         "name": "Loopring",
         "id": 78,
         "symbol": "LRC",
-        "img": "D:/PIC/images/LRCLogo.png",
+        "img": "LRCLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/loopring/loopring.html"
     },
     {
         "name": "Basic Attention Token",
         "id": 79,
         "symbol": "BAT",
-        "img": "D:/PIC/images/BATLogo.png",
+        "img": "BATLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/basic-attention-token/basic-attention-token.html"
     },
     {
         "name": "Dash",
         "id": 80,
         "symbol": "DASH",
-        "img": "D:/PIC/images/DASHLogo.png",
+        "img": "DASHLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/dash/dash.html"
     },
     {
         "name": "Mina",
         "id": 81,
         "symbol": "MINA",
-        "img": "D:/PIC/images/MINALogo.png",
+        "img": "MINALogo.png",
         "url": "D:/PIC/src/cryptocurrencies/mina/mina.html"
     },
     {
         "name": "Pax Dollar",
         "id": 82,
         "symbol": "USDP",
-        "img": "D:/PIC/images/USDPLogo.png",
+        "img": "USDPLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/pax-dollar/pax-dollar.html"
     },
     {
         "name": "Neutrino USD",
         "id": 83,
         "symbol": "USDN",
-        "img": "D:/PIC/images/USDNLogo.png",
+        "img": "USDNLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/neutrino-usd/neutrino-usd.html"
     },
     {
         "name": "Amp",
         "id": 84,
         "symbol": "AMP",
-        "img": "D:/PIC/images/AMPLogo.png",
+        "img": "AMPLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/amp/amp.html"
     },
     {
         "name": "Kava",
         "id": 85,
         "symbol": "KAVA",
-        "img": "D:/PIC/images/KAVALogo.png",
+        "img": "KAVALogo.png",
         "url": "D:/PIC/src/cryptocurrencies/kava/kava.html"
     },
     {
         "name": "Arweave",
         "id": 86,
         "symbol": "AR",
-        "img": "D:/PIC/images/ARLogo.png",
+        "img": "ARLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/arweave/arweave.html"
     },
     {
         "name": "Decred",
         "id": 87,
         "symbol": "DCR",
-        "img": "D:/PIC/images/DCRLogo.png",
+        "img": "DCRLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/decred/decred.html"
     },
     {
         "name": "Kyber Network Crystal v2",
         "id": 88,
         "symbol": "KNC",
-        "img": "D:/PIC/images/KNCLogo.png",
+        "img": "KNCLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/kyber-network-crystal-v2/kyber-network-crystal-v2.html"
     },
     {
         "name": "Compound",
         "id": 89,
         "symbol": "COMP",
-        "img": "D:/PIC/images/COMPLogo.png",
+        "img": "COMPLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/compound/compound.html"
     },
     {
         "name": "Theta Fuel",
         "id": 90,
         "symbol": "TFUEL",
-        "img": "D:/PIC/images/TFUELLogo.png",
+        "img": "TFUELLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/theta-fuel/theta-fuel.html"
     },
     {
         "name": "NEM",
         "id": 91,
         "symbol": "XEM",
-        "img": "D:/PIC/images/XEMLogo.png",
+        "img": "XEMLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/nem/nem.html"
     },
     {
         "name": "Moonbeam",
         "id": 92,
         "symbol": "GLMR",
-        "img": "D:/PIC/images/GLMRLogo.png",
+        "img": "GLMRLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/moonbeam/moonbeam.html"
     },
     {
         "name": "Kadena",
         "id": 93,
         "symbol": "KDA",
-        "img": "D:/PIC/images/KDALogo.png",
+        "img": "KDALogo.png",
         "url": "D:/PIC/src/cryptocurrencies/kadena/kadena.html"
     },
     {
         "name": "Holo",
         "id": 94,
         "symbol": "HOT",
-        "img": "D:/PIC/images/HOTLogo.png",
+        "img": "HOTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/holo/holo.html"
     },
     {
         "name": "Oasis Network",
         "id": 95,
         "symbol": "ROSE",
-        "img": "D:/PIC/images/ROSELogo.png",
+        "img": "ROSELogo.png",
         "url": "D:/PIC/src/cryptocurrencies/oasis-network/oasis-network.html"
     },
     {
         "name": "ICON",
         "id": 96,
         "symbol": "ICX",
-        "img": "D:/PIC/images/ICXLogo.png",
+        "img": "ICXLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/icon/icon.html"
     },
     {
         "name": "Audius",
         "id": 97,
         "symbol": "AUDIO",
-        "img": "D:/PIC/images/AUDIOLogo.png",
+        "img": "AUDIOLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/audius/audius.html"
     },
     {
         "name": "Secret",
         "id": 98,
         "symbol": "SCRT",
-        "img": "D:/PIC/images/SCRTLogo.png",
+        "img": "SCRTLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/secret/secret.html"
     },
     {
         "name": "XDC Network",
         "id": 99,
         "symbol": "XDC",
-        "img": "D:/PIC/images/XDCLogo.png",
+        "img": "XDCLogo.png",
         "url": "D:/PIC/src/cryptocurrencies/xdc-network/xdc-network.html"
     },
     {
         "name": "BORA",
         "id": 100,
         "symbol": "BORA",
-        "img": "D:/PIC/images/BORALogo.png",
+        "img": "BORALogo.png",
         "url": "D:/PIC/src/cryptocurrencies/bora/bora.html"
     }
 ]

@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { UserProvider } from './contexts/UserContext/UserContext'
 import { Academy } from './pages/Academy/Academy/Academy'
 import { Glossary } from './pages/Academy/Glossary/Glossary'
 import { Coins } from './pages/Cryptocurrencies/Coins/Coins'
@@ -10,6 +11,8 @@ import { NotFind } from './pages/NotFind/NotFind'
 export const AppRoutes = () => {
   return (
     <BrowserRouter>
+    <UserProvider>
+      
       <Routes>
 
         <Route path='/' element={<Home />} />
@@ -27,6 +30,8 @@ export const AppRoutes = () => {
 
         <Route path='*' element={<NotFind />} />
       </Routes>
+
+    </UserProvider>
     </BrowserRouter>
   )
 }
