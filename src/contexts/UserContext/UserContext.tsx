@@ -47,7 +47,7 @@ export const UserProvider = ({ children }: IChildren) => {
 
 
   return (
-    <UserContext.Provider value = {{ clickPower, balance, increaseBalance, decreaseBalance, upgradeClickPower }}>
+    <UserContext.Provider value = {{clickPower, balance, setBalance, increaseBalance, decreaseBalance, upgradeClickPower }}>
       { children }
     </UserContext.Provider>
   )

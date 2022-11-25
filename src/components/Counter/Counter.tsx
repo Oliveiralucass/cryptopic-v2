@@ -1,22 +1,31 @@
-import React, { useContext } from 'react'
-import { UserContext } from '../../contexts/UserContext/UserContext'
+import { useContext, useState } from 'react'
+import { MiningContext } from '../../contexts/MiningContext/MiningContext';
+import { UserContext } from '../../contexts/UserContext/UserContext';
+import { CounterStyled } from './Counter.styled';
 
 export const Counter = () => {
 
-    const { clickPower, balance, increaseBalance, decreaseBalance, upgradeClickPower }= useContext(UserContext);
-    
+    const { miner1, miner1Start, miner1Upgrade } = useContext(MiningContext);
+    const { balance } = useContext(UserContext);
+
   return (
-    <div>
-        <br />
-        <br />
-        <button onClick={() => increaseBalance(clickPower, 1000)}> Farm Saphire +{clickPower.toFixed(2)}  - 1s</button>
-        <button onClick={() => increaseBalance(clickPower*6, 5000)}> Farm Saphire +{clickPower.toFixed(2)} - 5s</button>
-        <button onClick={() => increaseBalance(clickPower*15, 1000)}> Farm Saphire +{clickPower.toFixed(2)} - 10s</button>
-        <button onClick={() => increaseBalance(clickPower*50, 30000)}> Farm Saphire +{clickPower.toFixed(2)} - 30s</button>
+    <CounterStyled>
+      <div className='miner'>
+        <div>
+          <h2>{miner1.name}</h2>
+          <h2>{miner1.lvl}</h2>
+        </div>
 
-        <h1> Shop: </h1>
+        <div>
+          <h2>Safyr: {miner1.reward}</h2>
+          <h2>Tempo: {miner1.time / 1000}</h2>
+        </div>
 
-        <button onClick={() => upgradeClickPower(0.010, 0.50)}> Click Power + 0.01</button>
-    </div>
-  )
-}
+        <div>
+          <button onClick={miner1Start}><h1>Start + {miner1.reward} </h1></button>
+          <button onClick={miner1Upgrade}><h1>Upgrade - {miner1.upgradeCost} </h1></button>
+        </div>
+      </div>
+    </CounterStyled>
+  );
+};

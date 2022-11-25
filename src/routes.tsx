@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { MiningProvider } from './contexts/MiningContext/MiningContext'
 import { UserProvider } from './contexts/UserContext/UserContext'
 import { Academy } from './pages/Academy/Academy/Academy'
 import { Glossary } from './pages/Academy/Glossary/Glossary'
@@ -12,7 +13,7 @@ export const AppRoutes = () => {
   return (
     <BrowserRouter>
     <UserProvider>
-      
+    <MiningProvider>
       <Routes>
 
         <Route path='/' element={<Home />} />
@@ -29,8 +30,9 @@ export const AppRoutes = () => {
         </Route>
 
         <Route path='*' element={<NotFind />} />
+        
       </Routes>
-
+    </MiningProvider>
     </UserProvider>
     </BrowserRouter>
   )
