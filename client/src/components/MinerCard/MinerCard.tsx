@@ -26,11 +26,11 @@ export const MinerCard = () => {
                 </div>
 
                 <div>
-                    <p>Recompensa: {miner1.reward} SPH  <span> - {(miner1.reward * 1.25).toFixed(2)} SPH </span></p> 
+                    <p>Recompensa: {miner1.reward} SPH  <span> - {(miner1.reward * 1.15).toFixed(2)} SPH </span></p> 
                 </div>
 
                 <div>
-                    <p>Tempo: {(miner1.time / 1000).toFixed(2)}s <span> - {((miner1.time * 0.9) / 1000).toFixed(2) }s </span></p>
+                    <p>Tempo: {(miner1.time / 1000).toFixed(2)}s <span> - {((miner1.time * 0.95) / 1000).toFixed(2) }s </span></p>
                 </div>
             </div>
 

@@ -29,10 +29,10 @@ export const MiningProvider = ({children}: IChildren) => {
             setBalance((balance - miner1.upgradeCost))
             setMiner1({
                 name: miner1.name,
-                time: (miner1.time * 0.9),
+                time: (miner1.time * 0.95),
                 lvl: (miner1.lvl + 1),
-                reward: Number((miner1.reward * 1.25).toFixed(2)),
-                upgradeCost: (miner1.upgradeCost * 2),
+                reward: Number((miner1.reward * 1.15).toFixed(2)),
+                upgradeCost: Number((miner1.upgradeCost * 1.85).toFixed(2)),
             })   
         } else{
             alert('Saldo insuficiente')

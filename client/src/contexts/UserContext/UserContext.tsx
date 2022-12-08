@@ -8,7 +8,7 @@ export const UserContext = createContext({} as IUserContext);
 
 export const UserProvider = ({ children }: IChildren) => {
 
-  const [ balance, setBalance] = useState(0);
+  const [ balance, setBalance] = useState(500);
   const [ clickPower, setClickPower ] = useState(0.010)
 
   const increaseBalance = (amount: number, time: number) => {
