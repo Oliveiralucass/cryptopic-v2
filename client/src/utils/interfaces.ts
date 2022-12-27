@@ -34,3 +34,15 @@ export interface IMiner1 {
     reward: number,
     upgradeCost: number,
 }
+
+
+// -------------------- Glossary Interfaces -------------------------
+
+export interface IArtigo{
+    
+    title: string | undefined,
+    content: string,
+    categories: string[],
+    date: string,
+    id: number
+}

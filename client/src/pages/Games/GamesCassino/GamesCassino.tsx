@@ -1,5 +1,6 @@
 import React from 'react'
 import { AdSection } from '../../../components/AdSection/AdSection'
+import { GamesNavbar } from '../../../components/Games/GamesNavbar/GamesNavbar'
 import { Header } from '../../../components/Header/Header'
 
 export const GamesCassino = () => {
@@ -7,6 +8,7 @@ export const GamesCassino = () => {
     <>
       <Header />
       <AdSection />
+      <GamesNavbar />
     </>
   )
 }

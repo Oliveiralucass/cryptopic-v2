@@ -1,5 +1,6 @@
 import React from 'react'
 import { AdSection } from '../../components/AdSection/AdSection'
+import { GamesNavbar } from '../../components/Games/GamesNavbar/GamesNavbar'
 import { Header } from '../../components/Header/Header'
 
 export const Games = () => {
@@ -7,6 +8,8 @@ export const Games = () => {
     <>
       <Header />
       <AdSection />
+      <GamesNavbar />
+      
     </>
   )
 }
