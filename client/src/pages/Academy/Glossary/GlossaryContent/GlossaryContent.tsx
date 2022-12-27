@@ -34,9 +34,7 @@ export const GlossaryContent = () => {
 
       <h1>{artigo?.title}</h1>
       {artigo && 
-        <div
-          dangerouslySetInnerHTML={{__html: artigo.content}}
-        />
+       ReactHtmlParser(artigo.content)
       }
   
       
