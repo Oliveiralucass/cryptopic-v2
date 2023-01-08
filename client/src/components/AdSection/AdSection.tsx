@@ -3,8 +3,6 @@ import { AdSectionStyled } from './AdSection.styled'
 
 export const AdSection = () => {
   return (
-    <AdSectionStyled>
-      
-    </AdSectionStyled>
+    <AdSectionStyled />
   )
 }

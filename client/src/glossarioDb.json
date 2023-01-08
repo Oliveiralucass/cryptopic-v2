@@ -1,9 +1,155 @@
 [
     {
         "title": "Airdrop",
-        "content": "<article class='main-article'> <p class='article-text'>Distribuição de um ativo digital para o público. Seu objetivo pode ser por questões de marketing, eventos, ou qualquer outro que o distribuidor deseja. <br><br> Diferente de <a href='/academia/glossario/Airdrop' class='articleLink' target='_blank'>ICOs</a>, em Airdrop não é necessário comprar o token, apenas recebê-lo. </p></article>",
+        "urlName": "airdrop",
+        "content": "Distribuição de um ativo digital para o público. Seu objetivo pode ser por questões de marketing, eventos, ou qualquer outro que o distribuidor deseja. Diferente de ICOs, em Airdrop não é necessário comprar o token, apenas recebê-lo.",
+        "htmlContent": "<article class='main-article'> <p class='article-text'>Distribuição de um ativo digital para o público. Seu objetivo pode ser por questões de marketing, eventos, ou qualquer outro que o distribuidor deseja. <br><br> Diferente de <a href='/academia/glossario/airdrop' class='articleLink' target='_blank'>ICOs</a>, em Airdrop não é necessário comprar o token, apenas recebê-lo. </p></article>",
         "categories": ["blockchain", "business"],
         "date": "02/05/2022",
         "id": 1
+    },
+    {
+        "title": "Alocação",
+        "urlName": "alocacao",
+        "content": "Designar uma parcela de tokens ou verba que serão comprados, recebidos ou destinados para alguma entidade ou fim em específico.",
+        "htmlContent": "<article class='main-article'><p class='article-text'> Designar uma parcela de tokens ou verba que serão comprados, recebidos ou destinados para alguma entidade ou fim em específico.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022",
+        "id": 2
+    },
+    {
+        "title": "Alpha",
+        "urlName": "alpha",
+        "content": "É o primeiro produto de um projeto, consiste na versão inicial, básica e primitiva de um software ou produto.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É o primeiro produto de um projeto, consiste na versão inicial, básica e primitiva de um software ou produto.</p></article>",
+        "categories": ["computadores", "business"],
+        "date": "02/05/2022",
+        "id": 3
+    },
+    {
+        "title": "Alta Histórica (ATH)",
+        "urlName": "alta-historica",
+        "content": "O preço mais alto que uma criptomoeda chegou em comparação a outra moeda, como Dólar, Euro, Real, BTC, ETH, Etc..",
+        "htmlContent": "<article class='main-article'><p class='article-text'>O preço mais alto que uma <a href='/academia/glossario/airdrop' class='articleLink' target='_blank'>criptomoeda</a>  chegou em comparação a outra moeda, como Dólar, Euro, Real, BTC, ETH, Etc..</p></article>",
+        "categories": ["computadores", "business"],
+        "date": "02/05/2022",
+        "id": 4
+    },
+    {
+        "title": "Altcoin",
+        "urlName": "altcoin",
+        "content": "Uma criptomoeda que é alternativa ao Bitcoin. É comum se referir a Altcoin, qualquer moeda que não seja o Bitcoin.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma criptomoeda que é alternativa ao <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin</a> . É comum se referir a Altcoin, qualquer moeda que não seja o Bitcoin.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022",
+        "id": 5
+    },
+    {
+        "title": "Altcoins Season",
+        "urlName": "altcoins-season",
+        "content": "Também conhecido como Altseason. É o período na qual Altcoins tendem a performar melhor que o Bitcoin. É comum ver algumas Altcoins aumentarem em 100x o seu valor de mercado",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Também conhecido como Altseason. É o período na qual <a href='/academia/glossario/altcoin' class='articleLink' target='_blank'>Altcoins</a> tendem a performar melhor que o <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin</a>. É comum ver algumas Altcoins aumentarem em 100x o seu <a href='/academia/glossario/market-capitalization' class='articleLink' target='_blank'>valor de mercado</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022",
+        "id": 6
+    },
+    {
+        "title": "Ask Me Anything (AMA)",
+        "urlName": "ask-me-anything",
+        "content": "Sessão organizada por empresas para que seus usuários tirem suas dúvidas sobre o projeto.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Sessão organizada por empresas para que seus usuários tirem suas dúvidas sobre o projeto.</p></article>",
+        "categories": ["business"],
+        "date": "02/05/2022",
+        "id": 7
+    },
+    {
+        "title": "Análise Fundamentalista",
+        "urlName": "analise-fundamentalista",
+        "content": "Análise do preço de um ativo com base no seu valor intrínseco. A Análise Fundamentalista avalia com base nos fundamentos da empresa/projeto descartando a Análise Técnica.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Análise do preço de um ativo com base no seu valor intrínseco. A Análise Fundamentalista avalia com base nos fundamentos da empresa/projeto descartando a Análise Técnica.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022",
+        "id": 8
+    },
+    {
+        "title": "Annual Percentage Rate (APR)",
+        "urlName": "annual-percentage-rate",
+        "content": "Conhecido como Taxa Percentual Anual. APR é o retorno esperado de um investimento com uma taxa fixa. APR não leva em consideração juros compostos.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como Taxa Percentual Anual. APR é o retorno esperado de um investimento com uma taxa fixa. APR não leva em consideração juros compostos.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "07/06/2022",
+        "id": 9
+    },
+    {
+        "title": "Bandas de Bollinger",
+        "urlName": "bandas-de-bollinger",
+        "content": "Indicador da análise técnica que mede a volatilidade de um mercado. Formada por duas bandas laterais e uma média móvel simples (MA)",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Indicador da análise técnica que mede a <a href='/academia/glossario/volatilidade' class='articleLink' target='_blank'>volatilidade</a> de um mercado. Formada por duas bandas laterais e uma média móvel simples (MA)</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "07/06/2022",
+        "id": 10
+    },
+    {
+        "title": "Contratos Futuros",
+        "urlName": "contratos-futuros",
+        "content": "É um tipo de derivativo que define um acordo entre duas partes, possibilitando a compra e venda de um determinado ativo a um determinado preço em uma data determinada.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É um tipo de <a href='/academia/glossario/derivativos' class='articleLink' target='_blank'>derivativo</a> que define um acordo entre duas partes, possibilitando a compra e venda de um determinado ativo a um determinado preço em uma data determinada.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022",
+        "id": 11
+    },
+    {
+        "title": "Dusting Attack",
+        "urlName": "dusting-attack",
+        "content": "É uma atividade maliciosa na qual, hackers enviam pequenas quantidades de criptomoedas para diferentes carteiras, assim suas transações são monitoradas pelo atacante, que, com uma serie de análises determina a pessoa ou empresa que está por trás de cada carteira.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É uma atividade maliciosa na qual, <a href='/academia/glossario/hacker' class='articleLink' target='_blank'>hackers</a> enviam pequenas quantidades de <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoedas</a> para diferentes carteiras, assim suas transações são monitoradas pelo atacante, que, com uma serie de análises determina a pessoa ou empresa que está por trás de cada carteira.</p></article>",
+        "categories": ["computadores", "hacking"],
+        "date": "02/05/2022",
+        "id": 12
+    },
+    {
+        "title": "Fully Dilluted Market Cap",
+        "urlName": "fully-dilluted-market-cap",
+        "content": "Refere-se ao valor de mercado totalmente diluído. É a multiplicação do Max Supply de uma criptomoeda com o atual valor de cada token. Fully Dilluted Market Cap é diferente do Market Cap, que leva em consideração o Circulating Supply",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Refere-se ao valor de mercado totalmente diluído. É a multiplicação do Max Supply de uma <a href='/academia/glossario/criptomoedas'>criptomoeda</a> com o atual valor de cada token. Fully Dilluted Market Cap é diferente do Market Cap, que leva em consideração o <a href='/academia/glossario/circulating-supply'>Circulating Supply</a>.</p></article>",
+        "categories": ["economia"],
+        "date": "30/05/2022",
+        "id": 13
+    },
+    {
+        "title": "Hot Wallet",
+        "urlName": "hot-wallet",
+        "content": "É uma carteira de criptomoedas na qual está sempre conectada à internet.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É uma carteira de <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoedas</a> na qual está sempre conectada à internet.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022",
+        "id": 14
+    },
+    {
+        "title": "Market Capitalization (Market Cap)",
+        "urlName": "market-capitalization",
+        "content": "Refere-se ao valor de mercado de um ativo ou moeda. Resultado da multiplicação do preço de cada moeda pela quantidade existente de moedas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Refere-se ao valor de mercado de um ativo ou moeda. Resultado da multiplicação do preço de cada moeda pela quantidade existente de moedas.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022",
+        "id": 15
+    },
+    {
+        "title": "Pool de Mineração",
+        "urlName": "pool-de-mineracao",
+        "content": "São sistemas na qual diversos mineradores juntam seus Hash Power para poder minerar com maior potência. Nas Pools de Mineração, a chance de descobrir a resposta do bloco é muito maior, porém a recompensa é dividida entre todos os membros da Pool com base no seu Hash Power.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>São sistemas na qual diversos mineradores juntam seus Hash Power para poder minerar com maior potência.</p><br><p class='article-text'>Nas Pools de Mineração, a chance de descobrir a resposta do <a href='/academia/glossario/block-reward'>recompensa</a> é muito maior, porém a recompensa é dividida entre todos os membros da Pool com base no seu Hash Power.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "08/06/2022",
+        "id": 16
+    },
+    {
+        "title": "Satoshi Nakamoto",
+        "urlName": "satoshi-nakamoto",
+        "content": "Pseudônimo do criador ou criadores do Bitcoin.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Pseudônimo do criador ou criadores do Bitcoin.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "02/05/2022",
+        "id": 17
     }
 ]

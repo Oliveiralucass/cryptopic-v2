@@ -41,7 +41,9 @@ export interface IMiner1 {
 export interface IArtigo{
     
     title: string | undefined,
+    urlName: string,
     content: string,
+    htmlContent: string,
     categories: string[],
     date: string,
     id: number

@@ -6,6 +6,10 @@ import { Header } from '../../../../components/Header/Header'
 import glossarioDb from '../../../../glossarioDb.json'
 import { IArtigo } from '../../../../utils/interfaces'
 import ReactHtmlParser  from 'html-react-parser';
+import { ContentContainer, ContentDetails, GlossaryContentStyled, GlossaryReturnLinks } from './GlossaryContent.styled'
+import { ColorLineStyled } from '../../../../components/ColorLine/ColorLine.styled'
+import { DetailButtonColored } from '../../../../components/Buttons/DetailButtonColored/DetailButtonColored'
+import { DetailButton } from '../../../../components/Buttons/DetailButton/DetailButton'
 
 export const GlossaryContent = () => {
 
@@ -14,32 +18,52 @@ export const GlossaryContent = () => {
 
     useEffect(() =>{
       const selectedArtigo = glossarioDb.filter((artigo) => {
-        return artigo.title == glossario 
+        return artigo.urlName == glossario 
       })
 
       setArtigo(selectedArtigo[0])
     })
-
-
-   var parser = new DOMParser()
    
-       
+    console.log(artigo);
+    
+
   return (
     <>
       <Header />
       <AdSection />
       <AcademiaNavbar />
 
-      <h1>conteudo do glossario</h1>
-
-      <h1>{artigo?.title}</h1>
-      {artigo && 
-       ReactHtmlParser(artigo.content)
-      }
-  
+      <GlossaryReturnLinks>
+        <nav>
+          <ul>
+            <li><Link to={'/academia/glossario'} className='return-glossary'>Glossário</Link></li>
+            <li><Link to={`/academia/glossario/${glossario}`} className='return-content'>{artigo?.title}</Link></li>
+          </ul>
+        </nav>
+      </GlossaryReturnLinks>
       
-    </>
+      <GlossaryContentStyled>
+        <ColorLineStyled color={'#2563eb'} />
 
-   
+        <ContentContainer>
+          <div className='content-title-detail'>
+            <h1>{artigo?.title}</h1>
+            <DetailButtonColored texto={'Glossário'}/>
+          </div>
+
+          {artigo && ReactHtmlParser(artigo.htmlContent)}
+        </ContentContainer>
+
+        <ContentDetails>
+          {artigo?.categories.map((categoria) => {
+            return <Link to={`/academia/guias/${categoria}`} key={categoria}><DetailButton texto={categoria}/></Link>
+          })}
+
+          <DetailButton texto={artigo?.date} />
+        </ContentDetails>
+
+
+      </GlossaryContentStyled>
+    </>   
   )
 }
