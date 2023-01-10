@@ -2,7 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 
 export const DetailButtonColoredStyled = styled.div`
-  height: 32px;
+  height: 28px;
+  font-size: 0.875rem;
+  font-weight: 500;
   background-color: var(--color-secondary);
   color: var(--color-primary);
   border-radius: 6px;
