@@ -4,6 +4,7 @@ import { Header } from '../../../components/Header/Header'
 import { MinerCard } from '../../../components/MinerCard/MinerCard'
 
 export const Home = () => {
+  
   return (
     <>
     <Header />

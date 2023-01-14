@@ -35,6 +35,13 @@ export interface IMiner1 {
     upgradeCost: number,
 }
 
+// -------------------- CoinGecko Interfaces -------------------------
+
+export interface ICoinGeckoContext {
+    getCoinById: (coinId: string) => Promise<void>,
+    coinById: any | null,
+}
+
 
 // -------------------- Glossary Interfaces -------------------------
 
@@ -47,4 +54,15 @@ export interface IArtigo{
     categories: string[],
     date: string,
     id: number
+}
+
+// -------------------- Coins Interfaces -------------------------
+
+export interface ICoin {
+    name: string,
+    id: number,
+    symbol: string,
+    img: string,
+    url: string,
+    apiId: string
 }

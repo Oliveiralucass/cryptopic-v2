@@ -81,6 +81,33 @@
         "id": 9
     },
     {
+        "title": "Annual Percentage Yield (APY)",
+        "urlName": "annual-percentage-rate",
+        "content": "Conhecido como Rendimento Percentual Anual. APY é o retorno esperado de um investimento contabilizando os juros compostos do capital reinvestido.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como Rendimento Percentual Anual. APY é o retorno esperado de um investimento contabilizando os juros compostos do capital reinvestido.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "07/06/2022",
+        "id": 10
+    },
+    {
+        "title": "Anti-Money Laundering (AML)",
+        "urlName": "anti-money-laundering",
+        "content": "Conjunto de leis e processos regulatórios com a fim de minimizar a movimentação de dinheiro gerado através de vias ilegais ou de atividades supeitas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conjunto de leis e processos regulatórios com a fim de minimizar a movimentação de dinheiro gerado através de vias ilegais ou de atividades supeitas.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022",
+        "id": 11
+    },
+    {
+        "title": "Anti-Money Laundering (AML)",
+        "urlName": "anti-money-laundering",
+        "content": "Conjunto de leis e processos regulatórios com a fim de minimizar a movimentação de dinheiro gerado através de vias ilegais ou de atividades supeitas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conjunto de leis e processos regulatórios com a fim de minimizar a movimentação de dinheiro gerado através de vias ilegais ou de atividades supeitas.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022",
+        "id": 11
+    },
+    {
         "title": "Bandas de Bollinger",
         "urlName": "bandas-de-bollinger",
         "content": "Indicador da análise técnica que mede a volatilidade de um mercado. Formada por duas bandas laterais e uma média móvel simples (MA)",
