@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { CoinGeckoProvider } from './contexts/CoinGeckoContext/CoinGeckoContext'
+import { GlobalProvider } from './contexts/GlobalContext/GlobalContext'
 import { MiningProvider } from './contexts/MiningContext/MiningContext'
 import { UserProvider } from './contexts/UserContext/UserContext'
 import { Academy } from './pages/Academy/Academy/Academy'
@@ -37,6 +38,7 @@ export const AppRoutes = () => {
     <UserProvider>
     <MiningProvider>
     <CoinGeckoProvider>
+    <GlobalProvider>
       <Routes>
         {/* PUBLIC ROUTES */}
 
@@ -103,6 +105,7 @@ export const AppRoutes = () => {
         <Route path='*' element={<NotFind />} />
         
       </Routes>
+    </GlobalProvider>
     </CoinGeckoProvider>
     </MiningProvider>
     </UserProvider>

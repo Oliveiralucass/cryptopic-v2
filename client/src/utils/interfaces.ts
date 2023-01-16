@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 // --------------------- Global Interfaces -------------------------
 
 export interface IChildren {
     children?: React.ReactNode
 }
+
+// --------------------- Component Interfaces -------------------------
+
+export interface IContentCard {
+
+}
+
 
 // --------------------- UserContext Interfaces -------------------------
 
@@ -35,11 +42,23 @@ export interface IMiner1 {
     upgradeCost: number,
 }
 
+// -------------------- Global Interfaces -------------------------
+
+export interface IGlobalContext {
+    convertToLowercase: (str: string) => void,
+    toCurrency: (str: string) => string,
+    capitalizeText: (str: string) => string,
+    
+}
+
+
 // -------------------- CoinGecko Interfaces -------------------------
 
 export interface ICoinGeckoContext {
     getCoinById: (coinId: string) => Promise<void>,
+    getCoinsList: (currency: string, page: string, perPage: string) => Promise<void>,
     coinById: any | null,
+    coinsList: any | null,
 }
 
 
