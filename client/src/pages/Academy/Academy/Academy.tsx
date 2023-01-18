@@ -14,7 +14,7 @@ export const Academy = () => {
       <AdSection />
       <AcademiaNavbar />
 
-      {discoverDb[0].content.map((content, index) => <>
+      {discoverDb[1].content.map((content, index) => <>
       {ReactHtmlParser(content)}
       
       <div>
