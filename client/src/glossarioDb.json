@@ -1,182 +1,2477 @@
 [
     {
+        "id": 1,
         "title": "Airdrop",
         "urlName": "airdrop",
         "content": "Distribuição de um ativo digital para o público. Seu objetivo pode ser por questões de marketing, eventos, ou qualquer outro que o distribuidor deseja. Diferente de ICOs, em Airdrop não é necessário comprar o token, apenas recebê-lo.",
-        "htmlContent": "<article class='main-article'> <p class='article-text'>Distribuição de um ativo digital para o público. Seu objetivo pode ser por questões de marketing, eventos, ou qualquer outro que o distribuidor deseja. <br><br> Diferente de <a href='/academia/glossario/airdrop' class='articleLink' target='_blank'>ICOs</a>, em Airdrop não é necessário comprar o token, apenas recebê-lo. </p></article>",
+        "htmlContent": "<article class='main-article'> <p class='article-text'>Distribuição de um ativo digital para o público. Seu objetivo pode ser por questões de marketing, eventos, ou qualquer outro que o distribuidor deseja. <br><br> Diferente de <a href='/academia/glossario/initial-coin-offering' class='articleLink' target='_blank'>ICOs</a>, em Airdrop não é necessário comprar o token, apenas recebê-lo. </p></article>",
         "categories": ["blockchain", "business"],
-        "date": "02/05/2022",
-        "id": 1
+        "date": "02/05/2022"
     },
     {
+        "id": 2,
         "title": "Alocação",
         "urlName": "alocacao",
         "content": "Designar uma parcela de tokens ou verba que serão comprados, recebidos ou destinados para alguma entidade ou fim em específico.",
         "htmlContent": "<article class='main-article'><p class='article-text'> Designar uma parcela de tokens ou verba que serão comprados, recebidos ou destinados para alguma entidade ou fim em específico.</p></article>",
         "categories": ["economia", "business"],
-        "date": "02/05/2022",
-        "id": 2
+        "date": "02/05/2022"
     },
     {
+        "id": 3,
         "title": "Alpha",
         "urlName": "alpha",
         "content": "É o primeiro produto de um projeto, consiste na versão inicial, básica e primitiva de um software ou produto.",
         "htmlContent": "<article class='main-article'><p class='article-text'>É o primeiro produto de um projeto, consiste na versão inicial, básica e primitiva de um software ou produto.</p></article>",
         "categories": ["computadores", "business"],
-        "date": "02/05/2022",
-        "id": 3
+        "date": "02/05/2022"
     },
     {
+        "id": 4,
         "title": "Alta Histórica (ATH)",
-        "urlName": "alta-historica",
+        "urlName": "alta-historica-ath",
         "content": "O preço mais alto que uma criptomoeda chegou em comparação a outra moeda, como Dólar, Euro, Real, BTC, ETH, Etc..",
         "htmlContent": "<article class='main-article'><p class='article-text'>O preço mais alto que uma <a href='/academia/glossario/airdrop' class='articleLink' target='_blank'>criptomoeda</a>  chegou em comparação a outra moeda, como Dólar, Euro, Real, BTC, ETH, Etc..</p></article>",
         "categories": ["computadores", "business"],
-        "date": "02/05/2022",
-        "id": 4
+        "date": "02/05/2022"
     },
     {
+        "id": 5,
         "title": "Altcoin",
         "urlName": "altcoin",
         "content": "Uma criptomoeda que é alternativa ao Bitcoin. É comum se referir a Altcoin, qualquer moeda que não seja o Bitcoin.",
         "htmlContent": "<article class='main-article'><p class='article-text'>Uma criptomoeda que é alternativa ao <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin</a> . É comum se referir a Altcoin, qualquer moeda que não seja o Bitcoin.</p></article>",
         "categories": ["blockchain"],
-        "date": "02/05/2022",
-        "id": 5
+        "date": "02/05/2022"
     },
     {
+        "id": 6,
         "title": "Altcoins Season",
         "urlName": "altcoins-season",
         "content": "Também conhecido como Altseason. É o período na qual Altcoins tendem a performar melhor que o Bitcoin. É comum ver algumas Altcoins aumentarem em 100x o seu valor de mercado",
         "htmlContent": "<article class='main-article'><p class='article-text'>Também conhecido como Altseason. É o período na qual <a href='/academia/glossario/altcoin' class='articleLink' target='_blank'>Altcoins</a> tendem a performar melhor que o <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin</a>. É comum ver algumas Altcoins aumentarem em 100x o seu <a href='/academia/glossario/market-capitalization' class='articleLink' target='_blank'>valor de mercado</a>.</p></article>",
         "categories": ["blockchain"],
-        "date": "02/05/2022",
-        "id": 6
+        "date": "02/05/2022"
     },
     {
+        "id": 7,
         "title": "Ask Me Anything (AMA)",
-        "urlName": "ask-me-anything",
+        "urlName": "ask-me-anything-ama",
         "content": "Sessão organizada por empresas para que seus usuários tirem suas dúvidas sobre o projeto.",
         "htmlContent": "<article class='main-article'><p class='article-text'>Sessão organizada por empresas para que seus usuários tirem suas dúvidas sobre o projeto.</p></article>",
         "categories": ["business"],
-        "date": "02/05/2022",
-        "id": 7
+        "date": "02/05/2022"
     },
     {
+        "id": 8,
         "title": "Análise Fundamentalista",
         "urlName": "analise-fundamentalista",
         "content": "Análise do preço de um ativo com base no seu valor intrínseco. A Análise Fundamentalista avalia com base nos fundamentos da empresa/projeto descartando a Análise Técnica.",
         "htmlContent": "<article class='main-article'><p class='article-text'>Análise do preço de um ativo com base no seu valor intrínseco. A Análise Fundamentalista avalia com base nos fundamentos da empresa/projeto descartando a Análise Técnica.</p></article>",
         "categories": ["economia"],
-        "date": "02/05/2022",
-        "id": 8
+        "date": "02/05/2022"
     },
     {
+        "id": 9,
         "title": "Annual Percentage Rate (APR)",
-        "urlName": "annual-percentage-rate",
+        "urlName": "annual-percentage-rate-apr",
         "content": "Conhecido como Taxa Percentual Anual. APR é o retorno esperado de um investimento com uma taxa fixa. APR não leva em consideração juros compostos.",
         "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como Taxa Percentual Anual. APR é o retorno esperado de um investimento com uma taxa fixa. APR não leva em consideração juros compostos.</p></article>",
         "categories": ["economia", "trading"],
-        "date": "07/06/2022",
-        "id": 9
+        "date": "07/06/2022"
     },
     {
+        "id": 10,
         "title": "Annual Percentage Yield (APY)",
-        "urlName": "annual-percentage-rate",
+        "urlName": "annual-percentage-rate-apy",
         "content": "Conhecido como Rendimento Percentual Anual. APY é o retorno esperado de um investimento contabilizando os juros compostos do capital reinvestido.",
         "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como Rendimento Percentual Anual. APY é o retorno esperado de um investimento contabilizando os juros compostos do capital reinvestido.</p></article>",
         "categories": ["economia", "trading"],
-        "date": "07/06/2022",
-        "id": 10
+        "date": "07/06/2022"
     },
     {
+        "id": 11,
         "title": "Anti-Money Laundering (AML)",
-        "urlName": "anti-money-laundering",
+        "urlName": "anti-money-laundering-aml",
         "content": "Conjunto de leis e processos regulatórios com a fim de minimizar a movimentação de dinheiro gerado através de vias ilegais ou de atividades supeitas.",
         "htmlContent": "<article class='main-article'><p class='article-text'>Conjunto de leis e processos regulatórios com a fim de minimizar a movimentação de dinheiro gerado através de vias ilegais ou de atividades supeitas.</p></article>",
         "categories": ["economia", "business"],
-        "date": "02/05/2022",
-        "id": 11
+        "date": "02/05/2022"
     },
     {
-        "title": "Anti-Money Laundering (AML)",
-        "urlName": "anti-money-laundering",
-        "content": "Conjunto de leis e processos regulatórios com a fim de minimizar a movimentação de dinheiro gerado através de vias ilegais ou de atividades supeitas.",
-        "htmlContent": "<article class='main-article'><p class='article-text'>Conjunto de leis e processos regulatórios com a fim de minimizar a movimentação de dinheiro gerado através de vias ilegais ou de atividades supeitas.</p></article>",
-        "categories": ["economia", "business"],
-        "date": "02/05/2022",
-        "id": 11
-    },
-    {
+        "id": 12,
         "title": "Bandas de Bollinger",
         "urlName": "bandas-de-bollinger",
         "content": "Indicador da análise técnica que mede a volatilidade de um mercado. Formada por duas bandas laterais e uma média móvel simples (MA)",
         "htmlContent": "<article class='main-article'><p class='article-text'>Indicador da análise técnica que mede a <a href='/academia/glossario/volatilidade' class='articleLink' target='_blank'>volatilidade</a> de um mercado. Formada por duas bandas laterais e uma média móvel simples (MA)</p></article>",
         "categories": ["economia", "trading"],
-        "date": "07/06/2022",
-        "id": 10
+        "date": "07/06/2022"
     },
     {
+        "id": 13,
         "title": "Contratos Futuros",
         "urlName": "contratos-futuros",
         "content": "É um tipo de derivativo que define um acordo entre duas partes, possibilitando a compra e venda de um determinado ativo a um determinado preço em uma data determinada.",
         "htmlContent": "<article class='main-article'><p class='article-text'>É um tipo de <a href='/academia/glossario/derivativos' class='articleLink' target='_blank'>derivativo</a> que define um acordo entre duas partes, possibilitando a compra e venda de um determinado ativo a um determinado preço em uma data determinada.</p></article>",
         "categories": ["economia"],
-        "date": "02/05/2022",
-        "id": 11
+        "date": "02/05/2022"
     },
     {
+        "id": 14,
         "title": "Dusting Attack",
         "urlName": "dusting-attack",
         "content": "É uma atividade maliciosa na qual, hackers enviam pequenas quantidades de criptomoedas para diferentes carteiras, assim suas transações são monitoradas pelo atacante, que, com uma serie de análises determina a pessoa ou empresa que está por trás de cada carteira.",
         "htmlContent": "<article class='main-article'><p class='article-text'>É uma atividade maliciosa na qual, <a href='/academia/glossario/hacker' class='articleLink' target='_blank'>hackers</a> enviam pequenas quantidades de <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoedas</a> para diferentes carteiras, assim suas transações são monitoradas pelo atacante, que, com uma serie de análises determina a pessoa ou empresa que está por trás de cada carteira.</p></article>",
         "categories": ["computadores", "hacking"],
-        "date": "02/05/2022",
-        "id": 12
+        "date": "02/05/2022"
     },
     {
+        "id": 15,
         "title": "Fully Dilluted Market Cap",
         "urlName": "fully-dilluted-market-cap",
         "content": "Refere-se ao valor de mercado totalmente diluído. É a multiplicação do Max Supply de uma criptomoeda com o atual valor de cada token. Fully Dilluted Market Cap é diferente do Market Cap, que leva em consideração o Circulating Supply",
         "htmlContent": "<article class='main-article'><p class='article-text'>Refere-se ao valor de mercado totalmente diluído. É a multiplicação do Max Supply de uma <a href='/academia/glossario/criptomoedas'>criptomoeda</a> com o atual valor de cada token. Fully Dilluted Market Cap é diferente do Market Cap, que leva em consideração o <a href='/academia/glossario/circulating-supply'>Circulating Supply</a>.</p></article>",
         "categories": ["economia"],
-        "date": "30/05/2022",
-        "id": 13
+        "date": "30/05/2022"
     },
     {
+        "id": 16,
         "title": "Hot Wallet",
         "urlName": "hot-wallet",
         "content": "É uma carteira de criptomoedas na qual está sempre conectada à internet.",
         "htmlContent": "<article class='main-article'><p class='article-text'>É uma carteira de <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoedas</a> na qual está sempre conectada à internet.</p></article>",
         "categories": ["blockchain"],
-        "date": "02/05/2022",
-        "id": 14
+        "date": "02/05/2022"
     },
     {
+        "id": 17,
         "title": "Market Capitalization (Market Cap)",
-        "urlName": "market-capitalization",
+        "urlName": "market-capitalization-market-cap",
         "content": "Refere-se ao valor de mercado de um ativo ou moeda. Resultado da multiplicação do preço de cada moeda pela quantidade existente de moedas.",
         "htmlContent": "<article class='main-article'><p class='article-text'>Refere-se ao valor de mercado de um ativo ou moeda. Resultado da multiplicação do preço de cada moeda pela quantidade existente de moedas.</p></article>",
         "categories": ["economia"],
-        "date": "02/05/2022",
-        "id": 15
+        "date": "02/05/2022"
     },
     {
+        "id": 18,
         "title": "Pool de Mineração",
         "urlName": "pool-de-mineracao",
         "content": "São sistemas na qual diversos mineradores juntam seus Hash Power para poder minerar com maior potência. Nas Pools de Mineração, a chance de descobrir a resposta do bloco é muito maior, porém a recompensa é dividida entre todos os membros da Pool com base no seu Hash Power.",
         "htmlContent": "<article class='main-article'><p class='article-text'>São sistemas na qual diversos mineradores juntam seus Hash Power para poder minerar com maior potência.</p><br><p class='article-text'>Nas Pools de Mineração, a chance de descobrir a resposta do <a href='/academia/glossario/block-reward'>recompensa</a> é muito maior, porém a recompensa é dividida entre todos os membros da Pool com base no seu Hash Power.</p></article>",
         "categories": ["blockchain", "bitcoin"],
-        "date": "08/06/2022",
-        "id": 16
+        "date": "08/06/2022"
     },
     {
+        "id": 19,
         "title": "Satoshi Nakamoto",
         "urlName": "satoshi-nakamoto",
         "content": "Pseudônimo do criador ou criadores do Bitcoin.",
         "htmlContent": "<article class='main-article'><p class='article-text'>Pseudônimo do criador ou criadores do Bitcoin.</p></article>",
         "categories": ["blockchain", "bitcoin"],
-        "date": "02/05/2022",
-        "id": 17
+        "date": "02/05/2022"
+    },
+    {
+        "id": 20,
+        "title": "Algoritmo",
+        "urlName": "algoritmo",
+        "content": "Uma sequência de instruções com o propósito de solucionar um problema.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma sequência de instruções com o propósito de solucionar um problema.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 21,
+        "title": "Aplicação Descentralizada (DApp)",
+        "urlName": "aplicacao-descentralizada-dapp",
+        "content": "Aplicações que rodam em redes compartilhadas de computadores ao invés de um computador central. Isso permite ao programa ser rodado na internet sem ser controlado por uma única entidade.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Aplicações que rodam em redes compartilhadas de computadores ao invés de um computador central. Isso permite ao programa ser rodado na internet sem ser controlado por uma única entidade.</p></article>",
+        "categories": ["blockchain", "DeFi"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 22,
+        "title": "Application Programming Interface (API)",
+        "urlName": "application-programming-interface-api",
+        "content": "Conjunto de funções e procedimentos que permitem ao usuário interagir com os dados de outra aplicação. É um software intermediário que permite duas aplicações comunicarem entre si.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conjunto de funções e procedimentos que permitem ao usuário interagir com os dados de outra aplicação. É um software intermediário que permite duas aplicações comunicarem entre si.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 23,
+        "title": "Application-Specific Integrated Circuit (ASIC)",
+        "urlName": "application-specific-integrated-circuit-asic",
+        "content": "Um circuito integrado, desenvolvido para um desempenho máximo para uma atividade específica, ao contrário de uso geral.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um circuito integrado, desenvolvido para um desempenho máximo para uma atividade específica, ao contrário de uso geral.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 24,
+        "title": "Arbitragem",
+        "urlName": "arbitragem",
+        "content": "Estratégia de investimento que consiste em comprar e vender um ativo em diferentes mercados e tirar vantagem da diferença de preços para gerar lucro.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Estratégia de investimento que consiste em comprar e vender um ativo em diferentes mercados e tirar vantagem da diferença de preços para gerar lucro.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 25,
+        "title": "ASIC-Resistente",
+        "urlName": "asic-resistente",
+        "content": "Uma criptomoeda que tem seu protocolo e algoritmo de mineração programado de certa forma que utilizar de máquinas ASIC para minerar é ou impossível, ou não traz um benefício significante  quando comparado a mineração tradicional utilizando GPU.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma criptomoeda que tem seu <a href='/academia/glossario/protocolo' class='articleLink' target='_blank'>protocolo</a> e algoritmo de mineração programado de certa forma que utilizar de máquinas <a href='/academia/glossario/application-specific-integrated-circuit-asic' class='articleLink' target='_blank'>ASIC</a> para minerar é ou impossível, ou não traz um benefício significante quando comparado a mineração tradicional utilizando <a href='/academia/glossario/graphical-processing-unit' class='articleLink' target='_blank'>GPU</a>.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 26,
+        "title": "Ask",
+        "urlName": "ask",
+        "content": "O preço mais baixo que um vendedor aceita em vender sua ordem quando está operando em uma Exchange.",
+        "htmlContent": "<p class='article-text'>O preço mais baixo que um vendedor aceita em vender sua ordem quando está operando em uma <a href='/academia/glossario/exchange' class='articleLink' target='_blank'>Exchange</a>.</p>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 27,
+        "title": "Assíncrono",
+        "urlName": "assincrono",
+        "content": "Evento em sistemas eletrônicos que não ocorrem ao mesmo tempo ou velocidade, ou acontecem de forma independente ao fluxo do programa principal.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Evento em sistemas eletrônicos que não ocorrem ao mesmo tempo ou velocidade, ou acontecem de forma independente ao fluxo do programa principal.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 28,
+        "title": "Ataque de 51%",
+        "urlName": "ataque-de-51",
+        "content": "Conhecido também como Ataque Majoritário. Quando um minerador ou grupo de mineradores controlam mais de 50% do mining hashrate ou do poder computacional da rede.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido também como Ataque Majoritário. Quando um minerador ou grupo de <a href='/academia/glossario/mineradores' class='articleLink' target='_blank'>mineradores</a> controlam mais de 50% do mining hashrate ou do poder computacional da rede.</p></article>",
+        "categories": ["computadores", "hacking"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 29,
+        "title": "Atomic Swap",
+        "urlName": "atomic-swap",
+        "content": "Tecnologia que utiliza de Smart Contracts para possibilitar a troca de uma criptomoeda por outra sem a necessidade de intermediários centralizados, como exchanges.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Tecnologia que utiliza de <a href='/academia/glossario/smart-contracts-glossary' class='articleLink' target='_blank'>Smart Contracts</a> para possibilitar a troca de uma criptomoeda por outra sem a necessidade de intermediários centralizados, como <a href='/academia/glossario/exchange' class='articleLink' target='_blank'>exchanges</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 30,
+        "title": "Auction",
+        "urlName": "auction",
+        "content": "Evento ao vivo onde ativos ou serviços são negociados através de processos de lances, equivalente a um leilão.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Evento ao vivo onde ativos ou serviços são negociados através de processos de lances, equivalente a um leilão.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 31,
+        "title": "Baixa Histórica (ATL)",
+        "urlName": "baixa-historica-atl",
+        "content": "O preço mais baixo que uma criptomoeda chegou em comparação a outra moeda, como Dólar, Euro, Real, BTC, ETH, Etc...",
+        "htmlContent": "<article class='main-article'><p class='article-text'>O preço mais baixo que uma criptomoeda chegou em comparação a outra moeda, como Dólar, Euro, Real, BTC, ETH, Etc...</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 32,
+        "title": "Baleia",
+        "urlName": "baleia",
+        "content": "Um indivíduo ou organização que possui grandes quantidades de uma criptomoedas, na qual suas ações causam impactos no mercado.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um indivíduo ou organização que possui grandes quantidades de uma criptomoedas, na qual suas ações causam impactos no mercado.</p></article>",
+        "categories": ["economia", "termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 33,
+        "title": "Banco Central",
+        "urlName": "banco-central",
+        "content": "Uma instituição financeira, que possui autoridade monetária, tendo o controle e administração sobre a moeda de um país, taxas de juros e estoque de dinheiro.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma instituição financeira, que possui autoridade monetária, tendo o controle e administração sobre a moeda de um país, taxas de juros e estoque de dinheiro.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 34,
+        "title": "Beacon Chain",
+        "urlName": "beacon-chain",
+        "content": "É uma rede Proof-of-Stake desenvolvida para a implementação da Ethereum 2.0. A rede opera separadamente da rede principal da Ethereum, mas futuramente os planos é que sejam unificadas. Beacon Chain armazena os registros de validação dos validadores, e será responsável por gerenciar os fragmentos da nova implementação chamada Ethereum Shard. Usuários que tiverem interesse, já podem armazenar seus tokens para receberem recompensa pela validação das transações da rede.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É uma rede Proof-of-Stake desenvolvida para a implementação da Ethereum 2.0. A rede opera separadamente da rede principal da <a href='/academia/descubra/o-que-e-ethereum-eth'>Ethereum</a>, mas futuramente os planos é que sejam unificadas.</p><br><p class='article-text'>Beacon Chain armazena os registros de validação dos <a href='/academia/glossario/validador'>validadores</a>, e será responsável por gerenciar os fragmentos da nova implementação chamada Ethereum Shard.</p><br><p class='article-text'>Usuários que tiverem interesse, já podem armazenar seus <a href='/academia/glossario/tokens'>tokens</a> para receberem recompensa pela validação das transações da rede.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "07/06/2022"
+    },
+    {
+        "id": 35,
+        "title": "Bear Market",
+        "urlName": "bear-market",
+        "content": "Tendência de queda nos preços de um mercado. É um termo usado de forma abrangente não só em relação a criptomoedas mas também em mercados tradicionais.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Tendência de queda nos preços de um mercado. É um termo usado de forma abrangente não só em relação a criptomoedas mas também em mercados tradicionais.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 36,
+        "title": "Bearish",
+        "urlName": "bearish",
+        "content": "Sentimento negativo em relação ao mercado, onde investidores acreditam na queda do valor de um ativo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Sentimento negativo em relação ao mercado, onde investidores acreditam na queda do valor de um ativo.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 37,
+        "title": "Benchmark",
+        "urlName": "benchmark",
+        "content": "Forma de mesurar o desempenho de um ativo ou carteira de investimentos de forma a se comparar a um padrão.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Forma de mesurar o desempenho de um ativo ou carteira de investimentos de forma a se comparar a um padrão.</p></article>",
+        "categories": ["business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 38,
+        "title": "Beta (Coeficiente)",
+        "urlName": "beta-coeficiente",
+        "content": "Ferramenta utilizada para medir a volatilidade de um ativo em comparação a volatilidade de um portfólio específico ou índice de mercado.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Ferramenta utilizada para medir a <a href='/academia/glossario/volatilidade' class='articleLink' target='_blank'>volatilidade</a> de um ativo em comparação a volatilidade de um <a href='/academia/glossario/portfolio' class='articleLink' target='_blank'>portfólio</a> específico ou <a href='/academia/glossario/indice' class='articleLink' target='_blank'>índice</a> de mercado.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 39,
+        "title": "Beta (Lançamento)",
+        "urlName": "beta-lancamento",
+        "content": "Uma versão inicial de um programa para usuários testarem e passarem feedback aos desenvolvedores. A versão Beta vem após a versão Alpha.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma versão inicial de um programa para usuários testarem e passarem feedback aos desenvolvedores. A versão Beta vem após a versão <a href='/academia/glossario/alpha' class='articleLink' target='_blank'>Alpha</a>.</p></article>",
+        "categories": ["blockchain", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 40,
+        "title": "Bid-Ask Spread",
+        "urlName": "bid-ask-spread",
+        "content": "A diferença entre o preço mais baixo que vendedores estão dispostos a vender (Ask) e o preço mais alto que compradores estão dispostos a comprar (Bid) no order book de um ativo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>A diferença entre o preço mais baixo que vendedores estão dispostos a vender <a href='/academia/glossario/ask' class='articleLink' target='_blank'>(Ask)</a> e o preço mais alto que compradores estão dispostos a comprar <a href='/academia/glossario/bid-ask-spread' class='articleLink' target='_blank'>(Bid)</a> no order book de um ativo.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 41,
+        "title": "Bid",
+        "urlName": "bid",
+        "content": "Tratando-se de mercados financeiros,  Bid é o valor mais alto que compradores estão dispostos a pagar por um ativo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Tratando-se de mercados financeiros,  Bid é o valor mais alto que compradores estão dispostos a pagar por um ativo.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 42,
+        "title": "Bitcoin ATM",
+        "urlName": "bitcoin-atm",
+        "content": "Máquina onde se pode comprar e vender Bitcoin, geralmente oferece também outras criptomoedas além do Bitcoin.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Máquina onde se pode comprar e vender Bitcoin, geralmente oferece também outras criptomoedas além do Bitcoin.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 43,
+        "title": "Bitcoin Core",
+        "urlName": "bitcoin-core",
+        "content": " É o sistema Open-Source mais utilizado para conectar-se a rede Bitcoin e rodar um Node.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É o sistema <a href='/academia/glossario/open-source-software'>Open-Source</a> mais utilizado para conectar-se a rede Bitcoin e rodar um Node.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "07/06/2022"
+    },
+    {
+        "id": 44,
+        "title": "Bitcoin",
+        "urlName": "bitcoin",
+        "content": "Bitcoin é uma criptomoeda criada pelo desenvolvedor, ou grupo de desenvolvedores com pseudônimo de Satoshi Nakamoto. Foi a primeira criptomoeda a ser criada.",
+        "htmlContent": "<article class='main-article'><p class='article-text'><a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin</a> é uma criptomoeda criada pelo desenvolvedor, ou grupo de desenvolvedores com pseudônimo de <a href='/academia/glossario/satoshi-nakamoto' class='articleLink' target='_blank'>Satoshi Nakamoto</a>. Foi a primeira <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoeda</a> a ser criada.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 45,
+        "title": "Bitcoin Pizza",
+        "urlName": "bitcoin-pizza",
+        "content": "A primeira transação na qual foi adquirido um item real em troca de Bitcoin. Duas pizzas por 10.000 BTC.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>A primeira transação na qual foi adquirido um item real em troca de <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin</a>. Duas pizzas por 10.000 BTC.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 46,
+        "title": "Block Explorer",
+        "urlName": "block-explorer",
+        "content": "Uma página ligada a uma blockchain que disponibiliza aos usuários navegarem pelas informações dos blocos, transações, balanços e histórico de transações.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma página ligada a uma <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a> que disponibiliza aos usuários navegarem pelas informações dos <a href='/academia/glossario/bloco' class='articleLink' target='_blank'>blocos</a>, transações, balanços e histórico de transações.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 47,
+        "title": "Block Header",
+        "urlName": "block-header",
+        "content": "Seção de um bloco que apresenta os metadados e um sumário das transações do bloco. É a informação que é criptografada quando se minera.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Seção de um <a href='/academia/glossario/bloco' class='articleLink' target='_blank'>bloco</a> que apresenta os <a href='/academia/glossario/metadados' class='articleLink' target='_blank'>metadados</a> e um sumário das transações do bloco. É a informação que é criptografada quando se <a href='/academia/glossario/mineracao' class='articleLink' target='_blank'>minera</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 48,
+        "title": "Block Height",
+        "urlName": "block-height",
+        "content": "Refere-se à altura do bloco. Número de blocos em uma Blockchain entre o bloco atual e o primeiro bloco (Bloco Genesis ou Bloco 0)",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Refere-se à altura do <a href='/academia/glossario/bloco' class='articleLink' target='_blank'>bloco</a>. Número de blocos em uma <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> entre o bloco atual e o primeiro bloco (Bloco Genesis ou Bloco 0)</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 49,
+        "title": "Block Reward",
+        "urlName": "block-reward",
+        "content": "Refere-se à recompensa do bloco. A recompensa disponibilizada pelo protocolo da Blockchain para os mineradores da rede para cada bloco que for minerado e validado com sucesso.",
+        "htmlContent": "<article class='main-article'><class='article-text'>Refere-se à recompensa do <a href='/academia/glossario/bloco' class='articleLink' target='_blank'>bloco</a>. A recompensa disponibilizada pelo protocolo da <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> para os mineradores da rede para cada bloco que for minerado e validado com sucesso.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 50,
+        "title": "Blockchain",
+        "urlName": "blockchain",
+        "content": "Uma planilha digital descentralizada que guarda informações sobre uma criptomoeda em uma ordem cronológica. Todas as transações são registradas na blockchain e após sua validação são imutáveis.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma planilha digital <a href='/academia/glossario/descentralizado' class='articleLink' target='_blank'>descentralizada</a> que guarda informações sobre uma criptomoeda em uma ordem cronológica. Todas as transações são registradas na blockchain e após sua validação são imutáveis.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 51,
+        "title": "Bloco Genesis",
+        "urlName": "bloco-genesis",
+        "content": "Primeiro bloco a ser processado e validado em uma blockchain, conhecido também como “Bloco 0”.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Primeiro <a href='/academia/glossario/bloco' class='articleLink' target='_blank'>bloco</a> a ser processado e validado em uma <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a>, conhecido também como “Bloco 0”.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 52,
+        "title": "Bloco",
+        "urlName": "bloco",
+        "content": "Um arquivo onde se armazena dados de transações. Blocos podem ser organizados em uma sequência linear para formar uma cadeia de blocos(Blockchain).",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um arquivo onde se armazena dados de transações. Blocos podem ser organizados em uma sequência linear para formar uma cadeia de blocos <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>(Blockchain)</a>.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 53,
+        "title": "Bolha das Criptomoedas",
+        "urlName": "bolha-das-criptomoedas",
+        "content": "Especulação de que os preços das criptomoedas subiriam a um extremo e que após isso “estouraria a bolha” derrubando o preço rapidamente. Na história já ocorreram diversas “bolhas financeiras” uma das mais conhecidas é a Bolha da Internet.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Especulação de que os preços das <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoedas</a> subiriam a um extremo e que após isso “estouraria a bolha” derrubando o preço rapidamente. Na história já ocorreram diversas “bolhas financeiras” uma das mais conhecidas é a Bolha da Internet.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 54,
+        "title": "Bots",
+        "urlName": "bots",
+        "content": "Softwares ou programas que operam de forma automática baseados em padrões pré-definidos.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Softwares ou programas que operam de forma automática baseados em padrões pré-definidos.</p></article>",
+        "categories": ["computadores", "hacking"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 55,
+        "title": "Bounty",
+        "urlName": "bounty",
+        "content": "Recompensa oferecida por um grupo ou indivíduo para incentivar algum trabalho ou ação. Muito visto em programas de referrals onde a empresa tem o objetivo de atrair usuários.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Recompensa oferecida por um grupo ou indivíduo para incentivar algum trabalho ou ação. Muito visto em programas de referrals onde a empresa tem o objetivo de atrair usuários.</p></article>",
+        "categories": ["business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 56,
+        "title": "Break-Even",
+        "urlName": "break-even",
+        "content": "Ponto na qual o custo total de uma operação é equivalente ao seu retorno. Ou seja, não terá lucro nem prejuízo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Ponto na qual o custo total de uma operação é equivalente ao seu retorno. Ou seja, não terá lucro nem prejuízo.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 57,
+        "title": "Bull Market",
+        "urlName": "bull-market",
+        "content": "Tendência de alta nos preços de um mercado. É um termo usado de forma abrangente não só em relação a criptomoedas mas também em mercados tradicionais.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Tendência de alta nos preços de um mercado. É um termo usado de forma abrangente não só em relação a criptomoedas mas também em mercados tradicionais.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 58,
+        "title": "Bullish",
+        "urlName": "bullish",
+        "content": "Sentimento positivo em relação ao mercado, onde investidores acreditam na alta do valor de um ativo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Sentimento positivo em relação ao mercado, onde investidores acreditam na alta do valor de um ativo.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 59,
+        "title": "Candlestick",
+        "urlName": "candlestick",
+        "content": "Também conhecido como velas, é uma representação gráfica na qual constam informações do preço de abertura, fechamento, máximas e mínimas de certo período de tempo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Também conhecido como velas, é uma representação gráfica na qual constam informações do preço de abertura, fechamento, máximas e mínimas de certo período de tempo.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 60,
+        "title": "Capital de Risco",
+        "urlName": "capital-de-risco",
+        "content": "Modalidade de investimento onde se aplica recursos financeiros em pequenas empresas ou startups com grande potencial de crescimento.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Modalidade de investimento onde se aplica recursos financeiros em pequenas empresas ou startups com grande potencial de crescimento.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 61,
+        "title": "Central Processing Unit (CPU)",
+        "urlName": "central-processing-unit-cpu",
+        "content": "Parte do computador responsável por interpretar as instruções de um programa e executar comandos.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Parte do computador responsável por interpretar as instruções de um programa e executar comandos.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 62,
+        "title": "Centralizado",
+        "urlName": "centralizado",
+        "content": "Uma organização na qual o poder está na mão de poucas pessoas, tendo elas o controle de toda a rede.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma organização na qual o poder está na mão de poucas pessoas, tendo elas o controle de toda a rede.</p></article>",
+        "categories": ["blockchain", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 63,
+        "title": "Centralized Exchange (CEX)",
+        "urlName": "centralized-exchange-cex",
+        "content": "Conhecida como Exchange Centralizada, as CEX são empresas que atuam como intermediárias para facilitar a transação de criptomoedas ou outros ativos entre usuários. Muito parecida com as corretoras do mercado de ações. Para o usuário utilizar as plataformas, um valor deve ser depositado, que ficará em custódia pela CEX.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecida como Exchange Centralizada, as CEX são empresas que atuam como intermediárias para facilitar a transação de <a href='/academia/glossario/criptomoedas'>criptomoedas ou outros ativos entre usuários. Muito parecida com as corretoras do mercado de ações.</p><br><p class='article-text'>Para o usuário utilizar as plataformas, um valor deve ser depositado, que ficará em custódia pela CEX.</p></article>",
+        "categories": ["blockchain", "business"],
+        "date": "07/06/2022"
+    },
+    {
+        "id": 64,
+        "title": "Chave Privada",
+        "urlName": "chave-privada",
+        "content": "Em criptomoedas, refere-se a uma cadeia de caracteres que possibilitam as transações de um endereço.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Em criptomoedas, refere-se a uma cadeia de caracteres que possibilitam as transações de um <a href='/academia/glossario/endereco' class='articleLink' target='_blank'>endereço</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 65,
+        "title": "Circulating Supply",
+        "urlName": "circulating-supply",
+        "content": "Também conhecido como Fornecimento Circulante. É o número aproximado de tokens de uma criptomoeda que estão disponíveis circulando no mercado.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Também conhecido como Fornecimento Circulante. É o número aproximado de <a href='/academia/glossario/tokens' class='articleLink' target='_blank'>tokens</a> de uma criptomoeda que estão disponíveis circulando no mercado.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 66,
+        "title": "Cloud Mining",
+        "urlName": "cloud-mining",
+        "content": "Método de mineração na qual o usuário aluga poder computacional de empresas que hospedam os equipamentos físicos.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Método de <a href='/academia/glossario/mineracao' class='articleLink' target='_blank'>mineração</a> na qual o usuário aluga poder computacional de empresas que hospedam os equipamentos físicos.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 67,
+        "title": "Cold Wallet",
+        "urlName": "cold-wallet",
+        "content": "Uma carteira off-line que requer acesso através de aparelhos físicos (Ex: Hardware Wallet).",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma carteira off-line que requer acesso através de aparelhos físicos (Ex: Hardware Wallet).</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 68,
+        "title": "Confluência",
+        "urlName": "confluencia",
+        "content": "Quando diversas métricas de análise técnica, indicadores e sinais gráficos se combinam para formar uma análise mais precisa.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quando diversas métricas de análise técnica, indicadores e sinais gráficos se combinam para formar uma análise mais precisa.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 69,
+        "title": "Consenso",
+        "urlName": "consenso",
+        "content": "Quando em um sistema de Blockchain, todos os participantes concordam com o conteúdo do próximo bloco a ser adicionado na Blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quando em um sistema de <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>, todos os participantes concordam com o conteúdo do próximo bloco a ser adicionado na Blockchain.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 70,
+        "title": "Consumer Price Index (CPI)",
+        "urlName": "consumer-price-index-cpi",
+        "content": "Também conhecido como IPCA, é índice de preços ao consumidor, serve como indicador para a inflação de um país.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Também conhecido como IPCA, é índice de preços ao consumidor, serve como indicador para a inflação de um país.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 71,
+        "title": "Criptografia",
+        "urlName": "criptografia",
+        "content": "Ciência que utiliza de teorias matemáticas e computacionais para tornar uma informação privada, a fim de só serem decifradas por quem saber decifrá-las.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Ciência que utiliza de teorias matemáticas e computacionais para tornar uma informação privada, a fim de só serem decifradas por quem saber decifrá-las.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 72,
+        "title": "Criptomoedas",
+        "urlName": "criptomoedas",
+        "content": "Moeda digital que utiliza de criptografia para sua segurança e serve como objeto de troca de pessoa para pessoa (peer-to-peer, ou, P2P) sem necessidade de uma intermediação de terceiros. Utiliza de protocolos Blockchain para garantir a posse de quem às têm.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Moeda digital que utiliza de <a href='/academia/glossario/criptografia' class='articleLink' target='_blank'>criptografia</a> para sua segurança e serve como objeto de troca de pessoa para pessoa (peer-to-peer, ou, P2P) sem necessidade de uma intermediação de terceiros. Utiliza de protocolos <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> para garantir a posse de quem às têm.</p></article>",
+        "categories": ["blockchain", "economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 73,
+        "title": "Cross-Chain Bridge",
+        "urlName": "cross-chain-bridge",
+        "content": "São sistemas que servem como uma ponte entre diferentes Blockchains, possibilitando a transação de dados, tokens, e NFTs de um para outra.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>São sistemas que servem como uma ponte entre diferentes <a href='/academia/glossario/blockchain'>blockchains</a>, possibilitando a transação de dados, <a href='./tokens-glossary.html' class='articleLink' target='_blank'>tokens</a>, e <a href='/academia/glossario/nft-tokens-nao-fungiveis'>NFTs</a> de um para outra.</p></article>",
+        "categories": ["blockchain"],
+        "date": "07/06/2022"
+    },
+    {
+        "id": 74,
+        "title": "Cross-Chain",
+        "urlName": "cross-chain",
+        "content": "É uma tecnologia dentro das Blockchains na qual permite que diferentes Blockchains se conectem, possibilitando a troca de informações entre elas. Utilizando as Cross-Chain Bridges, tokens, e outros ativos digitais de uma blockchain podem ser enviados para outra.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É uma tecnologia dentro das Blockchains na qual permite que diferentes Blockchains se conectem, possibilitando a troca de informações entre elas.</p><br><p class='article-text'>Utilizando as Cross-Chain Bridges, <a href='/academia/glossario/tokens' class='articleLink' target='_blank'>tokens</a>, e outros ativos digitais de uma blockchain podem ser enviados para outra.</p></article>",
+        "categories": ["blockchain"],
+        "date": "07/06/2022"
+    },
+    {
+        "id": 75,
+        "title": "Crowdsale",
+        "urlName": "crowdsale",
+        "content": "Tipo de venda pública na qual ocorre em formato de leilão, com o preço do token fixo e por ordem de chegada.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Tipo de venda pública na qual ocorre em formato de leilão, com o preço do token fixo e por ordem de chegada.</p></article>",
+        "categories": ["business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 76,
+        "title": "Custódia",
+        "urlName": "custodia",
+        "content": "Refere-se a guardar o ativo de um cliente e administrá-lo de forma benéfica. Geralmente aplicado por uma instituição.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Refere-se a guardar o ativo de um cliente e administrá-lo de forma benéfica. Geralmente aplicado por uma instituição.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 77,
+        "title": "Dead Cat Bounce",
+        "urlName": "dead-cat-bounce",
+        "content": "Conhecido como “Salto do Gato Morto” é um movimento gráfico que representa uma recuperação em uma tendência de queda seguida  de continuação da queda.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como “Salto do Gato Morto” é um movimento gráfico que representa uma recuperação em uma tendência de queda seguida  de continuação da queda.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 78,
+        "title": "Decentralized Autonomous Organization (DAO)",
+        "urlName": "decentralized-autonomous-organization-dao",
+        "content": "Sistemas descentralizados que não necessitam de um controlador centralizado. Atuam com código em open source e é operado pela comunidade.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Sistemas <a href='/academia/glossario/descentralizado' class='articleLink' target='_blank'>descentralizados</a> que não necessitam de um controlador centralizado. Atuam com código em <a href='/academia/glossario/open-source-software' class='articleLink' target='_blank'>open source</a> e é operado pela comunidade.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 79,
+        "title": "Decentralized Exchange (DEX)",
+        "urlName": "decentralized-exchange-dex",
+        "content": "Uma exchange que não necessita depositar fundos para trocar ativos e que não os mantém em custódia. Com as DEX usuários trocam seus ativos diretamente de suas carteiras.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma <a href='/academia/glossario/exchange' class='articleLink' target='_blank'>exchange</a> que não necessita depositar fundos para trocar ativos e que não os mantém em custódia. Com as DEX usuários trocam seus ativos diretamente de suas <a href='/academia/glossario/wallet' class='articleLink' target='_blank'>carteiras</a>.</p></article>",
+        "categories": ["blockchain", "deFi"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 80,
+        "title": "Decentralized Finance (DeFi)",
+        "urlName": "decentralized-finance-defi",
+        "content": "Aplicações financeiras descentralizadas desenvolvidas sob redes Blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Aplicações financeiras descentralizadas desenvolvidas sob redes <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>.</p></article>",
+        "categories": ["blockchain", "deFi"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 81,
+        "title": "Deep Web",
+        "urlName": "deep-web",
+        "content": "Parte da web que é de certa forma escondida, ou seja, não é indexado pelas ferramentas de buscas tradicionais (Ex: Google, Bing, Etc...).",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Parte da web que é de certa forma escondida, ou seja, não é indexado pelas ferramentas de buscas tradicionais (Ex: Google, Bing, Etc...).</p></article>",
+        "categories": ["computadores", "hacking"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 82,
+        "title": "Delegated Proof of Stake (DPoS)",
+        "urlName": "delegated-proof-of-stake-dpos",
+        "content": "Mecanismo de consenso onde usuários selecionados de uma rede são designados para validar as transações e produzir blocos em uma Blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Mecanismo de <a href='/academia/glossario/consenso' class='articleLink' target='_blank'>consenso</a> onde usuários selecionados de uma rede são designados para validar as transações e produzir <a href='/academia/glossario/bloco' class='articleLink' target='_blank'>blocos</a> em uma <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 83,
+        "title": "Derivativos",
+        "urlName": "derivativos",
+        "content": "Instrumentos financeiros na qual tem seu valor atrelado a um ativo ou índice de mercado. (Taxas de juros, ouro, petróleo, Etc...).",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Instrumentos financeiros na qual tem seu valor atrelado a um ativo ou índice de mercado. (Taxas de juros, ouro, petróleo, Etc...).</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 84,
+        "title": "Descentralizado",
+        "urlName": "descentralizado",
+        "content": "Sistema  onde não possui uma figura central com autoridade, seja ela uma organização ou indivíduo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Sistema  onde não possui uma figura central com autoridade, seja ela uma organização ou indivíduo.</p></article>",
+        "categories": ["blockchain", "deFi"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 85,
+        "title": "Dificuldade",
+        "urlName": "dificuldade",
+        "content": "Em criptomoedas, Dificuldade é uma métrica utilizada para analisar a dificuldade de se minerar um novo bloco em uma blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Em criptomoedas, Dificuldade é uma métrica utilizada para analisar a dificuldade de se minerar um novo bloco em uma blockchain.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 86,
+        "title": "Directed Acyclic Graph (DAG)",
+        "urlName": "directed-acyclic-graph-dag",
+        "content": "Uma estrutura de dados construída em uma direção e na qual se ramifica e nunca se repete. Expande-se em formato de árvore ao invés de uma cadeia em linha reta.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma estrutura de dados construída em uma direção e na qual se ramifica e nunca se repete. Expande-se em formato de árvore ao invés de uma cadeia em linha reta.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 87,
+        "title": "Distributed Denial of Service Attack (DDoS)",
+        "urlName": "distributed-denial-of-service-attack-ddos",
+        "content": "Conhecido como ataque distribuído de negação de serviço. É um ataque na qual o hacker malicioso busca sobrecarregar os recursos de processamento de um sistema ou rede, tornando-a indisponível.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como ataque distribuído de negação de serviço. É um ataque na qual o <a href='/academia/glossario/hacker' class='articleLink' target='_blank'>hacker</a> malicioso busca sobrecarregar os recursos de processamento de um sistema ou rede, tornando-a indisponível.</p></article>",
+        "categories": ["computadores", "hacking"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 88,
+        "title": "Divergência",
+        "urlName": "divergencia",
+        "content": "Quando o preço de um ativo e um indicador técnico estão apontando para direções diferentes.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quando o preço de um ativo e um indicador técnico estão apontando para direções diferentes.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 89,
+        "title": "Diversificação",
+        "urlName": "diversificacao",
+        "content": "Alocação de recursos em diferentes tipos de ativos com objetivo de reduzir riscos ou aumentar o retorno.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Alocação de recursos em diferentes tipos de ativos com objetivo de reduzir riscos ou aumentar o retorno.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 90,
+        "title": "Dollar Cost Averaging (DCA)",
+        "urlName": "dollar-cost-averaging-dca",
+        "content": "Conhecido como preço médio. É uma estratégia de investimento na qual se aplica um valor fixo de forma regular em um período definido, sem considerar o preço do ativo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como <a href='/academia/glossario/preco-medio' class='articleLink' target='_blank'>preço médio</a>. É uma estratégia de investimento na qual se aplica um valor fixo de forma regular em um período definido, sem considerar o preço do ativo.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 91,
+        "title": "Dominância do Bitcoin",
+        "urlName": "dominancia-do-bitcoin",
+        "content": "A razão entre o valor de mercado do Bitcoin contra a soma do valor de mercado de todas as criptomoedas. Quando a dominância do Bitcoin está baixa pode-se dizer que estamos em período de Altseason.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>A razão entre o <a href='/academia/glossario/market-capitalization-market-cap' class='articleLink' target='_blank'>valor de mercado</a> do <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin</a> contra a soma do valor de mercado de todas as criptomoedas. Quando a dominância do Bitcoin está baixa pode-se dizer que estamos em período de <a href='/academia/glossario/altcoins-season' class='articleLink' target='_blank'>Altseason</a>.</p></article>",
+        "categories": ["blockchain", "economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 92,
+        "title": "Dump",
+        "urlName": "dump",
+        "content": "Termo comum da análise técnica. Refere-se a um movimento de queda do preço de mercado de um ativo, ou quando um indivíduo ou organização vende suas posições, derrubando o preço de forma brusca.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Termo comum da análise técnica. Refere-se a um movimento de queda do preço de mercado de um ativo, ou quando um indivíduo ou organização vende suas posições, derrubando o preço de forma brusca.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 93,
+        "title": "Emissão",
+        "urlName": "emissao",
+        "content": "Taxa em que novas moedas são geradas conforme determinado pelo protocolo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Taxa em que novas moedas são geradas conforme determinado pelo <a href='/academia/glossario/protocolo' class='articleLink' target='_blank'>protocolo</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 94,
+        "title": "Endereço",
+        "urlName": "endereco",
+        "content": "Cadeia de texto que define o local de uma carteira em particular dentro da Blockchain. Quando se envia moedas, utiliza do endereço para definir para qual carteira se está enviando.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Cadeia de texto que define o local de uma <a href='/academia/glossario/wallet' class='articleLink' target='_blank'>carteira</a> em particular dentro da <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>. Quando se envia moedas, utiliza do endereço para definir para qual carteira se está enviando.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 95,
+        "title": "Endereços ativos diários (DAA)",
+        "urlName": "enderecos-ativos-diarios-daa",
+        "content": "Numa Blockchain, usuários interagem usando seus endereços. DAA, é uma métrica que se refere à quantidade de endereços que realizaram  uma atividade determinada em certa blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Numa <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>, usuários interagem usando seus <a href='/academia/glossario/endereco' class='articleLink' target='_blank'>endereços</a>. DAA, é uma métrica que se refere à quantidade de endereços que realizaram  uma atividade determinada em certa blockchain.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 96,
+        "title": "Enterprise Ethereum Alliance (EEA)",
+        "urlName": "enterprise-ethereum-alliance-eea",
+        "content": "Organização de usuários da rede Ethereum que colaboram entre si para criar padrões e encontrar formas de utilizar Ethereum em empresas. Possui participação tanto de empresas, startups e desenvolvedores e tem o objetivo de acelerar a adoção global de soluções que utilizam da Blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Organização de usuários da rede <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'>Ethereum</a> que colaboram entre si para criar padrões e encontrar formas de utilizar Ethereum em empresas. Possui participação tanto de empresas, startups e desenvolvedores e tem o objetivo de acelerar a adoção global de soluções que utilizam da <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>.</p></article>",
+        "categories": ["blockchain", "business", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 97,
+        "title": "ERC-20",
+        "urlName": "erc-20",
+        "content": "Protocolo padrão para tokens fungíveis e trocáveis da rede Ethreum.",
+        "htmlContent": "<article class='main-article'><p class='article-text'><a href='/academia/glossario/protocolo' class='articleLink' target='_blank'>Protocolo</a> padrão para tokens fungíveis e trocáveis da rede <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'>Ethreum</a>.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 98,
+        "title": "ERC-721",
+        "urlName": "erc-721",
+        "content": "Protocolo padrão para token não-fungíveis (NFT) e trocáveis da rede Ethereum.",
+        "htmlContent": "<article class='main-article'><p class='article-text'><a href='/academia/glossario/protocolo' class='articleLink' target='_blank'>Protocolo</a> padrão para token não-fungíveis (NFT) e trocáveis da rede <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'>Ethereum</a>.</p></article>",
+        "categories": ["blockchain", "ethereum", "NFT"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 99,
+        "title": "Escalabilidade",
+        "urlName": "escalabilidade",
+        "content": "Escalabilidade é um termo para definir o potencial de crescimento de algum projeto, produto ou serviço. Em computação, pode-se melhorar os servidores para que aguente uma demanda maior de usuários, tornando-se assim mais escalável. Em criptomoedas e Blockchain, escalabilidade se refere à habilidade de suportar um grande número de usuários, e o como ela pode ser aprimorada para aceitar mais usuários. A entrada de novos usuários significa mais transações a serem incluídas na Blockchain, e a escalabilidade da rede, determina se será possível manter um alto número de usuários, com transações rápidas e baratas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Escalabilidade é um termo para definir o potencial de crescimento de algum projeto, produto ou serviço. Em computação, pode-se melhorar os servidores para que aguente uma demanda maior de usuários, tornando-se assim mais escalável.</p><br><p class='article-text'>Em <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoedas</a> e Blockchain, escalabilidade se refere à habilidade de suportar um grande número de usuários, e o como ela pode ser aprimorada para aceitar mais usuários. A entrada de novos usuários significa mais transações a serem incluídas na <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>, e a escalabilidade da rede, determina se será possível manter um alto número de usuários, com transações rápidas e baratas.</p></article>",
+        "categories": ["blockchain", "business"],
+        "date": "24/05/2022"
+    },
+    {
+        "id": 100,
+        "title": "Ether",
+        "urlName": "ether",
+        "content": "Conhecido pelo símbolo ETH, é a moeda nativa da rede Ethereum, utilizada para realizar transações na rede, pagar taxas, e executar Smart Contracts. Ether não possui um Max Supply definido, e seu processo de criação inicial foi através da mineração, utilizando Proof-of-Work (PoW). Com a chegada do Ethereum 2.0, a rede passará a utilizar Proof-of-Stake(PoS) e com isso o processo de criação de ETH pode mudar.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido pelo símbolo ETH, é a moeda nativa da rede <a href='/academia/glossario/ethereum' class='articleLink' target='_blank'>Ethereum</a>, utilizada para realizar transações na rede, pagar taxas, e executar <a href='/academia/glossario/smart-contracts' class='articleLink' target='_blank'>Smart Contracts</a>.</p><br><p class='article-text'>Ether não possui um <a href='/academia/glossario/max-supply' class='articleLink' target='_blank'>Max Supply</a> definido, e seu processo de criação inicial foi através da <a href='/academia/glossario/mineracao' class='articleLink' target='_blank'>mineração</a>, utilizando Proof-of-Work (PoW). Com a chegada do <a href='/academia/glossario/ethereum-20' class='articleLink' target='_blank'>Ethereum 2.0</a>, a rede passará a utilizar <a href='/academia/glossario/proof-of-stake-pos' class='articleLink' target='_blank'>Proof-of-Stake(PoS)</a> e com isso o processo de criação de ETH pode mudar.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "07/06/2022"
+    },
+    {
+        "id": 101,
+        "title": "Ethereum Difficulty Bomb",
+        "urlName": "ethereum-difficulty-bomb",
+        "content": "Mecanismo na qual aumenta a dificuldade de mineração da Ethereum tornando-a não rentável para mineradores. É uma etapa do processo de migração da Ethereum para Proof of Stake.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Mecanismo na qual aumenta a dificuldade de <a href='/academia/glossario/mineracao' class='articleLink' target='_blank'>mineração</a> da <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'>Ethereum</a> tornando-a não rentável para mineradores. É uma etapa do processo de migração da Ethereum para Proof of Stake.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 102,
+        "title": "Ethereum",
+        "urlName": "ethereum",
+        "content": "Ethereum é uma plataforma open-source que permite desenvolvedores criarem aplicações descentralizadas utilizando Smart Contracts e redes Blockchain. Seu ecossistema é movimentado através de seu Token Ether (ETH) e possui processos de validação similares ao do Bitcoin. ",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Ethereum é uma plataforma <a href='/academia/glossario/open-source-software' class='articleLink' target='_blank'>open-source</a> que permite desenvolvedores criarem aplicações descentralizadas utilizando <a href='/academia/glossario/smart-contracts' class='articleLink' target='_blank'>Smart Contracts</a> e redes <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>. Seu ecossistema é movimentado através de seu Token Ether (ETH) e possui processos de validação similares ao do <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin</a>.</p><br><br><p class='article-text'><span class='detailSpan'>>></span> <b>Acesse nosso guia completo sobre a Ethereum em <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'><span class='detailSpan'>PIC | Discover - Ethereum </span></a></b>  <span class='detailSpan'> &lt&lt </span></p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "24/05/2022"
+    },
+    {
+        "id": 103,
+        "title": "Ethereum Plasma",
+        "urlName": "ethereum-plasma",
+        "content": "Uma solução Off-chain da Ethereum que busca trazer escalabilidade ao aumentar o número de transações por segundo. Baseia-se em utilizar de redes secundárias que operam de forma independente (similares às Sidechains), mas que permanecem conectadas à Blockchain principal da Ethereum. Essa solução busca reduzir a quantidade de dados que os nodes armazenam na rede principal assim tendo uma maior escalabilidade.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma solução <a href='/academia/glossario/off-chain' class='articleLink' target='_blank'>Off-chain</a> da <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'>Ethereum</a> que busca trazer escalabilidade ao aumentar o número de transações por segundo.</p><br><p class='article-text'>Baseia-se em utilizar de redes secundárias que operam de forma independente (similares às <a href='/academia/glossario/side-chain'>Sidechains</a>), mas que permanecem conectadas à <a href='/academia/glossario/blockchain'>Blockchain</a> principal da Ethereum. Essa solução busca reduzir a quantidade de dados que os nodes armazenam na rede principal assim tendo uma maior <a href='/academia/glossario/escalabilidade'>escalabilidade</a>.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 104,
+        "title": "Ethereum Shard",
+        "urlName": "ethereum-shard",
+        "content": "Ethereum Shard é uma etapa da atualização da Ethereum 2.0 que busca separar a rede em fragmentos para aumentar a escalabilidade da Ethereum. Cada um desses fragmentos terá as informações de suas transações e Smart Contracts de forma independente de outros fragmentos. Apesar de cada fragmento compartilhar informações apenas com os nodes que forem membros desse fragmento, a rede principal têm acesso a trocar informações com todos os fragmentos.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Ethereum Shard é uma etapa da atualização da Ethereum 2.0 que busca separar a rede em fragmentos para aumentar a <a href='/academia/glossario/escalabilidade' class='articleLink' target='_blank'>escalabilidade</a> da <a href='/academia/glossario/ethereum' class='articleLink' target='_blank'>Ethereum</a>. Cada um desses fragmentos terá as informações de suas transações e <a href='/academia/glossario/smart-contracts' class='articleLink' target='_blank'>Smart Contracts</a> de forma independente de outros fragmentos.</p><br><p class='article-text'>Apesar de cada fragmento compartilhar informações apenas com os nodes que forem membros desse fragmento, a rede principal têm acesso a trocar informações com todos os fragmentos.</p></article>",
+        "categories": ["blockchain"],
+        "date": "08/06/2022"
+    },
+    {
+        "id": 105,
+        "title": "Ethereum Virtual Machine (EVM)",
+        "urlName": "ethereum-virtual-machine-evm",
+        "content": "Ecossistema da Ethereum na qual os Smart Contracts são executados.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Ecossistema da <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'>Ethereum</a> na qual os <a href='/academia/glossario/smart-contracts' class='articleLink' target='_blank'>Smart Contracts</a> são executados.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 106,
+        "title": "Ethereum 2.0",
+        "urlName": "ethereum-20",
+        "content": "Uma atualização da rede Ethereum que busca trazer escalabilidade, eficiência e mudanças para uma melhor utilização da rede. Ethereum 2.0 migrará a rede tradicional do  modelo Proof-of-Work para Proof-of-Stake, e incluirá um mecanismo de fragmentos para uma melhor escalabilidade, chamado de Ethereum Shard. A atualização conta com um cronograma de mudanças chamado Serenity, e a primeira etapa foi iniciada em dezembro de 2020, com o lançamento da Beacon Chain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma atualização da rede <a href='/academia/descubra/o-que-e-ethereum-eth'>Ethereum</a> que busca trazer <a href='/academia/glossario/escalabilidade'>escalabilidade</a>, eficiência e mudanças para uma melhor utilização da rede.</p><br><p class='article-text'>Ethereum 2.0 migrará a rede tradicional do  modelo <a href='/academia/glossario/proof-of-work-pow'>Proof-of-Work</a> para <a href='/academia/glossario/proof-of-stake-pos'>Proof-of-Stake</a>, e incluirá um mecanismo de fragmentos para uma melhor escalabilidade, chamado de Ethereum Shard.</p><br><p class='article-text'>A atualização conta com um cronograma de mudanças chamado Serenity, e a primeira etapa foi iniciada em dezembro de 2020, com o lançamento da <a href='/academia/glossario/beacon-chain'>Beacon Chain</a>.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "07/06/2022"
+    },
+    {
+        "id": 107,
+        "title": "Exchange",
+        "urlName": "exchange",
+        "content": "Um mercado de criptomoedas e outros ativos na qual usuários podem comprar e vender suas moedas/ativos.",
+        "htmlContent": "<article class='main-article'><class='article-text'>Um mercado de <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoedas</a> e outros ativos na qual usuários podem comprar e vender suas moedas/ativos.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 108,
+        "title": "Exchange Traded Fund (ETF)",
+        "urlName": "exchange-traded-fund-etf",
+        "content": "ETF é uma forma de investimento na qual replica a carteira e rentabilidade de um fundo, ação, índice ou título, porém de forma a ser trocável como uma ação única.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>ETF é uma forma de investimento na qual replica a carteira e rentabilidade de um fundo, ação, índice ou título, porém de forma a ser trocável como uma ação única.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 109,
+        "title": "Explique-me como se eu tivesse 5 anos (ELI5)",
+        "urlName": "explique-me-como-se-eu-tivesse-5-anos-eli5",
+        "content": "Explicar algum conteúdo de forma tão simples que uma criança de 5 anos conseguiria entender.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Explicar algum conteúdo de forma tão simples que uma criança de 5 anos conseguiria entender.</p></article>",
+        "categories": ["business", "termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 110,
+        "title": "Faucet",
+        "urlName": "faucet",
+        "content": "Sites na qual você recebe pequenas quantidades de criptomoedas apenas por navegar por eles.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Sites na qual você recebe pequenas quantidades de criptomoedas apenas por navegar por eles.</p></article>",
+        "categories": ["blockchain", "deFi"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 111,
+        "title": "Fear of Missing Out (FOMO)",
+        "urlName": "fear-of-missing-out-fomo",
+        "content": "Também conhecido como o medo de ficar de fora. É um sentimento de apreensão por perder uma oportunidade de investimento com retornos potenciais.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Também conhecido como o medo de ficar de fora. É um sentimento de apreensão por perder uma oportunidade de investimento com retornos potenciais.</p></article>",
+        "categories": ["economia", "termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 112,
+        "title": "Fear, Uncertainty and Doubt (FUD)",
+        "urlName": "fear-uncertainty-and-doubt-fud",
+        "content": "Estratégia de disseminar informações ruins sobre um projeto para causar medo e insegurança nos investidores e usuários.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Estratégia de disseminar informações ruins sobre um projeto para causar medo e insegurança nos investidores e usuários.</p></article>",
+        "categories": ["economia", "termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 113,
+        "title": "Flappening",
+        "urlName": "flappening",
+        "content": "Termo usado para quando Litecoin (LTC)  ultrapassou o Bitcoin Cash (BCH) em valor de mercado. Deriva do termo Flippening que é quando alguma outra criptomoeda ultrapassar o Bitcoin (BTC) em valor de mercado.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Termo usado para quando Litecoin (LTC)  ultrapassou o Bitcoin Cash (BCH) em <a href='/academia/glossario/market-capitalization-market-cap' class='articleLink' target='_blank'>valor de mercado</a>. Deriva do termo Flippening que é quando alguma outra criptomoeda ultrapassar o <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin (BTC)</a> em valor de mercado.</p></article>",
+        "categories": ["economia", "termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 114,
+        "title": "Flippening",
+        "urlName": "flippening",
+        "content": "Termo usado para quando outra criptomoeda ultrapassar o Bitcoin (BTC) em valor de mercado.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Termo usado para quando outra criptomoeda ultrapassar o <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin (BTC)</a> em valor de mercado.</p></article>",
+        "categories": ["economia", "termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 115,
+        "title": "Forex (FX)",
+        "urlName": "forex-fx",
+        "content": "Forex significa Foreign Exchange Markets. É o mercado global de câmbio de moedas fiduciárias.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Forex significa Foreign Exchange Markets. É o mercado global de câmbio de <a href='/academia/glossario/moeda-fiduciaria' class='articleLink' target='_blank'>moedas fiduciárias</a>moedas fiduciárias.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 116,
+        "title": "Fork",
+        "urlName": "fork",
+        "content": "É uma atualização em um projeto de blockchain onde o software é copiado e modificado a partir de certo ponto. O projeto original se mantém e a história do mesmo não é rejeitada, porém o novo software possui diferenças e mudanças que o original não teria. Forks são divididos em dois tipos: Soft Forks e Hard Forks.</a>",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É uma atualização em um projeto de <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a> onde o software é copiado e modificado a partir de certo ponto. O projeto original se mantém e a história do mesmo não é rejeitada, porém o novo software possui diferenças e mudanças que o original não teria. Forks são divididos em dois tipos: Soft Forks e Hard Forks.</a></p></article>",
+        "categories": ["blockchain", "bitcoin", "ethereum"],
+        "date": "25/05/2022"
+    },
+    {
+        "id": 117,
+        "title": "Full Node",
+        "urlName": "full-node",
+        "content": "É um software que valida as regras definidas nos protocolos de redes Blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É um software que valida as regras definidas nos protocolos de redes <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 118,
+        "title": "Garantia",
+        "urlName": "garantia",
+        "content": "Alocar algo de valor ao realizar empréstimo como forma de garantir o pagamento de suas obrigações com o credor.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Alocar algo de valor ao realizar empréstimo como forma de garantir o pagamento de suas obrigações com o credor.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 119,
+        "title": "Gas",
+        "urlName": "gas",
+        "content": "Mecanismo que precifica as taxas de transferência e calcula o custo de realizar operações utilizando os Smart Contracts da Blockchain da Ethereum.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Mecanismo que precifica as taxas de transferência e calcula o custo de realizar operações utilizando os <a href='/academia/glossario/smart-contracts' class='articleLink' target='_blank'>Smart Contracts</a> da <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> da <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'>Ethereum</a>.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 120,
+        "title": "Gas Limit",
+        "urlName": "gas-limit",
+        "content": "Quantidade máxima de Gas que um usuário aceita pagar como taxa para realizar transferências ou operações em um Smart Contract.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quantidade máxima de <a href='/academia/glossario/gas' class='articleLink' target='_blank'>Gas</a> que um usuário aceita pagar como taxa para realizar transferências ou operações em um <a href='/academia/glossario/smart-contracts' class='articleLink' target='_blank'>Smart Contract</a>.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 121,
+        "title": "Gas Price",
+        "urlName": "gas-price",
+        "content": "Preço que um usuário deseja pagar como taxa para realizar transferências ou operações em um Smart Contract.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Preço que um usuário deseja pagar como taxa para realizar transferências ou operações em um <a href='/academia/glossario/smart-contracts' class='articleLink' target='_blank'>Smart Contract</a>.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 122,
+        "title": "Gasto Duplo",
+        "urlName": "gasto-duplo",
+        "content": "Quando uma quantidade de moedas é gasta mais de uma vez. Geralmente ocasionado por um ataque.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quando uma quantidade de moedas é gasta mais de uma vez. Geralmente ocasionado por um ataque.</p></article>",
+        "categories": ["blockchain", "hacking"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 123,
+        "title": "Gestão ativa",
+        "urlName": "gestao-ativa",
+        "content": "Estratégia de investimentos na qual o indivíduo, gestor ou fundo de investimento tem a liberdade de selecionar e manusear os ativos da carteira com objetivo de superar o mercado e obter lucro.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Estratégia de investimentos na qual o indivíduo, gestor ou fundo de investimento tem a liberdade de selecionar e manusear os ativos da carteira com objetivo de superar o mercado e obter lucro.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 124,
+        "title": "Gestão de ativos",
+        "urlName": "gestao-de-ativos",
+        "content": "Método que ajuda indivíduos ou empresas a administrarem seus ativos. Sejam eles para benefício próprio ou de seus clientes.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Método que ajuda indivíduos ou empresas a administrarem seus ativos. Sejam eles para benefício próprio ou de seus clientes.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 125,
+        "title": "Golden Cross",
+        "urlName": "golden-cross",
+        "content": "Padrão gráfico bullish onde se analisa duas médias móveis uma de curto-prazo e outra de longo-prazo. É formado um Golden Cross, quando a média móvel de curto prazo rompe para cima da média móvel de longo prazo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Padrão gráfico <a href='/academia/glossario/bullish' class='articleLink' target='_blank'>bullish</a> onde se analisa duas médias móveis uma de curto-prazo e outra de longo-prazo. É formado um Golden Cross, quando a média móvel de curto prazo <a href='/academia/glossario/rompimento' class='articleLink' target='_blank'>rompe</a> para cima da média móvel de longo prazo.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 126,
+        "title": "Graphical Processing Unit (GPU)",
+        "urlName": "graphical-processing-unit-gpu",
+        "content": "Processador que trabalha de forma dedicada à atividade de vídeo e gráfica de um computador.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Processador que trabalha de forma dedicada à atividade de vídeo e gráfica de um computador.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 127,
+        "title": "Gwei",
+        "urlName": "gwei",
+        "content": "Gwei é uma fração de Ether(ETH), moeda da rede Ethereum. Comumente utiliza-se de Gwei como forma de medir o preço do Gas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Gwei é uma fração de Ether(ETH), moeda da rede <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'>Ethereum</a>. Comumente utiliza-se de Gwei como forma de medir o preço do <a href='/academia/glossario/gas' class='articleLink' target='_blank'>Gas</a>.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 128,
+        "title": "Hacker",
+        "urlName": "hacker",
+        "content": "Indivíduo que possui conhecimentos avançados em sistemas e redes de computadores.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Indivíduo que possui conhecimentos avançados em sistemas e redes de computadores.</p></article>",
+        "categories": ["computadores", "hacking"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 129,
+        "title": "Halving",
+        "urlName": "halving",
+        "content": "Quando a recompensa do bloco de uma criptomoeda é cortada pela metade com o objetivo de diminuir a taxa de emissão de novas moedas trazendo assim escassez eventualmente um supply finito.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quando a <a href='/academia/glossario/block-reward' class='articleLink' target='_blank'>recompensa do bloco</a> de uma criptomoeda é cortada pela metade com o objetivo de diminuir a taxa de emissão de novas moedas trazendo assim escassez eventualmente um <a href='/academia/glossario/circulating-supply' class='articleLink' target='_blank'>supply</a> finito.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 130,
+        "title": "Hard Cap",
+        "urlName": "hard-cap",
+        "content": "Quantidade máxima que um projeto busca arrecadar durante seu ICO.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quantidade máxima que um projeto busca arrecadar durante seu ICO.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 131,
+        "title": "Hard Fork",
+        "urlName": "hard-fork",
+        "content": "Tipo de Fork na qual os nodes atualizados se tornam incompatíveis com versões anteriores, isso ocorre pois a nova versão possui regras que entra em conflito com a versão antiga, ou seja, nodes que optem por utilizar essa versão só poderão trocar informações com outros nodes que estejam utilizando essa versão, perdendo a conexão com nodes da versão original. Como resultado de Hard Forks a blockchain se divide criando duas diferentes uma com as regras da versão antiga e outra com as regras da nova versão..",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Tipo de Fork na qual os <a href='/academia/glossario/node' class='articleLink' target='_blank'>nodes</a> atualizados se tornam incompatíveis com versões anteriores, isso ocorre pois a nova versão possui regras que entra em conflito com a versão antiga, ou seja, nodes que optem por utilizar essa versão só poderão trocar informações com outros nodes que estejam utilizando essa versão, perdendo a conexão com nodes da versão original. Como resultado de Hard Forks a <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a> se divide criando duas diferentes uma com as regras da versão antiga e outra com as regras da nova versão.</a>.</p></article>",
+        "categories": ["blockchain", "bitcoin", "ethereum"],
+        "date": "25/05/2022"
+    },
+    {
+        "id": 132,
+        "title": "Hash",
+        "urlName": "hash",
+        "content": "É o retorno com informações sobre um dado específico após executar uma hash function (código de programação).",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É o retorno com informações sobre um dado específico após executar uma hash function (código de programação).</p></article>",
+        "categories": ["computadores", "blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 133,
+        "title": "Hash Power",
+        "urlName": "hash-power",
+        "content": "É poder de um computador ou rede de realizar operações de criptografia para transformar dados em Hashes. É comparado ao Hash Rate e geralmente é visto em Hashes por segundo H/s.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É poder de um computador ou rede de realizar operações de <a href='/academia/glossario/criptografia' class='articleLink' target='_blank'>criptografia</a> para transformar dados em <a href='/academia/glossario/hash' class='articleLink' target='_blank'>Hashes</a>. É comparado ao Hash Rate e geralmente é visto em Hashes por segundo H/s.</p></article>",
+        "categories": ["computadores", "blockchain"],
+        "date": "08/06/2022"
+    },
+    {
+        "id": 134,
+        "title": "Hash Rate",
+        "urlName": "hash-rate",
+        "content": "Velocidade na qual um computador é capaz de calcular novos hashes, geralmente é visto como hashes por segundo e determina o poder de processamento de uma blockchain ou mineradora.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Velocidade na qual um computador é capaz de calcular novos <a href='/academia/glossario/hash' class='articleLink' target='_blank'>hashes</a>, geralmente é visto como hashes por segundo e determina o poder de processamento de uma <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a> ou mineradora.</p></article>",
+        "categories": ["computadores", "blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 135,
+        "title": "High-Frequency Trading (HFT)",
+        "urlName": "high-frequency-trading-hft",
+        "content": "Conhecido como trading de alta freqüência. É uma forma de negociação na qual se utiliza de sistemas para realizar diversas operações em um curto intervalo de tempo, geralmente segundo ou milissegundos.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como trading de alta freqüência. É uma forma de negociação na qual se utiliza de sistemas para realizar diversas operações em um curto intervalo de tempo, geralmente segundo ou milissegundos.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 136,
+        "title": "Hipótese do mercado eficiente",
+        "urlName": "hipotese-do-mercado-eficiente",
+        "content": "Hipótese econômica na qual o preço de ativos no mercado sempre reflete toda informação existente.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Hipótese econômica na qual o preço de ativos no mercado sempre reflete toda informação existente.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 137,
+        "title": "HODL",
+        "urlName": "hodl",
+        "content": "Derivado do termo “Hold” que é manter um ativo em sua posse e não vendê-lo. Teve sua origem no fórum BitcoinTalk, quando um usuário errou a digitação. O termo teve aceitação e é até hoje fortemente utilizado pela comunidade de criptomoedas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Derivado do termo “Hold” que é manter um ativo em sua posse e não vendê-lo. Teve sua origem no fórum BitcoinTalk, quando um usuário errou a digitação. O termo teve aceitação e é até hoje fortemente utilizado pela comunidade de criptomoedas.</p></article>",
+        "categories": ["economia", "termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 138,
+        "title": "Holder",
+        "urlName": "holder",
+        "content": "É o investidor que mantém seus ativos em sua posse e não os vende. Diferente de Traders que compram e vendem ativos visando o lucro no curto-prazo, Holders acumulam o ativo pensando nos fundamentos ou no lucro de longo-prazo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É o investidor que mantém seus ativos em sua posse e não os vende. Diferente de Traders que compram e vendem ativos visando o lucro no curto-prazo, Holders acumulam o ativo pensando nos fundamentos ou no lucro de longo-prazo.</p></article>",
+        "categories": ["economia", "termos"],
+        "date": "08/06/2022"
+    },
+    {
+        "id": 139,
+        "title": "Índice",
+        "urlName": "indice",
+        "content": "Um instrumento financeiro usado para rastrear o preço de um ativo ou de um conjunto de ativos. Geralmente é utilizado ao combinar diversos elementos em um e serve como um benchmark.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um instrumento financeiro usado para rastrear o preço de um ativo ou de um conjunto de ativos. Geralmente é utilizado ao combinar diversos elementos em um e serve como um <a href='/academia/glossario/benchmark' class='articleLink' target='_blank'>benchmark</a>.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 140,
+        "title": "Initial Coin Offering (ICO)",
+        "urlName": "initial-coin-offerinc-ico",
+        "content": "Método de arrecadação similar ao IPO. Onde uma criptomoeda é lançada para venda pública pela primeira vez.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Método de arrecadação similar ao <a href='/academia/glossario/initial-public-offering-ipo' class='articleLink' target='_blank'>IPO</a>. Onde uma criptomoeda é lançada para venda pública pela primeira vez.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 141,
+        "title": "Initial Exchange Offering (IEO)",
+        "urlName": "initial-exchange-offering-ieo",
+        "content": "Método de arrecadação na qual as vendas públicas são conduzidas por uma Exchange.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Método de arrecadação na qual as vendas públicas são conduzidas por uma Exchange.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 142,
+        "title": "Initial Public Offering (IPO)",
+        "urlName": "initial-public-offering-ipo",
+        "content": "Método de arrecadação onde empresas abrem seu capital e ofertam suas ações ao público para arrecadar capital de seus investidores.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Método de arrecadação onde empresas abrem seu capital e ofertam suas ações ao público para arrecadar capital de seus investidores.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 143,
+        "title": "Internet of Things (IoT)",
+        "urlName": "internet-of-things-iot",
+        "content": "Também conhecido como Internet das Coisas. São sistemas que através da conexão com a internet, comunicam entre si sem necessidade de interação humana.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Também conhecido como Internet das Coisas. São sistemas que através da conexão com a internet, comunicam entre si sem necessidade de interação humana.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 144,
+        "title": "Interoperabilidade",
+        "urlName": "interoperabilidade",
+        "content": "Conceito que permite diferentes blockchains serem compatíveis entre si, oferecendo a possibilidade de compartilharem suas ferramentas e usabilidade.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conceito que permite diferentes blockchains serem compatíveis entre si, oferecendo a possibilidade de compartilharem suas ferramentas e usabilidade.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 145,
+        "title": "InterPlanetary File System (IPFS)",
+        "urlName": "interplanetary-file-system-ipfs",
+        "content": "Um projeto open source de um protocolo de armazenamento de dados distribuídos.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um projeto open source de um <a href='/academia/glossario/protocolo' class='articleLink' target='_blank'>protocolo</a> de armazenamento de dados distribuídos.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 146,
+        "title": "Investidor Anjo",
+        "urlName": "investidor-anjo",
+        "content": "Investidores que buscam oportunidades provendo fundos para empresários ou start-ups.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Investidores que buscam oportunidades provendo fundos para empresários ou start-ups.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 147,
+        "title": "Jager (BNB)",
+        "urlName": "jager-bnb",
+        "content": "Menor unidade da criptomoeda BNB. Similar ao Satoshi, a menor unidade de um Bitcoin.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Menor unidade da criptomoeda BNB. Similar ao Satoshi, a menor unidade de um <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 148,
+        "title": "Preço Médio",
+        "urlName": "preco-medio",
+        "content": "É uma estratégia de investimento na qual se aplica um valor fixo de forma regular em um período definido, sem considerar o preço do ativo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É uma estratégia de investimento na qual se aplica um valor fixo de forma regular em um período definido, sem considerar o preço do ativo.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 149,
+        "title": "Know Your Costumer (KYC)",
+        "urlName": "know-your-costumer-kyc",
+        "content": "Conhecido também pelo termo “Conheça seu cliente”. É um procedimento padrão de empresas financeiras para validarem e reconhecerem seus clientes como forma de segurança.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido também pelo termo “Conheça seu cliente”. É um procedimento padrão de empresas financeiras para validarem e reconhecerem seus clientes como forma de segurança.</p></article>",
+        "categories": ["economia", "business", "termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 150,
+        "title": "Lei da Oferta e Demanda",
+        "urlName": "lei-da-oferta-e-demanda",
+        "content": "Lei econômica onde o preço de mercado de um bem específico é regulada pela quantidade do produto oferecida no mercado (Oferta) e a demanda que compradores estão dispostos a pagar pelo produto. Com uma demanda superior a oferta o preço tende a subir, já uma oferta superior à demanda reflete em uma queda dos preços.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Lei econômica onde o preço de mercado de um bem específico é regulada pela quantidade do produto oferecida no mercado (Oferta) e a demanda que compradores estão dispostos a pagar pelo produto. Com uma demanda superior a oferta o preço tende a subir, já uma oferta superior à demanda reflete em uma queda dos preços.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 151,
+        "title": "Lightning Network",
+        "urlName": "lightning-network",
+        "content": "Protocolo de segunda camada que opera em cima de uma blockchain existente. Possibilita transações financeiras mais ágeis, trazendo escalabilidade ao projeto.",
+        "htmlContent": "<article class='main-article'><p class='article-text'><a href=/academia/glossario/protocolo class=articleLink target=_blank>Protocolo</a> de <a href='/academia/glossario/solucoes-de-segunda-camada' class='articleLink' target='_blank'>segunda camada</a> que opera em cima de uma <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a> existente. Possibilita transações financeiras mais ágeis, trazendo escalabilidade ao projeto.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 152,
+        "title": "Liquid Proof of Stake (LPoS)",
+        "urlName": "liquid-proof-of-stake-lpos",
+        "content": "Consenso de Proof of Stake da Tezos (XTZ), muito similar ao Delegated Proof of Stake (DPoS).",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Consenso de Proof of Stake da Tezos (XTZ), muito similar ao Delegated Proof of Stake (DPoS).</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 153,
+        "title": "Liquidação Forçada",
+        "urlName": "liquidacao-forcada",
+        "content": "Quando a posição alavancada de uma operação é fechada forçadamente. Acontece quando a operação não possui margem o suficiente.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quando a posição alavancada de uma operação é fechada forçadamente. Acontece quando a operação não possui margem o suficiente.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 154,
+        "title": "Liquidez",
+        "urlName": "liquidez",
+        "content": "Quantidade que pode ser comprada ou vendida sem ter impactos significantes no preço de um ativo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quantidade que pode ser comprada ou vendida sem ter impactos significantes no preço de um ativo.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 155,
+        "title": "Livro-razão",
+        "urlName": "livro-razao",
+        "content": "Relatório com transações financeiras a fim de monitorar as movimentações realizadas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Relatório com transações financeiras a fim de monitorar as movimentações realizadas.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 156,
+        "title": "Lua",
+        "urlName": "lua",
+        "content": "Uma expressão utilizada para descrever uma criptomoeda em tendência de alta.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma expressão utilizada para descrever uma <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoeda</a> em tendência de alta.</p></article>",
+        "categories": ["termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 157,
+        "title": "Mainnet",
+        "urlName": "mainnet",
+        "content": "Rede principal de uma blockchain onde as transações são registradas e verificadas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Rede principal de uma blockchain onde as transações são registradas e verificadas.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 158,
+        "title": "Malware",
+        "urlName": "malware",
+        "content": "Software programado para infiltrar e danificar sistemas e redes.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Software programado para infiltrar e danificar sistemas e redes.</p></article>",
+        "categories": ["computadores", "hacking"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 159,
+        "title": "Mãos fracas",
+        "urlName": "maos-fracas",
+        "content": "Termo para classificar aqueles que não seguram seus ativos ou não segue sua estratégia de investimento.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Termo para classificar aqueles que não seguram seus ativos ou não segue sua estratégia de investimento.</p></article>",
+        "categories": ["termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 160,
+        "title": "Margem Isolada",
+        "urlName": "margem-isolada",
+        "content": "Alocação de margem na qual se restringe a uma posição isolada das demais posições.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Alocação de margem na qual se restringe a uma posição isolada das demais posições.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 161,
+        "title": "Market Capitalization (Market Cap)",
+        "urlName": "markt-capitalization-market-cap",
+        "content": "Refere-se ao valor de mercado de um ativo ou moeda. Resultado da multiplicação do preço de cada moeda pela quantidade existente de moedas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Refere-se ao valor de mercado de um ativo ou moeda. Resultado da multiplicação do preço de cada moeda pela quantidade existente de moedas.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 162,
+        "title": "Market Maker",
+        "urlName": "market-maker",
+        "content": "Participantes do mercado que enviam ordens de compra ou venda que não são executadas imediatamente, permanecendo no livro de ofertas até que sejam concluídas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Participantes do mercado que enviam ordens de compra ou venda que não são executadas imediatamente, permanecendo no <a href='/academia/glossario/livro-razao' class='articleLink' target='_blank'>livro de ofertas</a> até que sejam concluídas.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 163,
+        "title": "Market Taker",
+        "urlName": "market-taker",
+        "content": "Participantes do mercado que enviam ordens de compra ou venda que são totalmente executadas com as ordens já disponíveis no mercado.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Participantes do mercado que enviam ordens de compra ou venda que são totalmente executadas com as ordens já disponíveis no mercado.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 164,
+        "title": "Masternodes",
+        "urlName": "masternodes",
+        "content": "Computadores que são responsáveis por processar transações em uma blockchain em troca de uma recompensa por isso. Geralmente é necessária uma quantidade da moeda em Stake para atuar como Masternode.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Computadores que são responsáveis por processar transações em uma blockchain em troca de uma <a href='/academia/glossario/block-reward' class='articleLink' target='_blank'>recompensa</a> por isso. Geralmente é necessária uma quantidade da moeda em Stake para atuar como Masternode.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 165,
+        "title": "Max Supply",
+        "urlName": "max-supply",
+        "content": "Refere-se a quantidade máxima de moedas ou tokens que podem existir de uma criptomoeda.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Refere-se a quantidade máxima de moedas ou tokens que podem existir de uma criptomoeda.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 166,
+        "title": "Memory Pool (Mempool)",
+        "urlName": "memory-pool-mempool",
+        "content": "Mecanismo que mantém o controle das transações que foram solicitadas, mas que ainda não foram confirmadas em uma blockchain.",
+        "htmlContent":"<article class='main-article'><p class='article-text'>Mecanismo que mantém o controle das transações que foram solicitadas, mas que ainda não foram confirmadas em uma blockchain.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 167,
+        "title": "Mercado de Derivativos",
+        "urlName": "mercado-de-derivativos",
+        "content": "Mercado para derivativos, como contratos futuros ou opções.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Mercado para <a href='/academia/glossario/derivativos' class='articleLink' target='_blank'>derivativos</a>, como contratos futuros ou opções.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 168,
+        "title": "Merkle Tree",
+        "urlName": "merkle-tree",
+        "content": "Uma estrutura de dados com o objetivo de organizar grandes quantidades. Utilizado em Blockchains</a> para que a informação (hash) do bloco anterior seja passada para o bloco seguinte.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma estrutura de dados com o objetivo de organizar grandes quantidades. Utilizado em <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchains</a> para que a informação <a href='/academia/glossario/hash' class='articleLink' target='_blank'>(hash)</a> do bloco anterior seja passada para o bloco seguinte.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 169,
+        "title": "Metadados",
+        "urlName": "metadados",
+        "content": "São dados que trazem informações adicionais sobre outro dado (Ex: uma imagem, possui como metadados o modelo da câmera, horário e local de criação).",
+        "htmlContent": "<article class='main-article'><p class='article-text'>São dados que trazem informações adicionais sobre outro dado (Ex: uma imagem, possui como metadados o modelo da câmera, horário e local de criação).</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 170,
+        "title": "Metaverso",
+        "urlName": "metaverso",
+        "content": "É um espaço virtual na qual usuário interagem entre si em um ambiente computadorizado.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É um espaço virtual na qual usuário interagem entre si em um ambiente computadorizado.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 171,
+        "title": "Mineração",
+        "urlName": "mineracao",
+        "content": "Processo onde os mineradores verificam e adicionam novas transações em um bloco de uma rede blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Processo onde os <a href='/academia/glossario/mineradores' class='articleLink' target='_blank'>mineradores</a> verificam e adicionam novas transações em um bloco de uma rede <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 172,
+        "title": "Mineradores",
+        "urlName": "mineradores",
+        "content": "Usuários de uma blockchain que fazem o processo de mineração.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Usuários de uma blockchain que fazem o processo de mineração.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 173,
+        "title": "Moeda Fiduciária",
+        "urlName": "moeda-fiduciaria",
+        "content": "Também conhecida como Fiat. É o dinheiro controlado por um governo e declarado como moeda de aceitação obrigatória.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Também conhecida como Fiat. É o dinheiro controlado por um governo e declarado como moeda de aceitação obrigatória.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 174,
+        "title": "Moeda Lastreada",
+        "urlName": "moeda-lastreada",
+        "content": "Moeda desenvolvida para que seu preço permaneça o mesmo ao de uma outra moeda determinada. Por exemplo 1 USDC é lastreado a 1 USD. São também conhecidas como Stablecoins (Moedas estáveis).",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Moeda desenvolvida para que seu preço permaneça o mesmo ao de uma outra moeda determinada. Por exemplo 1 USDC é lastreado a 1 USD. São também conhecidas como Stablecoins (Moedas estáveis).</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 175,
+        "title": "Multi-assinatura",
+        "urlName": "multi-assinatura",
+        "content": "Carteiras que precisam de autorização de outra parte para que suas transações sejam criadas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'><a href='/academia/glossario/wallet' class='articleLink' target='_blank'>Carteiras</a> que precisam de autorização de outra parte para que suas transações sejam criadas.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 176,
+        "title": "NFT (Tokens não fungíveis)",
+        "urlName": "nft-tokens-nao-fungiveis",
+        "content": "Tipo de token que representa um item digital único. Que diferente de criptomoedas não podem ser unificados.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Tipo de token que representa um item digital único. Que diferente de <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoedas</a> não podem ser unificados.</p></article>",
+        "categories": ["Blockchain", "NFT"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 177,
+        "title": "Node",
+        "urlName": "node",
+        "content": "Um participante (computador) numa rede blockchain que se comunica com os outros participantes para garantir a segurança do sistema.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um participante (computador) numa rede blockchain que se comunica com os outros participantes para garantir a segurança do sistema.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 178,
+        "title": "Nonce",
+        "urlName": "nonce",
+        "content": "Número único de cada transação gerado para verificação e impedir que transações passadas se repitam.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Número único de cada transação gerado para verificação e impedir que transações passadas se repitam.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 179,
+        "title": "OCO/OCOI",
+        "urlName": "oco-ocoi",
+        "content": "OCO (ombro-cabeça-ombro) e OCOI (ombro-cabeça-ombro-invertido) são padrões gráficos da análise técnica que apresentam uma reversão de tendência de preço de um ativo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>OCO (ombro-cabeça-ombro) e OCOI (ombro-cabeça-ombro-invertido) são padrões gráficos da análise técnica que apresentam uma reversão de tendência de preço de um ativo.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 180,
+        "title": "Off-chain",
+        "urlName": "off-chain",
+        "content": "Transações que ocorrem fora de uma rede blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Transações que ocorrem fora de uma rede <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 181,
+        "title": "Open Source Software",
+        "urlName": "open-source-software",
+        "content": "Sistemas lançados com a possibilidade de serem utilizados, atualizados e distribuídos por qualquer um livremente.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Sistemas lançados com a possibilidade de serem utilizados, atualizados e distribuídos por qualquer um livremente.</p></article>",
+        "categories": ["blockchain", "computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 182,
+        "title": "Open/Close Price",
+        "urlName": "open-close-price",
+        "content": "Preço de abertura e fechamento, se refere respectivamente ao preço na qual uma criptomoeda iniciou um período, por exemplo, o começo do dia. E o preço na qual ela encerrou ao fim do período, por exemplo, o final do dia.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Preço de abertura e fechamento, se refere respectivamente ao preço na qual uma criptomoeda iniciou um período, por exemplo, o começo do dia. E o preço na qual ela encerrou ao fim do período, por exemplo, o final do dia.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 183,
+        "title": "Oracle",
+        "urlName": "oracle",
+        "content": "Sistema que verifica valores reais e disponibiliza dados para uma blockchain ou smart contract. Oracles são muito vistos em criptomoedas na qual sua distribuição é lastreada a alguma moeda, exemplo, dólar.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Sistema que verifica valores reais e disponibiliza dados para uma <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a> ou <a href='/academia/glossario/smart-contracts' class='articleLink' target='_blank'>smart contract</a>. Oracles são muito vistos em criptomoedas na qual sua distribuição é lastreada a alguma moeda, exemplo, dólar.</p></article>",
+        "categories": ["blockchain", "deFi"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 184,
+        "title": "Ordem à Mercado",
+        "urlName": "ordem-a-mercado",
+        "content": "Uma ordem de mercado onde um Taker pega o melhor valor disponível de Bid ou Ask. Sendo sua ordem completamente efetuada com base no preço e quantidade atual do Order Book.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma ordem de mercado onde um Taker pega o melhor valor disponível de Bid ou Ask. Sendo sua ordem completamente efetuada com base no preço e quantidade atual do <a href='/academia/glossario/order-book' class='articleLink' target='_blank'>Order Book</a>.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 185,
+        "title": "Ordem Iceberg",
+        "urlName": "ordem-iceberg",
+        "content": "Uma ordem de mercado de grande quantidade que é dividida em partes menores que serão enviadas em períodos intervalados. Seu objetivo é que o investidor faça a transação sem realizar grandes impactos no mercado.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma ordem de mercado de grande quantidade que é dividida em partes menores que serão enviadas em períodos intervalados. Seu objetivo é que o investidor faça a transação sem realizar grandes impactos no mercado.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 186,
+        "title": "Ordem limite",
+        "urlName": "ordem-limite",
+        "content": "Uma ordem de mercado na qual realiza a operação quando o preço de um ativo chega no preço previamente definido.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma ordem de mercado na qual realiza a operação quando o preço de um ativo chega no preço previamente definido.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 187,
+        "title": "Ordem Tudo ou Nada (TON)",
+        "urlName": "ordem-tudo-ou-nada-ton",
+        "content": "Uma ordem de mercado que quando definida, ou se executa o valor total da ordem ou não a executa. Evita que a ordem seja preenchida de forma parcial.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma ordem de mercado que quando definida, ou se executa o valor total da ordem ou não a executa. Evita que a ordem seja preenchida de forma parcial.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 188,
+        "title": "Order Book",
+        "urlName": "order-book",
+        "content": "Uma lista eletrônica que consta as ordens de compra e venda não executadas e disponíveis em um mercado ou Exchange.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma lista eletrônica que consta as ordens de compra e venda não executadas e disponíveis em um mercado ou <a href='/academia/glossario/exchange' class='articleLink' target='_blank'>Exchange</a>.</p></article>",
+        "categories": ["trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 189,
+        "title": "Paper Wallet",
+        "urlName": "paper-wallet",
+        "content": "Papel onde o endereço e chave privada de uma carteira estão impressos fisicamente.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Papel onde o <a href='/academia/glossario/endereco' class='articleLink' target='_blank'>endereço</a> e <a href='/academia/glossario/chave-privada' class='articleLink' target='_blank'>chave privada</a> de uma carteira estão impressos fisicamente.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 190,
+        "title": "Parachain",
+        "urlName": "parachain",
+        "content": "Parachains são Blockchains que rodam em paralelo a Blockchain principal da Rede Polkadot, a chamada Relay Chain. Com as Parachains, desenvolvedores do ecossistema da Polkadot podem criar aplicações descentralizadas altamente customizáveis tendo cada aplicação uma Blockchain única. ",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Parachains são <a href='/academia/glossario/blockchain'>Blockchains</a> que rodam em paralelo a Blockchain principal da Rede Polkadot, a chamada Relay Chain.</p><br><p class='article-text'>Com as Parachains, desenvolvedores do ecossistema da Polkadot podem criar <a href='/academia/glossario/aplicacao-descentralizada-dapp'>aplicações descentralizadas</a> altamente customizáveis tendo cada aplicação uma Blockchain única.</p><br><p class='article-text'><span class='detailSpan'>>></span> <b>Quer saber mais sobre a Polkadot e como ela funciona? <a href='/academia/descubra/o-que-e-polkadot-dot'><span class='detailSpan'>Acesse PIC | Discover - Polkadot</span></a></b>  <span class='detailSpan'> &lt&lt </span></p></article>",
+        "categories": ["blockchain"],
+        "date": "08/06/2022"
+    },
+    {
+        "id": 191,
+        "title": "Peer-to-Peer (P2P)",
+        "urlName": "peer-to-peer-p2p",
+        "content": "Quando duas partes estão conectadas e compartilham recursos sem a necessidade de uma parte centralizadora.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quando duas partes estão conectadas e compartilham recursos sem a necessidade de uma parte centralizadora.</p></article>",
+        "categories": ["business", "termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 192,
+        "title": "Phishing",
+        "urlName": "phishing",
+        "content": "Um ataque onde o autor busca obter as credenciais do usuário para obter acesso à sua conta. Existem também ataques de Phishing Website, onde o autor recria sites já existentes idênticos ao original para aplicar golpes em usuários desatentos.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um ataque onde o autor busca obter as credenciais do usuário para obter acesso à sua conta. Existem também ataques de Phishing Website, onde o autor recria sites já existentes idênticos ao original para aplicar golpes em usuários desatentos.</p></article>",
+        "categories": ["computadores", "hacking"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 193,
+        "title": "Políticas Monetárias",
+        "urlName": "politicas-monetarias",
+        "content": "São políticas tomadas por autoridades para controlar a quantidade de moeda em circulação e as taxas de inflação e juros de um país.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>São políticas tomadas por autoridades para controlar a quantidade de moeda em circulação e as taxas de inflação e juros de um país.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 194,
+        "title": "Polkadot Crowdloan",
+        "urlName": "polkadot-crowdloan",
+        "content": "Processo de realizar Stake de Polkadot (DOT) Tokens para apoiar projetos específicos na plataforma da Polkadot Slot Auction, os participantes então recebem como retorno, recompensas do projeto que apoiaram.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Processo de realizar Stake de <a href='/academia/descubra/o-que-e-polkadot-dot' class='articleLink' target='_blank'>Polkadot (DOT)</a> Tokens para apoiar projetos específicos na plataforma da Polkadot Slot Auction, os participantes então recebem como retorno, recompensas do projeto que apoiaram.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 195,
+        "title": "Pool de Liquidez",
+        "urlName": "pool-de-liquidez",
+        "content": "São Smart Contracts em plataformas DeFi que permitem aos usuários bloquearem seus tokens para receber recompensas com taxas de transação. Em plataformas DeFi, usuários realizam o Swap de suas moedas. Para se ter liquidez, essas plataformas possibilitam aos usuários depositarem suas moedas, assim, tendo uma reserva para realizar as trocas. Como recompensa, usuários recebem um retorno percentual sobre seu investimento (geralmente visto como APR ou APY).",
+        "htmlContent": "<article class=main-article><p class=article-text>São <a href='/academia/glossario/smart-contracts'>Smart Contracts</a> em plataformas <a href='/academia/glossario/decentralized-finance-defi'>DeFi</a> que permitem aos usuários bloquearem seus tokens para receber recompensas com <a href='/academia/glossario/taxa-de-transacao'>taxas de transação</a>.</p><br><p class='article-text'>Em plataformas DeFi, usuários realizam o Swap de suas moedas. Para se ter <a href='/academia/glossario/liquidez'>liquidez</a>, essas plataformas possibilitam aos usuários depositarem suas moedas, assim, tendo uma reserva para realizar as trocas. Como recompensa, usuários recebem um retorno percentual sobre seu investimento (geralmente visto como <a href='/academia/glossario/annual-percentage-rate-apr'>APR</a> ou <a href='/academia/glossario/annual-percentage-yield-apy'>APY</a>).</p></article>",
+        "categories": ["blockchains", "deFi"],
+        "date": "08/06/2022"
+    },
+    {
+        "id": 196,
+        "title": "Pool de Mineração",
+        "urlName": "pool-de-mineracao",
+        "content": "São sistemas na qual diversos mineradores juntam seus Hash Power para poder minerar com maior potência. Nas Pools de Mineração, a chance de descobrir a resposta do bloco e receber a recompensa é muito maior, porém a recompensa é dividida entre todos os membros da Pool com base no seu Hash Power.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>São sistemas na qual diversos mineradores juntam seus Hash Power para poder minerar com maior potência.</p><br><p class='article-text'>Nas Pools de Mineração, a chance de descobrir a resposta do <a href='/academia/glossario/bloco'class='articleLink' target='_blank'>bloco</a> e receber a <a href='/academia/glossario/block-reward' class='articleLink' target='_blank'>recompensa</a> é muito maior, porém a recompensa é dividida entre todos os membros da Pool com base no seu Hash Power.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "08/06/2022"
+    },
+    {
+        "id": 197,
+        "title": "Portfólio",
+        "urlName": "portfolio",
+        "content": "Consiste nos ativos na qual você está investido.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Consiste nos ativos na qual você está investido.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 198,
+        "title": "Pré-venda",
+        "urlName": "pre-venda",
+        "content": "Uma venda exclusiva de tokens. Geralmente ocorre uma etapa de pré-venda antes da ICO pública.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma venda exclusiva de <a href='/academia/glossario/tokens' class='articleLink' target='_blank'>tokens</a>. Geralmente ocorre uma etapa de pré-venda antes da ICO pública.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 199,
+        "title": "Preço Médio",
+        "urlName": "preco-medio",
+        "content": "É uma estratégia de investimento na qual se aplica um valor fixo de forma regular em um período definido, sem considerar o preço do ativo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É uma estratégia de investimento na qual se aplica um valor fixo de forma regular em um período definido, sem considerar o preço do ativo.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 200,
+        "title": "Price Action",
+        "urlName": "price-action",
+        "content": "O movimento do preço de um ativo financeiro através de um período de tempo. Ao ser exibido em um gráfico, permite aos traders identificarem padrões para realizar operações.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>O movimento do preço de um ativo financeiro através de um período de tempo. Ao ser exibido em um gráfico, permite aos traders identificarem padrões para realizar operações.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 201,
+        "title": "Proof of Attendance Protocol (PoAP)",
+        "urlName": "proof-of-attendance-protocol-poap",
+        "content": "Protocolo que cria itens colecionáveis para constar e validar a presença em um evento.",
+        "htmlContent": "<article class='main-article'><p class='article-text'><a href='/academia/glossario/protocolo' class='articleLink' target='_blank'>Protocolo</a> que cria itens colecionáveis para constar e validar a presença em um evento.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 202,
+        "title": "Proof of Authority (PoA)",
+        "urlName": "proof-of-authority-poa",
+        "content": "Um algoritmo de consenso que valida blocos baseado em uma reputação e identidade.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um algoritmo de <a href='/academia/glossario/consenso' class='articleLink' target='_blank'>consenso</a> que valida <a href='/academia/glossario/bloco' class='articleLink' target='_blank'>blocos</a> baseado em uma reputação e identidade.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 203,
+        "title": "Proof of Burn (PoB)",
+        "urlName": "proof-of-burn-pob",
+        "content": "Um algoritmo de consenso que valida blocos baseado nos tokens queimados pelo validador.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um algoritmo de <a href='/academia/glossario/consenso' class='articleLink' target='_blank'>consenso</a> que valida <a href='/academia/glossario/bloco' class='articleLink' target='_blank'>blocos</a> baseado nos tokens queimados pelo validador.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 204,
+        "title": "Proof of History (PoH)",
+        "urlName": "proof-of-history-poh",
+        "content": "É um sistema da rede Solana desenvolvido para facilitar e agilizar o tempo de confirmação de um bloco, trazendo velocidade e escalabilidade para a rede. Proof of History cria uma cadeia de transações em formato de Hash, assim, possibilitando que as transações no bloco sejam ordenadas. Solana é uma das grandes promessas dentro das Blockchains, e promete poder realizar um grande número de transações por segundo. ",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É um sistema da rede <a href='/academia/descubra/o-que-e-solana-sol'>Solana</a> desenvolvido para facilitar e agilizar o tempo de confirmação de um <a href='/academia/glossario/bloco'>bloco</a>, trazendo velocidade e <a href='/academia/glossario/escalabilidade'>escalabilidade</a> para a rede. Proof of History cria uma cadeia de transações em formato de Hash, assim, possibilitando que as transações no bloco sejam ordenadas.</p><br><p class='article-text'>Solana é uma das grandes promessas dentro das Blockchains, e promete poder realizar um grande número de transações por segundo. </p><br><p class='article-text'><span class='detailSpan'>>></span> <b>Quer saber mais sobre a Solana e como ela funciona? <a href='/academia/descubra/o-que-e-solana-sol'><span class='detailSpan'>Acesse PIC | Discover – Solana</span></a></b>  <span class='detailSpan'> &lt&lt </span></p></article>",
+        "categories": ["blockchain"],
+        "date": "08/06/2022"
+    },
+    {
+        "id": 205,
+        "title": "Proof of Stake (PoS)",
+        "urlName": "proof-of-stake-pos",
+        "content": "Um algoritmo de consenso que valida blocos baseado na quantidade de tokens que estão em Stake pelo validador. As recompensas também variam dependendo da quantidade em Stake.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um algoritmo de <a href='/academia/glossario/consenso' class='articleLink' target='_blank'>consenso</a> que valida <a href='/academia/glossario/bloco' class='articleLink' target='_blank'>blocos</a> baseado na quantidade de tokens que estão em <a href='/academia/glossario/staking' class='articleLink' target='_blank'>Stake</a> pelo validador. As recompensas também variam dependendo da quantidade em Stake.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 206,
+        "title": "Proof of Work (PoW)",
+        "urlName": "proof-of-work-pow",
+        "content": "Um algoritmo de consenso que valida blocos com base no poder computacional empregado na rede.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um algoritmo de <a href='/academia/glossario/consenso' class='articleLink' target='_blank'>consenso</a> que valida blocos com base no poder computacional empregado na rede.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 207,
+        "title": "Propostas de Melhoria do Bitcoin (BIP)",
+        "urlName": "propostas-de-melhoria-do-bitcoin-bip",
+        "content": "Conhecido como \"Bitcoin Improvement Proposal\". São documentos com propostas de melhorias, utilizado para adicionar funcionalidades e atualizações para a rede Bitcoin.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como \"Bitcoin Improvement Proposal\". São documentos com propostas de melhorias, utilizado para adicionar funcionalidades e atualizações para a rede <a href='/academia/glossario/bitcoin'>Bitcoin</a>.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "07/06/2022"
+    },
+    {
+        "id": 208,
+        "title": "Propostas de Melhoria do Ethereum (EIP)",
+        "urlName": "propostas-de-melhoria-do-ethereum-eip",
+        "content": "Conhecido como \"Ethereum Improvement Proposal\". São documentos com propostas de melhorias, utilizado para adicionar funcionalidades e atualizações para a rede da Ethereum.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como \"Ethereum Improvement Proposal\". São documentos com propostas de melhorias, utilizado para adicionar funcionalidades e atualizações para a rede da <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'>Ethereum</a>.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 209,
+        "title": "Protocolo",
+        "urlName": "protocolo",
+        "content": "Conjunto de regras definidas na criação de uma rede na qual permite que participantes a utilize de forma apropriada.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conjunto de regras definidas na criação de uma rede na qual permite que participantes a utilize de forma apropriada.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 210,
+        "title": "Pump and Dump",
+        "urlName": "pump-and-dump",
+        "content": "Manipulação de mercado onde se levanta o preço de um ativo no mercado, antes de realizar lucro levando-o para baixo novamente.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Manipulação de mercado onde se levanta o preço de um ativo no mercado, antes de realizar lucro levando-o para baixo novamente.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 211,
+        "title": "QR Code",
+        "urlName": "qr-code",
+        "content": "Código QR ou “Quick Response Code” é uma imagem que pode armazenar dados e ser lida por máquinas. Geralmente carrega links dentro de si.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Código QR ou “Quick Response Code” é uma imagem que pode armazenar dados e ser lida por máquinas. Geralmente carrega links dentro de si.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 212,
+        "title": "Queima de tokens",
+        "urlName": "queima-de-tokens",
+        "content": "Quando tokens são enviados para carteiras na qual as chaves privadas são desconhecidas, assim tornando-se inutilizáveis.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quando tokens são enviados para carteiras na qual as <a href='/academia/glossario/chave-privada' class='articleLink' target='_blank'>chaves privadas</a> são desconhecidas, assim tornando-se inutilizáveis.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 213,
+        "title": "Ransomware",
+        "urlName": "ransomware",
+        "content": "Tipo de ataque na qual um Malware toma o controle de seu computador e ameaça destruir ou divulgar seus documentos a não ser que o criminoso seja pago.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Tipo de ataque na qual um <a href='/academia/glossario/malware' class='articleLink' target='_blank'>Malware</a> toma o controle de seu computador e ameaça destruir ou divulgar seus documentos a não ser que o criminoso seja pago.</p></article>",
+        "categories": ["blockchains"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 214,
+        "title": "Rekt",
+        "urlName": "rekt",
+        "content": "Uma gíria com origem na palavra “destruído” (Wrecked). Geralmente descreve quando algo dá terrivelmente errado. Em cripto, geralmente é atribuído a trades ou investimentos ruins.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma gíria com origem na palavra “destruído” (Wrecked). Geralmente descreve quando algo dá terrivelmente errado. Em cripto, geralmente é atribuído a trades ou investimentos ruins.</p></article>",
+        "categories": ["termos"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 215,
+        "title": "Relative Strength Index (RSI)",
+        "urlName": "relative-strength-index-rsi",
+        "content": "RSI é um indicador técnico muito comum na análise gráfica. Utiliza do preço de fechamento para identificar se um ativo está em sobre-compra ou sobre-venda, RSI oscila entre 0-100 sendo que abaixo de 30 é considerado em sobre-venda (venda maior que compra) e maior que 70 é considerado sobre-compra (compra maior que venda).",
+        "htmlContent": "<article class='main-article'><p class='article-text'>RSI é um indicador técnico muito comum na análise gráfica. Utiliza do preço de fechamento para identificar se um ativo está em sobre-compra ou sobre-venda, RSI oscila entre 0-100 sendo que abaixo de 30 é considerado em sobre-venda (venda maior que compra) e maior que 70 é considerado sobre-compra (compra maior que venda).</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 216,
+        "title": "Relay Chain",
+        "urlName": "relay-chain",
+        "content": "É a Blockchain principal da Rede Polkadot, serve como o coração do ecossistema da Polkadot e armazena todas as informações da rede. Polkadot é um projeto que permite aos desenvolvedores criarem Blokchains secundárias para serem utilizadas em paralelo com a Blockchain principal, as chamadas Parachains. ",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É a <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> principal da Rede Polkadot, serve como o coração do ecossistema da Polkadot e armazena todas as informações da rede.</p><br><p class='article-text'>Polkadot é um projeto que permite aos desenvolvedores criarem Blokchains secundárias para serem utilizadas em paralelo com a Blockchain principal, as chamadas Parachains. </p><br><p class='article-text'><span class='detailSpan'>>></span> <b>Quer saber mais sobre a Polkadot e como ela funciona?<a href='/academia/descubra/o-que-e-polkadot-dot'><span class='detailSpan'>Acesse PIC | Discover - Polkadot</span></a></b>  <span class='detailSpan'> &lt&lt </span></p></article>",
+        "categories": ["blockchain"],
+        "date": "08/06/2022"
+    },
+    {
+        "id": 217,
+        "title": "Reserva de valor",
+        "urlName": "reserva-de-valor",
+        "content": "Uma commodity, moeda, ou ativo que pode ser guardado e futuramente trocado sem sofrer depreciação.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma commodity, moeda, ou ativo que pode ser guardado e futuramente trocado sem sofrer depreciação.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 218,
+        "title": "Resistência",
+        "urlName": "resistencia",
+        "content": "Termo da análise técnica que representa uma área em que o preço, ao encontrar a resistência, tende a recuar quando o ativo está em alta.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Termo da análise técnica que representa uma área em que o preço, ao encontrar a resistência, tende a recuar quando o ativo está em alta.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 219,
+        "title": "Retorno sobre o investimento (ROI)",
+        "urlName": "retorno-sobre-o-investimento-roi",
+        "content": "O ROI (Return on Investment) é a razão entre o lucro do investimento e o custo do investimento. Geralmente é utilizado como métrica para a eficiência de um investimento. Deve-se atentar com os riscos de ROIs exageradamente altos.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>O ROI (Return on Investment) é a razão entre o lucro do investimento e o custo do investimento. Geralmente é utilizado como métrica para a eficiência de um investimento. Deve-se atentar com os riscos de ROIs exageradamente altos.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 220,
+        "title": "Rig de Mineração",
+        "urlName": "rig-de-mineracao",
+        "content": "São sistemas montados em um gabinete com diversas máquinas especializadas para realizar o processo de mineração de criptomoedas. Em Rigs de Mineração geralmente são vistas placas de vídeo ou Máquinas ASIC, na qual realizam uma série de criptografias para transformar dados em Hashes, com o objetivo de receber a recompensa do bloco.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>São sistemas montados em um gabinete com diversas máquinas especializadas para realizar o processo de <a href='/academia/glossario/mineracao' class='articleLink' target='_blank'>mineração</a> de criptomoedas.</p><br><p class='article-text'>Em Rigs de Mineração geralmente são vistas placas de vídeo ou Máquinas <a href='/academia/glossario/application-specific-integrated-circuit-asic' class='articleLink' target='_blank'>ASIC</a>, na qual realizam uma série de criptografias para transformar dados em <a href='/academia/glossario/hash' class='articleLink' target='_blank'>Hashes</a>, com o objetivo de receber a recompensa do bloco.</p></article>",
+        "categories": ["computadores", "bitcoin"],
+        "date": "08/06/2022"
+    },
+    {
+        "id": 221,
+        "title": "Roadmap",
+        "urlName": "roadmap",
+        "content": "Método de planejamento de um projeto, na qual define etapas e objetivos a serem cumpridas no curto e longo prazo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Método de planejamento de um projeto, na qual define etapas e objetivos a serem cumpridas no curto e longo prazo.</p></article>",
+        "categories": ["blockchain", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 222,
+        "title": "Rollup Block",
+        "urlName": "rollup-block",
+        "content": "Bloco enviado a Blockchain principal que contém diversas transações agrupadas. Ocorre ao utilizar o mecanismo de Rollups da Ethereum.",
+        "htmlContent": "<article class='main-article'><p class='article-text'><a href='/academia/glossario/bloco' class='articleLink' target='_blank'>Bloco</a> enviado a <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> principal que contém diversas transações agrupadas. Ocorre ao utilizar o mecanismo de Rollups da Ethereum. </p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "24/05/2022"
+    },
+    {
+        "id": 223,
+        "title": "Rollup",
+        "urlName": "rollup",
+        "content": "São ramificações de uma blockchain primária, Em Rollups, blockchains secundárias são criadas para processar um grupo de transações que depois são enviada para a Blockchain principal em um bloco chamado Rollup Block.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>São ramificações de uma blockchain primária, Em Rollups, blockchains secundárias são criadas para processar um grupo de transações que depois são enviada para a Blockchain principal em um bloco chamado Rollup Block.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 224,
+        "title": "Rompimento",
+        "urlName": "rompimento",
+        "content": "Momento em que o preço de um ativo sai de um padrão ou área definida. Geralmente rompendo um suporte ou uma resistência, Invalidando ou confirmando um movimento.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Momento em que o preço de um ativo sai de um padrão ou área definida. Geralmente rompendo um suporte ou uma resistência, Invalidando ou confirmando um movimento.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 225,
+        "title": "Rug Pull",
+        "urlName": "rug-pull",
+        "content": "Em critpo, Rug Pull, (Também conhecido como “puxar o tapete”) é quando uma empresa ou time de desenvolvimento de repente abandona o projeto, vende todos os tokens ou remove a liquidez.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Em critpo, Rug Pull, (Também conhecido como “puxar o tapete”) é quando uma empresa ou time de desenvolvimento de repente abandona o projeto, vende todos os tokens ou remove a <a href='/academia/glossario/liquidez' class='articleLink' target='_blank'>liquidez</a>.</p></article>",
+        "categories": ["economia", "blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 226,
+        "title": "Satoshi",
+        "urlName": "satoshi",
+        "content": "A menor unidade de um Bitcoin (BTC). É equivalente a um centésimo milionésimo de um Bitcoin (1 BTC = 100 Milhões Satoshis).",
+        "htmlContent": "<article class='main-article'><p class='article-text'>A menor unidade de um <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin (BTC)</a>. É equivalente a um centésimo milionésimo de um Bitcoin (1 BTC = 100 Milhões Satoshis).</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 227,
+        "title": "Satoshi Nakamoto",
+        "urlName": "satoshi-nakamoto",
+        "content": "Pseudônimo do criador ou criadores do Bitcoin.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Pseudônimo do criador ou criadores do Bitcoin.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 228,
+        "title": "Securities and Exchange Comission (SEC)",
+        "urlName": "securities-and-exchange-comission-sec",
+        "content": "É uma agência do governo federal americano responsável por regular o mercado de capitais.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É uma agência do governo federal americano responsável por regular o mercado de capitais.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 229,
+        "title": "Seed Phrase",
+        "urlName": "seed-phrase",
+        "content": "Conjunto de palavra que são utilizadas para acessar sua carteira de criptomoedas. Geralmente são 12 ou 16 palavras em Inglês.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conjunto de palavra que são utilizadas para acessar sua carteira de criptomoedas. Geralmente são 12 ou 16 palavras em Inglês.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 230,
+        "title": "Relay Chain",
+        "urlName": "relay-chain",
+        "content": "É a Blockchain principal da Rede Polkadot, serve como o coração do ecossistema da Polkadot e armazena todas as informações da rede. Polkadot é um projeto que permite aos desenvolvedores criarem Blokchains secundárias para serem utilizadas em paralelo com a Blockchain principal, as chamadas Parachains. ",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É a <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> principal da Rede Polkadot, serve como o coração do ecossistema da Polkadot e armazena todas as informações da rede.</p><br><p class='article-text'>Polkadot é um projeto que permite aos desenvolvedores criarem Blokchains secundárias para serem utilizadas em paralelo com a Blockchain principal, as chamadas Parachains. </p><br><p class='article-text'><span class='detailSpan'>>></span> <b>Quer saber mais sobre a Polkadot e como ela funciona?<a href='/academia/descubra/o-que-e-polkadot-dot'><span class='detailSpan'>Acesse PIC | Discover - Polkadot</span></a></b>  <span class='detailSpan'> &lt&lt </span></p></article>",
+        "categories": ["blockchain"],
+        "date": "08/06/2022"
+    },
+    {
+        "id": 231,
+        "title": "Segregated Witness (SegWit)",
+        "urlName": "segregated-witness-segwit",
+        "content": "Um Soft Fork que traz mudanças ao formato de transações do protocolo Bitcoin para possibilitar uma melhor escalabilidade além de introduzir novos recursos.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um Soft Fork que traz mudanças ao formato de transações do protocolo <a href='/academia/glossario/bitcoin' class='articleLink' target='_blank'>Bitcoin</a> para possibilitar uma melhor escalabilidade além de introduzir novos recursos.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 232,
+        "title": "Sell Wall",
+        "urlName": "sell-wall",
+        "content": "Uma ordem de venda de grande quantidade ou conjunto de ordens de venda acumuladas em um mesmo preço que forma uma barreira na qual o preço tem dificuldade de passar.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma ordem de venda de grande quantidade ou conjunto de ordens de venda acumuladas em um mesmo preço que forma uma barreira na qual o preço tem dificuldade de passar.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 233,
+        "title": "SHA-256",
+        "urlName": "sha-256",
+        "content": "Abreviação de “Secure Hashing Algoritm – 256”.  Forma de criptografar dados em hash, transformando-os em uma cadeia de 64 caracteres.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Abreviação de “Secure Hashing Algoritm – 256”.  Forma de <a href='/academia/glossario/criptografia' class='articleLink' target='_blank'>criptografar</a> dados em <a href='/academia/glossario/hash' class='articleLink' target='_blank'>hash</a>, transformando-os em uma cadeia de 64 caracteres.</p></article>",
+        "categories": ["blockchain", "bitcoin"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 234,
+        "title": "Sharpe Ratio",
+        "urlName": "sharpe-ratio",
+        "content": "É uma razão que investidores e economistas utilizam da relação risco e retorno potencial para descobrir o ROI potencial de um investimento.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É uma razão que investidores e economistas utilizam da relação risco e retorno potencial para descobrir o <a href='/academia/glossario/retorno-sobre-o-investimento-roi' class='articleLink' target='_blank'>ROI</a> potencial de um investimento.</p></article>",
+        "categories": ["economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 235,
+        "title": "Shitcoin",
+        "urlName": "shitcoin",
+        "content": "Uma moeda sem valor ou usabilidade potencial.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma moeda sem valor ou usabilidade potencial.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 236,
+        "title": "Side Chain",
+        "urlName": "side-chain",
+        "content": "Uma rede separada da Blockchain que roda paralelamente à Blockchain primária.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma rede separada da <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> que roda paralelamente à Blockchain primária.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 237,
+        "title": "Smart Contracts",
+        "urlName": "smart-contracts",
+        "content": "Contratos inteligentes que se executam automaticamente quando alguma condição acontece, sem a necessidade de atividade humana. Como por exemplo, caso X ocorra, envie moedas de A para B. as moedas somente serão enviadas caso a condição X se concretize.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Contratos inteligentes que se executam automaticamente quando alguma condição acontece, sem a necessidade de atividade humana. Como por exemplo, caso X ocorra, envie moedas de A para B. as moedas somente serão enviadas caso a condição X se concretize.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 238,
+        "title": "Soft Cap",
+        "urlName": "soft-cap",
+        "content": "Valor que uma empresa busca arrecadar ao realizar o ICO.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Valor que uma empresa busca arrecadar ao realizar o <a href='/academia/glossario/initial-coin-offering-ico' class='articleLink' target='_blank'>ICO</a>.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 239,
+        "title": "Soft Fork",
+        "urlName": "soft-fork",
+        "content": "Tipo de Fork na qual os nodes atualizados mantém contato com os nodes não atualizados. Soft Forks trazem mudanças que não entram em conflito com as regras do node original, assim possibilitando o uso da rede original..",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Tipo de Fork na qual os <a href='/academia/glossario/node'>nodes</a> atualizados mantém contato com os nodes não atualizados. Soft Forks trazem mudanças que não entram em conflito com as regras do node original, assim possibilitando o uso da rede original.</a>.</p></article>",
+        "categories": ["blockchain", "bitcoin", "ethereum"],
+        "date": "25/05/2022"
+    },
+    {
+        "id": 240,
+        "title": "Solidity",
+        "urlName": "solidity",
+        "content": "Linguagem de programação orientada a objetos utilizada em várias Blockchains.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Linguagem de programação orientada a objetos utilizada em várias <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchains</a>.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 241,
+        "title": "Soluções de Segunda Camada",
+        "urlName": "solucoes-de-segunda-camada",
+        "content": "Protocolo</a> secundário que é construído sob uma Blockchain existente trazendo assim maior escalabilidade ao projeto primário, com transações mais rápidas e baratas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'><a href='/academia/glossario/protocolo' class='articleLink' target='_blank'>Protocolo</a> secundário que é construído sob uma <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> existente trazendo assim maior escalabilidade ao projeto primário, com transações mais rápidas e baratas.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 242,
+        "title": "Stablecoins",
+        "urlName": "stablecoins",
+        "content": "Moedas lastreadas a alguma moeda Fiat ou commodity. Por exemplo, 1 USDC = 1 Dólar Americano.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Moedas lastreadas a alguma moeda Fiat ou commodity. Por exemplo, 1  USDC  = 1 Dólar Americano.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 243,
+        "title": "Staking",
+        "urlName": "staking",
+        "content": "É o ato de bloquear uma quantidade de tokens a fim de participar como validador de redes que utilizam de protocolos Proof-of-Stake. Ao realizar Stake, geralmente se recebe um valor percentual do bloqueado como recompensa.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É o ato de bloquear uma quantidade de tokens a fim de participar como <a href='/academia/glossario/validador' class='articleLink' target='_blank'>validador</a> de redes que utilizam de protocolos <a href='/academia/glossario/proof-of-stake-pos' class='articleLink' target='_blank'>Proof-of-Stake</a>. Ao realizar Stake, geralmente se recebe um valor percentual do bloqueado como <a href='/academia/glossario/block-reward-glossary' class='articleLink' target='_blank'>recompensa</a>.</p></article>",
+        "categories": ["blockchain", "deFi"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 244,
+        "title": "Startup",
+        "urlName": "startup",
+        "content": "São empresas emergentes com projetos inovadores e escaláveis. Geralmente são pequenas empresas com alto potencial de crescimento que utilizam tecnologias inovadoras em seus negócios.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>São empresas emergentes com projetos inovadores e <a href='/academia/glossario/escalabilidade'>escaláveis</a>. Geralmente são pequenas empresas com alto potencial de crescimento que utilizam tecnologias inovadoras em seus negócios. </p></article>",
+        "categories": ["business"],
+        "date": "24/05/2022"
+    },
+    {
+        "id": 245,
+        "title": "Stop-Loss",
+        "urlName": "stop-loss",
+        "content": "Ordem a mercado pré-definido que é acionada como um limite para uma operação que dê errado.",
+        "htmlContent": "<article class='main-article'><p class='article-text'><a href='/academia/glossario/ordem-a-mercado' class='articleLink' target='_blank'>Ordem a mercado</a> pré-definido que é acionada como um limite para uma operação que dê errado.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 246,
+        "title": "Superfície de Ataque",
+        "urlName": "superficie-de-ataque",
+        "content": "Pontos em um software onde hackers mal intencionados podem invadir para extrair dados de um sistema.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Pontos em um software onde <a href='/academia/glossario/hacker' class='articleLink' target='_blank'>hackers</a> mal intencionados podem invadir para extrair dados de um sistema.</p></article>",
+        "categories": ["computadores", "hacking"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 247,
+        "title": "Suporte",
+        "urlName": "suporte",
+        "content": "Termo da análise técnica que representa uma área em que o preço, ao encontrar o suporte, tende a subir quando o ativo está em queda.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Termo da análise técnica que representa uma área em que o preço, ao encontrar o <a href='/academia/glossario/suporte' class='articleLink' target='_blank'>suporte</a>, tende a subir quando o ativo está em queda.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 248,
+        "title": "Swap",
+        "urlName": "swap",
+        "content": "Mecanismo presente em Exchanges Descentralizadas (DEX) e protocolos DeFi que permite ao usuário trocar criptomoedas por outras. Algumas plataformas possibilitam a troca entre diferentes Blockchains.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Mecanismo presente em <a href='/academia/glossario/decentralized-exchange-dex' class='articleLink' target='_blank'>Exchanges Descentralizadas (DEX)</a> e protocolos <a href='/academia/glossario/decentralized-finance-defi' class='articleLink' target='_blank'>DeFi</a> que permite ao usuário trocar criptomoedas por outras. Algumas plataformas possibilitam a troca entre diferentes <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchains</a>.</p></article>",
+        "categories": ["blockchain", "deFi"],
+        "date": "24/05/2022"
+    },
+    {
+        "id": 249,
+        "title": "Taxa de transação",
+        "urlName": "taxa-de-transacao",
+        "content": "Valor a ser pago para a rede para realizar, validar, e registrar a transação na blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Valor a ser pago para a rede para realizar, validar, e registrar a transação na <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 250,
+        "title": "Tendência",
+        "urlName": "tendencia",
+        "content": "Direção na qual o preço está se encaminhando ou provavelmente irá se encaminhar, é definida pelo sentimento geral do mercado em relação ao ativo ou economia. Analistas utilizam de métricas, e a indicadores para encontrar tendências de mercado que podem ser positivas, negativas ou neutras.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Direção na qual o preço está se encaminhando ou provavelmente irá se encaminhar, é definida pelo sentimento geral do mercado em relação ao ativo ou economia. Analistas utilizam de métricas, e a indicadores para encontrar tendências de mercado que podem ser positivas, negativas ou neutras.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "25/05/2022"
+    },
+    {
+        "id": 251,
+        "title": "Testnet",
+        "urlName": "testnet",
+        "content": "Área para testes de atualizações em redes blockchain, conhecido também como “Test Network”",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Área para testes de atualizações em redes <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>blockchain</a>, conhecido também como “Test Network”</p></article>",
+        "categories": ["blockchain", "computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 252,
+        "title": "Ticker",
+        "urlName": "ticker",
+        "content": "É o símbolo de um ativo, geralmente relacionado ao nome de forma abreviada. É utilizado para identificar um ativo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>É o símbolo de um ativo, geralmente relacionado ao nome de forma abreviada. É utilizado para identificar um ativo.</p></article>",
+        "categories": ["blockchain", "economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 253,
+        "title": "Token de Utilidade",
+        "urlName": "token-de-utilidade",
+        "content": "Criptomoedas que tem uma usabilidade em uma rede, e não somente para servir como meio de troca ou de investimento.",
+        "htmlContent": "<article class='main-article'><p class='article-text'><a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>Criptomoedas</a> que tem uma usabilidade em uma rede, e não somente para servir como meio de troca ou de investimento.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 254,
+        "title": "Tokens",
+        "urlName": "tokens",
+        "content": "Unidades de valor criados em redes Blockchain. São gerenciados por uma organização ou empresa que garante a quem possui os tokens a participação na rede.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Unidades de valor criados em redes <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>. São gerenciados por uma organização ou empresa que garante a quem possui os tokens a participação na rede.</p></article>",
+        "categories": ["economia", "blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 255,
+        "title": "Total Value Locked (TVL)",
+        "urlName": "total-value-locked-tvl",
+        "content": "Representa o valor total que está bloqueado em Stake em um protocolo DeFi.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Representa o valor total que está bloqueado em <a href='/academia/glossario/staking' class='articleLink' target='_blank'>Stake</a> em um protocolo DeFi.</p></article>",
+        "categories": ["economia", "deFi"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 256,
+        "title": "Trading de Margem",
+        "urlName": "trading-de-margem",
+        "content": "Quando o usuário realiza empréstimos em uma corretora ou exchange para operar.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quando o usuário realiza empréstimos em uma corretora ou <a href='/academia/glossario/exchange' class='articleLink' target='_blank'>exchange</a> para operar.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 257,
+        "title": "Transações Por Segundo (TPS)",
+        "urlName": "transacoes-por-segundo-tps",
+        "content": "Número de transações que uma Blockchain é capaz de processar por segundo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Número de transações que uma <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> é capaz de processar por segundo.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 258,
+        "title": "Transaction ID (TXID)",
+        "urlName": "transaction-id-txid",
+        "content": "Conhecido como ID da transação, é uma sequência única de caracteres que define cada transação em uma Blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conhecido como ID da transação, é uma sequência única de caracteres que define cada transação em uma <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a>.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 259,
+        "title": "Trustless",
+        "urlName": "trustless",
+        "content": "Redes que podem ser totalmente verificadas por qualquer um, eliminando a necessidade de confiar que certa ação foi realmente executada.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Redes que podem ser totalmente verificadas por qualquer um, eliminando a necessidade de confiar que certa ação foi realmente executada.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 260,
+        "title": "Turing-complete",
+        "urlName": "turing-complete",
+        "content": "São linguagens de computação que permitem a máquina manipular e computar qualquer informação.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>São linguagens de computação que permitem a máquina manipular e computar qualquer informação.</p></article>",
+        "categories": ["computadores"],
+        "date": "27/05/2022"
+    },
+    {
+        "id": 261,
+        "title": "Two-Factor Authentication (2FA)",
+        "urlName": "two-factor-authentication-2fa",
+        "content": "Autenticação de dois fatores, código enviado para confirmar a identidade do usuário ao entrar na sua conta.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Autenticação de dois fatores, código enviado para confirmar a identidade do usuário ao entrar na sua conta.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 262,
+        "title": "Unspent Transaction Output (UTXO)",
+        "urlName": "unspent-transaction-output-utxo",
+        "content": "Uma resposta de uma transação na qual é referenciada em transações futuras para que possam ser executadas. Mostra o valor restante que se tem em uma carteira após realizar uma transação.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma resposta de uma transação na qual é referenciada em transações futuras para que possam ser executadas. Mostra o valor restante que se tem em uma carteira após realizar uma transação.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 263,
+        "title": "User Interface (UI)",
+        "urlName": "user-interface-ui",
+        "content": "Interface onde interações entre humano e máquina ocorrem.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Interface onde interações entre humano e máquina ocorrem.</p></article>",
+        "categories": ["computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 264,
+        "title": "Validador",
+        "urlName": "validador",
+        "content": " Um participante de uma rede Blockchain de Proof of Stake que valida e assina que uma transação realmente ocorreu. Geralmente é necessário ter uma grande quantidade da criptomoeda em Stake na rede para se tornar um validador.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Um participante de uma rede <a href='/academia/glossario/blockchain' class='articleLink' target='_blank'>Blockchain</a> de <a href='/academia/glossario/proof-of-stake-pos' class='articleLink' target='_blank'>Proof of Stake</a> que valida e assina que uma transação realmente ocorreu. Geralmente é necessário ter uma grande quantidade da criptomoeda em <a href='/academia/glossario/staking' class='articleLink' target='_blank'>Stake</a> na rede para se tornar um validador.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 265,
+        "title": "Vantagem Absoluta",
+        "urlName": "vantagem-absoluta",
+        "content": "Conceito econômico na qual uma parte tem vantagem direta em eficiência na produção/distribuição de um bem especifica ou de um serviço contra outra parte.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Conceito econômico na qual uma parte tem vantagem direta em eficiência na produção/distribuição de um bem especifica ou de um serviço contra outra parte.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 266,
+        "title": "Venda Privada",
+        "urlName": "venda-privada",
+        "content": "Uma rodada de investimento para investidores estratégicos com a finalidade de arrecadar fundos iniciais para o projeto.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma rodada de investimento para investidores estratégicos com a finalidade de arrecadar fundos iniciais para o projeto.</p></article>",
+        "categories": ["economia", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 267,
+        "title": "Volatilidade",
+        "urlName": "volatilidade",
+        "content": "Quanto um ativo mudou de preço e em quanto tempo.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Quanto um ativo mudou de preço e em quanto tempo.</p></article>",
+        "categories": ["economia", "trading"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 268,
+        "title": "Volume",
+        "urlName": "volume",
+        "content": "Em mercados, refere-se a quantidade do ativo que foi comprado e vendido no período definido, geralmente 24 horas.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Em mercados, refere-se a quantidade do ativo que foi comprado e vendido no período definido, geralmente 24 horas.</p></article>",
+        "categories": ["economia", "economia"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 269,
+        "title": "Wallet",
+        "urlName": "wallet",
+        "content": "Carteira digital de criptomoedas. Utilizada para armazenar, enviar e receber criptomoedas. Cada carteira possui um endereço único utilizado para localizar a carteira dentro da Blockchain.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Carteira digital de <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoedas</a>. Utilizada para armazenar, enviar e receber criptomoedas.</p><br><p class='article-text'>Cada carteira possui um endereço único utilizado para localizar a carteira dentro da Blockchain.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 270,
+        "title": "Watchlist",
+        "urlName": "watchlist",
+        "content": "Uma lista definida de ativos para monitorar os preços.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Uma lista definida de ativos para monitorar os preços.</p></article>",
+        "categories": ["business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 271,
+        "title": "Web3",
+        "urlName": "web3",
+        "content": "Movimento de transição da internet para um novo modelo descentralizado que utilizará de redes Blockchain para armazenar e transferir dados, além de outras tecnologias que impulsionarão uma rede mais rápida e segura. Muitos conceitos do mundo de criptomoeda têm grande importância na Web3 como: NFTs, Smart Contracts, Blockchain, Plataformas DeFi, e o Metaverso",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Movimento de transição da internet para um novo modelo <a href='/academia/glossario/descentralizado'>descentralizado</a> que utilizará de redes Blockchain para armazenar e transferir dados, além de outras tecnologias que impulsionarão uma rede mais rápida e segura.</p><br><p class='article-text'>Muitos conceitos do mundo de criptomoeda têm grande importância na Web3 como: NFTs, <a href='/academia/glossario/smart-contracts'>Smart Contracts</a>, Blockchain, Plataformas <a href='/academia/glossario/decentralized-finance-defi'>DeFi</a>, e o <a href='/academia/glossario/metaverso'>Metaverso</a>. </p></article>",
+        "categories": ["blockchain", "computadores"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 272,
+        "title": "Wei",
+        "urlName": "wei",
+        "content": "Menor unidade de um Ether (ETH), moeda da rede Ethereum. Geralmente utilizado para representar o Gas Price.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Menor unidade de um Ether (ETH), moeda da rede <a href='/academia/descubra/o-que-e-ethereum-eth' class='articleLink' target='_blank'>Ethereum</a>. Geralmente utilizado para representar o Gas Price.</p></article>",
+        "categories": ["blockchain", "ethereum"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 273,
+        "title": "Whitelist",
+        "urlName": "whitelist",
+        "content": "Lista de participantes que terão acesso a uma venda restrita de criptomoedas, por exemplo, ICO.",
+        "htmlContent": "",
+        "categories": ["blockchain", "business"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 274,
+        "title": "Yield Farming",
+        "urlName": "yield-farming",
+        "content": "Método de investimento que consiste em disponibilizar suas criptomoedas em protocolos DeFi para receber retorno com taxas de transferência.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Método de investimento que consiste em disponibilizar suas <a href='/academia/glossario/criptomoedas' class='articleLink' target='_blank'>criptomoedas</a> em protocolos DeFi para receber retorno com taxas de transferência.</p></article>",
+        "categories": ["blockchain", "deFi"],
+        "date": "02/05/2022"
+    },
+    {
+        "id": 275,
+        "title": "Zero-Knowledge Proofs",
+        "urlName": "zero-knowledge-proofs",
+        "content": "Mecanismo de consenso que verifica se as transações são validas sem revelar informações sobre essas transações, oferecendo privacidade enquanto mantém a legitimidade das transações.",
+        "htmlContent": "<article class='main-article'><p class='article-text'>Mecanismo de consenso que verifica se as transações são validas sem revelar informações sobre essas transações, oferecendo privacidade enquanto mantém a legitimidade das transações.</p></article>",
+        "categories": ["blockchain"],
+        "date": "02/05/2022"
     }
 ]

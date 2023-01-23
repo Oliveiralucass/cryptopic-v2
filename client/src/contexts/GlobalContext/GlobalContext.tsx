@@ -17,6 +17,11 @@ export const GlobalProvider = ({children}: IChildren) => {
         return newString
     }
 
+    const toCurrencyUsd = (str: string): string => {
+        const newString = parseFloat(str).toLocaleString('es-US', { style: 'currency', currency: 'USD' });
+        return newString
+    }
+
     const capitalizeText = (text: string): string => {
         const newString = text.charAt(0).toUpperCase() + text.slice(1);
         return newString
@@ -26,7 +31,8 @@ export const GlobalProvider = ({children}: IChildren) => {
         <GlobalContext.Provider value={{
             convertToLowercase,
             toCurrency,
-            capitalizeText
+            capitalizeText,
+            toCurrencyUsd
         }}>
             {children}
         </GlobalContext.Provider>

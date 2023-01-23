@@ -13,12 +13,12 @@ import { DetailButton } from '../../../../components/Buttons/DetailButton/Detail
 
 export const GlossaryContent = () => {
 
-    const { glossario } = useParams()
+    const { glossary } = useParams()
     const [ artigo, setArtigo ] = useState<IArtigo>()
 
     useEffect(() =>{
       const selectedArtigo = glossarioDb.filter((artigo) => {
-        return artigo.urlName == glossario 
+        return artigo.urlName == glossary 
       })
 
       setArtigo(selectedArtigo[0])
@@ -37,7 +37,7 @@ export const GlossaryContent = () => {
         <nav>
           <ul>
             <li><Link to={'/academia/glossario'} className='return-glossary'>Glossário</Link></li>
-            <li><Link to={`/academia/glossario/${glossario}`} className='return-content'>{artigo?.title}</Link></li>
+            <li><Link to={`/academia/glossario/${glossary}`} className='return-content'>{artigo?.title}</Link></li>
           </ul>
         </nav>
       </GlossaryReturnLinks>

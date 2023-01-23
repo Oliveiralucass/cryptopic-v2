@@ -2,17 +2,23 @@ import React, { useContext } from 'react'
 import { GlobalContext } from '../../../contexts/GlobalContext/GlobalContext'
 import { DetailButton } from '../../Buttons/DetailButton/DetailButton'
 import { ContentCardStyled } from './ContentCard.Styled'
+import { Link } from 'react-router-dom'
 
-export const ContentCard = ({imageURL, title, categories }) => {
+export const ContentCard = ({artigo}) => {
     const { capitalizeText } = useContext(GlobalContext)
 
   return (
-    <ContentCardStyled>
-        <div><img src={imageURL} alt=""/></div>
+    <Link to = {artigo.url}>
+      <ContentCardStyled>
+        <div>
+          <img src={require(`../../../assets/coins/${artigo.image}`)} alt=""/>
+        </div>
 
-        <h1>{title}</h1>
+        <h1>{artigo.title}</h1>
 
-        {categories && categories.map(categorie => <DetailButton texto={capitalizeText(categorie)}/>)} 
-    </ContentCardStyled>
+        {artigo.categories && artigo.categories.map(categorie => <DetailButton texto={capitalizeText(categorie)}/>)} 
+      </ContentCardStyled>
+    </Link>
+    
   )
 }

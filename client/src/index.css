@@ -24,9 +24,9 @@ ul, li {
   --color-muted-text: #64748b;
   --color-muted-background: #f3f4f6;
   --color-shadow:  #cbd5e1;
-  --color-up: #65a30d;
+  --color-green: #22c55e;
   --color-bright: #f9fafb;
-  --color-red: #dc2626;
+  --color-red: #ef4444;
 }
 
 html::-webkit-scrollbar{

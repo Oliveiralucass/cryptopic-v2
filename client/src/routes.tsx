@@ -54,12 +54,12 @@ export const AppRoutes = () => {
 
           <Route path='/academia/glossario'>
             <Route index element={<Glossary />} />
-            <Route path='/academia/glossario/:glossario' element={<GlossaryContent />} />
+            <Route path='/academia/glossario/:glossary' element={<GlossaryContent />} />
           </Route>
 
           <Route path='/academia/trading'>
             <Route index element={<Trading />} />
-            <Route path='/academia/trading/:artigo' element={<TradingContent />} />
+            <Route path='/academia/trading/:trading' element={<TradingContent />} />
           </Route>
           
           <Route path='/academia/guias'>
@@ -69,12 +69,12 @@ export const AppRoutes = () => {
           
           <Route path='/academia/expedicao'>
             <Route index element={<Expedition />} />
-            <Route path='/academia/expedicao/:artigo' element={<ExpeditionContent /> } />
+            <Route path='/academia/expedicao/:expedition' element={<ExpeditionContent /> } />
           </Route>
 
           <Route path='/academia/descubra'>
             <Route index element={<Discover />} />
-            <Route path='/academia/descubra/:artigo' element={<DiscoverContent /> } />
+            <Route path='/academia/descubra/:discover' element={<DiscoverContent /> } />
           </Route>
         </Route>
 

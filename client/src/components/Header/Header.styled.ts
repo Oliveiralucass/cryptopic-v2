@@ -1,12 +1,16 @@
 import styled from 'styled-components'
 
 export const HeaderStyled = styled.header`
+    position: fixed;
+    top: 0;
     display: flex;
+    width: 100%;
     max-height: 82px;
     padding: 20px;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid var(--color-secondary);
+    background-color: var(--color-background);
 
     .logo-navbar{
         display: flex;

@@ -1,8 +1,17 @@
 import styled from "styled-components"
 
 export const CoinsPageStyled = styled.div`  
+
     width: 80%;
     margin: 0 auto;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--color-secondary);
+        padding-bottom: 30px;
+    }
 `
 
 export const CoinsPageLeft = styled.div`
@@ -12,7 +21,11 @@ export const CoinsPageLeft = styled.div`
 `
 
 export const CoinsPageRight = styled.div`
-
+    .price-container{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
 `
 
 export const CoinsPageHeader = styled.div`
@@ -46,3 +59,9 @@ export const CoinsPageLinks = styled.div`
         border: none;
     }
 `   
+export const CoinsPageStats = styled.div`
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+`

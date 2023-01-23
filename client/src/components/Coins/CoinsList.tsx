@@ -22,9 +22,9 @@ export const CoinsList = () => {
             <th style={{width: '5%'}}>#</th>
             <th style={{width: '15%'}}>Nome</th>
             <th style={{width: '10%'}}>Preço</th>
-            <th style={{width: '5%'}}>1h</th>
-            <th style={{width: '5%'}}>24h</th>
-            <th style={{width: '5%'}}>7d</th>
+            <th style={{width: '5%'}}>1h%</th>
+            <th style={{width: '5%'}}>24h%</th>
+            <th style={{width: '5%'}}>7d%</th>
             <th style={{width: '10%'}}>24h Volume</th>
             <th style={{width: '10%'}}>Market Cap</th>
         </thead>
@@ -43,27 +43,27 @@ export const CoinsList = () => {
                 </td> 
                 <td><Link to={`/criptomoedas/${coin.id}`}><p>{toCurrency(coin.current_price)}</p></Link></td>           
                 <td>
-                    {Number(coin.price_change_percentage_1h_in_currency) > 0 ?
+                    {Number(coin.price_change_percentage_1h_in_currency) > 0.01 ?
                         <p className='positive'>{coin.price_change_percentage_1h_in_currency?.toFixed(2)}%</p> 
-                    : Number(coin.price_change_percentage_1h_in_currency) == 0 ?
-                        <p className='neutral'>{coin.price_change_percentage_1h_in_currency?.toFixed(2)}%</p> 
-                    : 
+                    : Number(coin.price_change_percentage_1h_in_currency) < 0 ?
                         <p className='negative'>{coin.price_change_percentage_1h_in_currency?.toFixed(2)}%</p>    
-                    }
-                </td>
-                <td>
-                    {Number(coin.price_change_percentage_24h_in_currency) > 0 ?
-                        <p className='positive'>{coin.price_change_percentage_24h_in_currency?.toFixed(2)}%</p> 
-                    : Number(coin.price_change_percentage_24h_in_currency) == 0 ?
-                        <p className='neutral'>{coin.price_change_percentage_24h_in_currency?.toFixed(2)}%</p> 
                     : 
-                        <p className='negative'>{coin.price_change_percentage_24h_in_currency?.toFixed(2)}%</p>    
+                        <p className='neutral'>{coin.price_change_percentage_1h_in_currency?.toFixed(2)}%</p>  
                     }
                 </td>
                 <td>
-                    {Number(coin.price_change_percentage_7d_in_currency) > 0 ?
+                    {Number(coin.price_change_percentage_24h_in_currency) > 0.01 ?
+                        <p className='positive'>{coin.price_change_percentage_24h_in_currency?.toFixed(2)}%</p> 
+                    : Number(coin.price_change_percentage_24h_in_currency) < 0 ?
+                        <p className='negative'>{coin.price_change_percentage_24h_in_currency?.toFixed(2)}%</p>    
+                    : 
+                        <p className='neutral'>{coin.price_change_percentage_24h_in_currency?.toFixed(2)}%</p> 
+                    }
+                </td>
+                <td>
+                    {Number(coin.price_change_percentage_7d_in_currency) > 0.01 ?
                         <p className='positive'>{coin.price_change_percentage_7d_in_currency?.toFixed(2)}%</p> 
-                    : Number(coin.price_change_percentage_7d_in_currency) == 0 ?
+                    : Number(coin.price_change_percentage_7d_in_currency) == 0.01 ?
                         <p className='neutral'>{coin.price_change_percentage_7d_in_currency?.toFixed(2)}%</p> 
                     : 
                         <p className='negative'>{coin.price_change_percentage_7d_in_currency?.toFixed(2)}%</p>    

@@ -48,7 +48,7 @@ export const CoinsListStyled = styled.table`
     
     p{
         font-size: 0.875rem;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     span{
@@ -58,15 +58,15 @@ export const CoinsListStyled = styled.table`
     }
 
     .positive{
-        color: green
+        color: var(--color-green)
     }
 
     .neutral{
-        color: gray
+        color: var(--color-muted-text)
     }
 
     .negative{
-        color: red
+        color: var(--color-red)
     }
     
 `

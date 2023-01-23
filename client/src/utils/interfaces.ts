@@ -48,6 +48,7 @@ export interface IGlobalContext {
     convertToLowercase: (str: string) => void,
     toCurrency: (str: string) => string,
     capitalizeText: (str: string) => string,
+    toCurrencyUsd: (str: string) => string,
     
 }
 
@@ -84,4 +85,34 @@ export interface ICoin {
     img: string,
     url: string,
     apiId: string
+}
+
+// -------------------- Discover Interfaces -------------------------
+
+export interface IDiscover {
+    id: number,
+    title: string,
+    url: string,
+    contentTitle: string,
+    content: string[],
+    categories: string[],
+    image: string,
+    date: string,
+    readTime: number,
+    mainColor: string,
+    secondaryColor: string
+}
+
+export interface IExpedition {
+    id: number,
+    title: string,
+    url: string,
+    contentTitle: string,
+    content: string[],
+    categories: string[],
+    image: string,
+    date: string,
+    readTime: number,
+    mainColor: string,
+    secondaryColor: string
 }
