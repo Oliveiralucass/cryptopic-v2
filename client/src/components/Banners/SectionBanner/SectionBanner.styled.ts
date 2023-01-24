@@ -19,5 +19,6 @@ export const SectionBannerStyled = styled.div`
 
     h1{
         font-size: 2rem;
+        font-weight: 600;
     }
 `

@@ -10,6 +10,7 @@ import { ContentContainer, ContentDetails, GlossaryContentStyled, GlossaryReturn
 import { ColorLineStyled } from '../../../../components/ColorLine/ColorLine.styled'
 import { DetailButtonColored } from '../../../../components/Buttons/DetailButtonColored/DetailButtonColored'
 import { DetailButton } from '../../../../components/Buttons/DetailButton/DetailButton'
+import { MoreContentButton } from '../../../../components/Buttons/MoreContentButton/MoreContentButton'
 
 export const GlossaryContent = () => {
 
@@ -61,8 +62,8 @@ export const GlossaryContent = () => {
 
           <DetailButton texto={artigo?.date} />
         </ContentDetails>
-
-
+        
+        <MoreContentButton texto={'oi'} url={'aa'}/>
       </GlossaryContentStyled>
     </>   
   )

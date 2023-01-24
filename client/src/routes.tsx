@@ -84,7 +84,7 @@ export const AppRoutes = () => {
           <Route path='/noticias/blockchain'  element={<NewsBlockchain /> } />
           <Route path='/noticias/economia'  element={<NewsEconomia /> } />
           <Route path='/noticias/trading'  element={<NewsTrading /> } />
-          <Route path='/noticias/noticia/:artigo'  element={<NewsContent /> } />
+          <Route path='/noticias/noticia/:news'  element={<NewsContent /> } />
         </Route>
 
         <Route path='/swap'>

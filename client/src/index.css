@@ -15,6 +15,9 @@ a{
 ul, li {
   list-style-type: none;
 }
+strong{
+  font-weight: 500;
+}
 
 :root{
   --color-background: #f8fafc;
