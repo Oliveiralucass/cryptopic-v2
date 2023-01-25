@@ -12,6 +12,7 @@ import { DetailButtonColored } from '../../../../components/Buttons/DetailButton
 import { DetailButton } from '../../../../components/Buttons/DetailButton/DetailButton'
 import { MoreContentButton } from '../../../../components/Buttons/MoreContentButton/MoreContentButton'
 import { MoreContentCard } from '../../../../components/Cards/MoreContentCard/MoreContentCard'
+import { ReturnLinks } from '../../../../components/Navbar/ReturnLinks/ReturnLinks'
 
 export const GlossaryContent = () => {
 
@@ -35,14 +36,7 @@ export const GlossaryContent = () => {
       <AdSection />
       <AcademiaNavbar />
 
-      <GlossaryReturnLinks>
-        <nav>
-          <ul>
-            <li><Link to={'/academia/glossario'} className='return-glossary'>Glossário</Link></li>
-            <li><Link to={`/academia/glossario/${glossary}`} className='return-content'>{artigo?.title}</Link></li>
-          </ul>
-        </nav>
-      </GlossaryReturnLinks>
+      <ReturnLinks section={'Glossário'} sectionUrl={'/academia/glossario'} content={artigo?.title} contentUrl={`/academia/glossario/${glossary}`} mainColor={'#2563eb'}/>
       
       <GlossaryContentStyled>
         <ColorLineStyled color={'#2563eb'} />

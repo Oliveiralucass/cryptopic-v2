@@ -12,7 +12,7 @@
                 
         "<h2 class='article-header'>Escalabilidade e Descentralização</h2><p class='article-text'>Por fim, em uma rede que otimiza a <strong>Escalabilidade e Descentralização</strong>, terá uma rede rápida e com transações baratas, porém qualquer um poderá ser um <a href='/academia/glossario/validador' target='_blank'>validador</a>, o que pode trazer problemas ao mecanismo de consenso, tornando-a insegura.</p>"],
         "categories": ["blockchain", "ethereum"],
-        "image": "PICLogo.png",
+        "image": "CryptoPICLogo.png",
         "date": "26/05/2022",
         "readTime": 4,
         "mainColor": "#2563eb",
@@ -35,7 +35,7 @@
         
         "<h2 class='article-header' >Considerações Finais</h2><p class='article-text'>A Ethereum está em processo de transição para uma nova fase, onde encontrar soluções para alguns de seus problemas é essencial. Com a Ethereum 2.0 diversos mecanismos para melhorar a escalabilidade serão implementados, sendo o Ethereum Casper um deles. </p><br><p class='article-text'>A migração de <a href='/academia/glossario/proof-of-work-pow' target='_blank'>Proof of Work</a> para <a href='/academia/glossario/proof-of-stake-pos' target='_blank'>Proof of Stake</a> sempre foi um objetivo para os desenvolvedores da Ethereum, por possibilitar validações através do <a href='/academia/glossario/staking' target='_blank'>Staking</a> de ETH, usuários da rede podem trabalhar juntos para a manutenção de um ambiente seguro e descentralizado. </p><br><p class='article-text'>Outra pauta importante, é a constante luta da Ethereum com causas ambientais, o modelo de <a href='/academia/glossario/mineracao' target='_blank'>mineração</a> consome muita energia, e é extremamente agressivo ao meio ambiente. Com o Ethereum Casper esse problema encontrará uma solução.</p><br><p class='article-text'>O processo de transição da <a href='/academia/descubra/o-que-e-ethereum-eth' target='_blank'>Ethereum</a> para 2.0 iniciou-se em dezembro de 2020 com o lançamento da Beacon Chain, e desde lá diversas outras atualizações ocorreram. Porém existem muitas melhorias e ajustes a serem desenvolvidos, e não se tem como definir uma data para que a migração ocorra de forma completa.</p><br>"],
         "categories": ["blockchain", "ethereum"],
-        "image": "PICLogo.png",
+        "image": "CryptoPICLogo.png",
         "date": "25/05/2022",
         "readTime": 6,
         "mainColor": "#2563eb",

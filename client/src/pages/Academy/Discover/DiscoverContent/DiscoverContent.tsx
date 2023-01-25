@@ -11,6 +11,7 @@ import { NotFind } from '../../../NotFind/NotFind'
 import { ColorLineStyled } from '../../../../components/ColorLine/ColorLine.styled'
 import { DetailButtonCustomColored } from '../../../../components/Buttons/DetailButtonCustomColored/DetailButtonCustomColored'
 import { DetailButton } from '../../../../components/Buttons/DetailButton/DetailButton'
+import { ReturnLinks } from '../../../../components/Navbar/ReturnLinks/ReturnLinks'
 
 export const DiscoverContent = () => {
 
@@ -29,6 +30,9 @@ export const DiscoverContent = () => {
       <Header />
       <AdSection /> 
       <AcademiaNavbar />
+
+      <ReturnLinks section={'Descubra'} sectionUrl={'/academia/descubra'} content={artigo?.title} contentUrl={`/academia/descubra/${discover}`} mainColor={artigo.mainColor}/>
+
       <DiscoverContentStyled>
 
         <ColorLineStyled color={artigo.mainColor}/>

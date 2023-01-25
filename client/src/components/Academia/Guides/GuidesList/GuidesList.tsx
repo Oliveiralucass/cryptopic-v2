@@ -28,10 +28,11 @@ export const GuidesList = () => {
             })
 
             let data = {
-                title: `Crypto PIC | Guia ${capitalizeText(categorie)}`,
-                image: 'PICLogo.png',
+                title: `Guia ${capitalizeText(categorie)}`,
+                image: 'CryptoPICLogo.png',
                 url: `/academia/guias/${categorie}`,
-                contentsCount: contentsByCategories.length
+                contentsCount: contentsByCategories.length,
+                categories: [`${categorie}`]
             }
 
             console.log(data);

@@ -1,16 +1,16 @@
 import React, { useContext } from 'react'
 import { GlobalContext } from '../../../contexts/GlobalContext/GlobalContext'
 import { DetailButton } from '../../Buttons/DetailButton/DetailButton'
-import { ContentCardStyled } from './ContentCard.Styled'
+import { DiscoverContentCardStyled } from './DiscoverContentCard.styled'
 import { Link } from 'react-router-dom'
 import { DetailButtonColored } from '../../Buttons/DetailButtonColored/DetailButtonColored'
 
-export const ContentCard = ({artigo}) => {
+export const DiscoverContentCard = ({artigo}) => {
     const { capitalizeText } = useContext(GlobalContext)
 
   return (
     <Link to={artigo.url}>
-      <ContentCardStyled>
+      <DiscoverContentCardStyled>
         <div className='content-card-container'>
           <div className='container-image-title'>
             <div className='container-image'>
@@ -40,7 +40,7 @@ export const ContentCard = ({artigo}) => {
             </div>
           </div>
         </div>
-      </ContentCardStyled>
+      </DiscoverContentCardStyled>
     </Link>
     
   )

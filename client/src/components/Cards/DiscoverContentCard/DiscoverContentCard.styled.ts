@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ContentCardStyled = styled.div`
+export const DiscoverContentCardStyled = styled.div`
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -31,7 +31,8 @@ export const ContentCardStyled = styled.div`
             }
 
             img{
-                border-radius: 36px;
+                width: 72px;
+                border-radius: 100%;
                 margin: 12px;
             }
             .card-title{

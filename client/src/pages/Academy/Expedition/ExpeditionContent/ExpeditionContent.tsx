@@ -11,6 +11,7 @@ import { NotFind } from '../../../NotFind/NotFind'
 import { ColorLineStyled } from '../../../../components/ColorLine/ColorLine.styled'
 import { DetailButtonCustomColored } from '../../../../components/Buttons/DetailButtonCustomColored/DetailButtonCustomColored'
 import { DetailButton } from '../../../../components/Buttons/DetailButton/DetailButton'
+import { ReturnLinks } from '../../../../components/Navbar/ReturnLinks/ReturnLinks'
 
 export const ExpeditionContent = () => {
 
@@ -31,6 +32,9 @@ export const ExpeditionContent = () => {
       <Header />
       <AdSection /> 
       <AcademiaNavbar />
+
+      <ReturnLinks section={'Expedição'} sectionUrl={'/academia/expedicao'} content={artigo?.title} contentUrl={`/academia/glossario/${expedition}`} mainColor={'#2563eb'}/>
+
       <ExpeditionContentStyled>
 
         <ColorLineStyled color={artigo.mainColor}/>
