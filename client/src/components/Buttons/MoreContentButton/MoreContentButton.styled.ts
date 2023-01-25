@@ -9,7 +9,7 @@ export const MoreContentButtonStyled = styled.div`
     align-items: center;
     height: 40px;
     width: 100%;
-    padding: 20px 0;
+    padding: 28px 0;
     justify-content: center;
     background-color: #2563eb;
     color: var(--color-background);

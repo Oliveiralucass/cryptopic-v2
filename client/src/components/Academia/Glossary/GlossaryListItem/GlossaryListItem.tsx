@@ -12,7 +12,7 @@ export const GlossaryListItem = ({artigo}) => {
         <h2>{artigo.title}</h2>
         <div className='categories-section'>
             {artigo && artigo.categories.map((categoria) => {
-                return <DetailButton texto={categoria}/>
+                return <DetailButton texto={categoria} key={categoria}/>
             })}
             {artigo && <DetailButtonColored texto={artigo.date} />}
         </div>

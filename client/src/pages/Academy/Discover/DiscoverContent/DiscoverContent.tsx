@@ -24,8 +24,6 @@ export const DiscoverContent = () => {
      setArtigo(selectedArtigo[0])
   })
 
-  console.log(artigo);
-
   return artigo !== undefined ? (
     <>
       <Header />
@@ -42,7 +40,7 @@ export const DiscoverContent = () => {
           </div>
 
           <div className='categories-container'>
-            {artigo.categories.map(categoria => <Link to={`/academia/guias/${categoria}`}>
+            {artigo.categories.map(categoria => <Link to={`/academia/guias/${categoria}`} key={categoria}>
               <DetailButton texto={categoria} />
             </Link>)}
             <DetailButtonCustomColored texto={`${artigo.readTime}m`} bgColor={artigo.secondaryColor} textColor={artigo.mainColor} />
@@ -50,7 +48,7 @@ export const DiscoverContent = () => {
         </DiscoverHeader>
 
 
-        {artigo.content.map((content, index) => <article className='main-article'>
+        {artigo.content.map((content, index) => <article className='main-article' key={index}>
         
         {ReactHtmlParser(content)}
         

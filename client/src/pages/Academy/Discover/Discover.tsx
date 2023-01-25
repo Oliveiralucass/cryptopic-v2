@@ -11,7 +11,7 @@ export const Discover = () => {
       <Header />
       <AdSection />
       <AcademiaNavbar />
-      <SectionBanner titulo={'Descubra'} subtitulo={'Descubra um novo mundo de Criptomoedas'}/>
+      <SectionBanner titulo={'Crypto PIC | Descubra'} subtitulo={'Descubra um novo mundo de Criptomoedas'}/>
       <DiscoverList />
     </>
   )

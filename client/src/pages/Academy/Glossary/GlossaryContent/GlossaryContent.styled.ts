@@ -46,7 +46,7 @@ export const ContentContainer = styled.div`
 
     .article-text{
         font-size: 1.25rem;
-        font-weight: 500;
+        font-weight: 400;
 
         a{
             color: var(--color-muted-text); 
@@ -64,4 +64,27 @@ export const ContentDetails = styled.div`
     display: flex;
     gap: 10px;
     padding: 0 10px;
+`
+
+export const MoreContentSectionContainer = styled.div`
+    width: 100%;
+    background-color: var(--color-muted-background);
+    margin: 24px 0;
+    padding: 8px;
+`
+
+export const MoreContentSection = styled.div`
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 12px auto;
+    gap: 48px;
+`
+
+export const MoreContentCardSection = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 24px;
 `

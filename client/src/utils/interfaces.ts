@@ -68,7 +68,7 @@ export interface ICoinGeckoContext {
 export interface IArtigo{
     
     title: string | undefined,
-    urlName: string,
+    url: string,
     content: string,
     htmlContent: string,
     categories: string[],
@@ -115,4 +115,21 @@ export interface IExpedition {
     readTime: number,
     mainColor: string,
     secondaryColor: string
+}
+
+// -------------------- Guides Interfaces -------------------------
+
+export interface IAllContents {
+    id?: number,
+    title?: string,
+    url?: string,
+    contentTitle?: string,
+    content?: string | string[],
+    htmlContent?: string,
+    categories?: string[],
+    image?: string,
+    date?: string,
+    readTime?: number,
+    mainColor?: string,
+    secondaryColor?: string
 }

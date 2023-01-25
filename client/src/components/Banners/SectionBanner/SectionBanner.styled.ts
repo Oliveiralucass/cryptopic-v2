@@ -7,7 +7,7 @@ export const SectionBannerStyled = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 6px;
+    padding: 8px;
     border: 1px solid var(--color-secondary);
     gap: 12px;
     margin-bottom: 48px;
@@ -18,7 +18,7 @@ export const SectionBannerStyled = styled.div`
     }
 
     h1{
-        font-size: 2rem;
+        font-size: 1.875rem;
         font-weight: 600;
     }
 `

@@ -11,7 +11,7 @@ export const Expedition = () => {
       <Header />
       <AdSection />
       <AcademiaNavbar />
-      <SectionBanner titulo={'Expedição'} subtitulo={'Uma jornada para descobrir cada detalhe do mundo cripto'}/>
+      <SectionBanner titulo={'Crypto PIC | Expedição'} subtitulo={'Uma jornada para descobrir cada detalhe do mundo cripto'}/>
       <ExpeditionList />
     </>
   )

@@ -6,11 +6,12 @@ import { Header } from '../../../../components/Header/Header'
 import glossarioDb from '../../../../glossarioDb.json'
 import { IArtigo } from '../../../../utils/interfaces'
 import ReactHtmlParser  from 'html-react-parser';
-import { ContentContainer, ContentDetails, GlossaryContentStyled, GlossaryReturnLinks } from './GlossaryContent.styled'
+import { ContentContainer, ContentDetails, GlossaryContentStyled, GlossaryReturnLinks, MoreContentCardSection, MoreContentSection, MoreContentSectionContainer } from './GlossaryContent.styled'
 import { ColorLineStyled } from '../../../../components/ColorLine/ColorLine.styled'
 import { DetailButtonColored } from '../../../../components/Buttons/DetailButtonColored/DetailButtonColored'
 import { DetailButton } from '../../../../components/Buttons/DetailButton/DetailButton'
 import { MoreContentButton } from '../../../../components/Buttons/MoreContentButton/MoreContentButton'
+import { MoreContentCard } from '../../../../components/Cards/MoreContentCard/MoreContentCard'
 
 export const GlossaryContent = () => {
 
@@ -19,7 +20,7 @@ export const GlossaryContent = () => {
 
     useEffect(() =>{
       const selectedArtigo = glossarioDb.filter((artigo) => {
-        return artigo.urlName == glossary 
+        return artigo.url == glossary 
       })
 
       setArtigo(selectedArtigo[0])
@@ -62,9 +63,21 @@ export const GlossaryContent = () => {
 
           <DetailButton texto={artigo?.date} />
         </ContentDetails>
-        
-        <MoreContentButton texto={'oi'} url={'aa'}/>
       </GlossaryContentStyled>
+    
+          
+      <MoreContentSectionContainer>
+        <MoreContentSection>
+          <MoreContentCardSection>
+            {artigo && <MoreContentCard artigo={glossarioDb[Math.floor(Math.random() * glossarioDb.length)]}/>}
+            {artigo && <MoreContentCard artigo={glossarioDb[Math.floor(Math.random() * glossarioDb.length)]}/>}
+            {artigo && <MoreContentCard artigo={glossarioDb[Math.floor(Math.random() * glossarioDb.length)]}/>}
+          </MoreContentCardSection>
+          
+          <MoreContentButton texto={'Explore todos os conteúdos >>'} url={'/academia/glossario'}/>
+        </MoreContentSection>
+      </MoreContentSectionContainer>
+      <AdSection />
     </>   
   )
 }

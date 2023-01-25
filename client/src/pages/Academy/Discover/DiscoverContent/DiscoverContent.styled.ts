@@ -7,7 +7,7 @@ export const DiscoverContentStyled = styled.div`
 
     .main-article{
         max-width: 800px;
-        padding: 56px;
+        padding: 24px;
         margin: 0 auto;
     }
 
