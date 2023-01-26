@@ -34,9 +34,6 @@ export const DiscoverContentCard = ({artigo}) => {
             
             <div>
               {artigo.contentsCount >= 0 ? <DetailButtonColored texto={`${artigo.contentsCount} Conteúdos`}/> : <DetailButtonColored texto={`${artigo.readTime}m`}/>}
-              
-              
-
             </div>
           </div>
         </div>

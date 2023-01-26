@@ -21,7 +21,8 @@ export interface IUserContext {
     setBalance: any,
     increaseBalance: (amount: number, time: number) => void,
     decreaseBalance: (amount: number, time: number) => void,
-    upgradeClickPower: (upgrade: number, cost: number) => void
+    upgradeClickPower: (upgrade: number, cost: number) => void,
+    userTestApi: () => Promise<void>
 }
 
 // -------------------- MiningContext Interfaces -------------------------

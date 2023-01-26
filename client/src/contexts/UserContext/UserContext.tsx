@@ -1,4 +1,5 @@
 import React, {createContext, useState} from 'react'
+import { api } from '../../utils/api';
 import { IChildren, IUserContext } from '../../utils/interfaces'
 
 
@@ -44,10 +45,19 @@ export const UserProvider = ({ children }: IChildren) => {
     };
   };
 
+  const userTestApi = async () => {
+    try{
+      const { data } = await api.get('/api');
+      console.log(data);
+    } catch(error){
+      console.error(error);
+    }
+  }
+
 
 
   return (
-    <UserContext.Provider value = {{clickPower, balance, setBalance, increaseBalance, decreaseBalance, upgradeClickPower }}>
+    <UserContext.Provider value = {{clickPower, balance, setBalance, increaseBalance, decreaseBalance, upgradeClickPower, userTestApi }}>
       { children }
     </UserContext.Provider>
   )
