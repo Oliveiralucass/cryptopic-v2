@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const discoverSchema = mongoose.Schema({
+const expeditionSchema = mongoose.Schema({
     title: String,
     url: String,
     contentTitle: String,
@@ -16,6 +16,6 @@ const discoverSchema = mongoose.Schema({
     }
 });
 
-const DiscoverContent = mongoose.model('DiscoverContent', discoverSchema)
+const ExpeditionContent = mongoose.model('ExpeditionContent', expeditionSchema)
 
-export default DiscoverContent
+export default ExpeditionContent

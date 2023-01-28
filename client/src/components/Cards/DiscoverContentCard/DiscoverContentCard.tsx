@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import { DetailButtonColored } from '../../Buttons/DetailButtonColored/DetailButtonColored'
 
 export const DiscoverContentCard = ({artigo}) => {
-    const { capitalizeText } = useContext(GlobalContext)
+    const { capitalizeText, convertISODate } = useContext(GlobalContext)
 
   return (
     <Link to={artigo.url}>
@@ -27,7 +27,7 @@ export const DiscoverContentCard = ({artigo}) => {
               </div>
 
               <div className='content-card-stat'>
-                {artigo.date ? <DetailButton texto={artigo.date} /> : ''}
+                {artigo.date ? <DetailButton texto={convertISODate(artigo.createdAt)} /> : ''}
                 
               </div>
             </div>

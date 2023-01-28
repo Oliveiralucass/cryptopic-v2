@@ -1,10 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { TypedUseSelectorHook, useSelector } from 'react-redux'
+import discoverSlice from './features/discoverSlice'
 
 
 export const store = configureStore({
   reducer: {
-   
+   discover: discoverSlice
   }
 })
 

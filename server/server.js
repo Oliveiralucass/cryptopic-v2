@@ -12,6 +12,7 @@ import authRoutes from './routes/auth.js'
 import userRoutes from './routes/users.js'
 import discoverRoutes from './routes/discover.js'
 import glossaryRoutes from './routes/glossary.js'
+import expeditionRoutes from './routes/expedition.js'
 import { register } from './controllers/auth.js'
 import { createPost } from './controllers/posts.js'
 import { verifyToken } from './middleware/auth.js'
@@ -52,6 +53,7 @@ app.use('/users', userRoutes)
 
 app.use('/discover', discoverRoutes)
 app.use('/glossary', glossaryRoutes)
+app.use('/expedition', expeditionRoutes)
 
 /* MONGOOSE SETUP */
 

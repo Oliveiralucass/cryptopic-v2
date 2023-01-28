@@ -50,7 +50,7 @@ export interface IGlobalContext {
     toCurrency: (str: string) => string,
     capitalizeText: (str: string) => string,
     toCurrencyUsd: (str: string) => string,
-    
+    convertISODate: (date: string) => string
 }
 
 
@@ -90,19 +90,36 @@ export interface ICoin {
 
 // -------------------- Discover Interfaces -------------------------
 
+// export interface IDiscover {
+//     id: number,
+//     title: string,
+//     url: string,
+//     contentTitle: string,
+//     content: string[],
+//     categories: string[],
+//     image: string,
+//     date: string,
+//     readTime: number,
+//     mainColor: string,
+//     secondaryColor: string
+// }
+
 export interface IDiscover {
-    id: number,
-    title: string,
-    url: string,
-    contentTitle: string,
-    content: string[],
-    categories: string[],
-    image: string,
-    date: string,
-    readTime: number,
-    mainColor: string,
-    secondaryColor: string
+    title: String,
+    url: String,
+    contentTitle: String,
+    content: [String],
+    categories: [String],
+    image: String,
+    readTime: Number,
+    mainColor: String,
+    secondaryColor: String,
+    createdAt: Date,
+    __id: string,
+    __v: number
 }
+
+    
 
 export interface IExpedition {
     id: number,

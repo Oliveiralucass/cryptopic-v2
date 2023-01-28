@@ -32,7 +32,7 @@ import { Privacidade } from './pages/other/Privacidade/Privacidade'
 import { Servicos } from './pages/other/Servicos/Servicos'
 import { SobreNos } from './pages/other/SobreNos/SobreNos'
 import { Swap } from './pages/Swap/Swap'
-import store from './store'
+import store from './store/store'
 
 export const AppRoutes = () => {
   return (

@@ -1,16 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { DiscoverListStyled } from './DiscoverList.styled'
 import discoverDb from '../../../../discoverDb.json'
-import { DiscoverListItem } from '../DiscoverListItem/DiscoverListItem'
 import { DiscoverContentCard } from '../../../Cards/DiscoverContentCard/DiscoverContentCard'
-
+import { useAppDispatch, useAppSelector } from '../../../../hooks/useTypedSelectors'
+import { getDiscoverContents } from '../../../../store/features/discoverSlice'
 
 export const DiscoverList = () => {
-  return (
+  const dispatch = useAppDispatch()
+  const { data, error, loading } = useAppSelector((state) => state.discover)
+
+  useEffect(() => {
+    dispatch(getDiscoverContents())
+  }, [])
+
+  return data ? (
     <DiscoverListStyled>
-      {discoverDb.map(artigo => {
-        return <DiscoverContentCard key={artigo.id} artigo={artigo}/>
+      {data.map(artigo => {
+        return <DiscoverContentCard key={artigo._id} artigo={artigo}/>
       })}
     </DiscoverListStyled>
-  )
+  ) : <h1>carregando</h1>
 }

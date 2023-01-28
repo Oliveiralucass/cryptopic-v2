@@ -25,14 +25,22 @@ export const GlobalProvider = ({children}: IChildren) => {
     const capitalizeText = (text: string): string => {
         const newString = text.charAt(0).toUpperCase() + text.slice(1);
         return newString
-      }
+    }
 
+    const convertISODate = (date: string): string => {
+        const dateObject = new Date(date);
+        const day = dateObject.getDate().toString().padStart(2, '0');
+        const month = (dateObject.getMonth() + 1).toString().padStart(2, '0');
+        const year = dateObject.getFullYear();
+        return `${day}/${month}/${year}`;
+    }
     return (
         <GlobalContext.Provider value={{
             convertToLowercase,
             toCurrency,
             capitalizeText,
-            toCurrencyUsd
+            toCurrencyUsd,
+            convertISODate
         }}>
             {children}
         </GlobalContext.Provider>
