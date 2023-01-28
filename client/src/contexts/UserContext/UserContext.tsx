@@ -47,13 +47,14 @@ export const UserProvider = ({ children }: IChildren) => {
 
   const userTestApi = async () => {
     try{
-      const { data } = await api.get('/api');
+      const { data } = await api.get('/discover');
       console.log(data);
     } catch(error){
       console.error(error);
     }
   }
 
+  
 
 
   return (

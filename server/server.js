@@ -10,6 +10,8 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import authRoutes from './routes/auth.js'
 import userRoutes from './routes/users.js'
+import discoverRoutes from './routes/discover.js'
+import glossaryRoutes from './routes/glossary.js'
 import { register } from './controllers/auth.js'
 import { createPost } from './controllers/posts.js'
 import { verifyToken } from './middleware/auth.js'
@@ -48,10 +50,13 @@ app.post('/posts', verifyToken, upload.single('picture'), createPost)
 app.use('/auth', authRoutes)
 app.use('/users', userRoutes)
 
+app.use('/discover', discoverRoutes)
+app.use('/glossary', glossaryRoutes)
 
 /* MONGOOSE SETUP */
 
 const PORT = process.env.PORT || 6001;
+mongoose.set("strictQuery", true);
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
