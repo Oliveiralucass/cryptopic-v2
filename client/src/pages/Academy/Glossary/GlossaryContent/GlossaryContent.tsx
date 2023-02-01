@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { AcademiaNavbar } from '../../../../components/Academia/AcademiaNavbar/AcademiaNavbar'
 import { AdSection } from '../../../../components/AdSection/AdSection'
 import { Header } from '../../../../components/Header/Header'
 import glossarioDb from '../../../../glossarioDb.json'
-import { IArtigo } from '../../../../utils/interfaces'
+import { IArtigo, IGlossary } from '../../../../utils/interfaces'
 import ReactHtmlParser  from 'html-react-parser';
 import { ContentContainer, ContentDetails, GlossaryContentStyled, GlossaryReturnLinks, MoreContentCardSection, MoreContentSection, MoreContentSectionContainer } from './GlossaryContent.styled'
 import { ColorLineStyled } from '../../../../components/ColorLine/ColorLine.styled'
@@ -13,24 +13,29 @@ import { DetailButton } from '../../../../components/Buttons/DetailButton/Detail
 import { MoreContentButton } from '../../../../components/Buttons/MoreContentButton/MoreContentButton'
 import { MoreContentCard } from '../../../../components/Cards/MoreContentCard/MoreContentCard'
 import { ReturnLinks } from '../../../../components/Navbar/ReturnLinks/ReturnLinks'
+import { useAppDispatch, useAppSelector } from '../../../../hooks/useTypedSelectors'
+import { getGlossaryContents } from '../../../../store/features/glossarySlice'
+import { MainLoading } from '../../../../components/Loadings/MainLoading/MainLoading'
+import { GlobalContext } from '../../../../contexts/GlobalContext/GlobalContext'
 
 export const GlossaryContent = () => {
 
-    const { glossary } = useParams()
-    const [ artigo, setArtigo ] = useState<IArtigo>()
+  const dispatch = useAppDispatch()
+  const { data, error, loading } = useAppSelector((state) => state.glossary)
+  const { glossary } = useParams()
+  const [ artigo, setArtigo ] = useState<IGlossary | null>(null)
+  const { convertISODate } = useContext(GlobalContext)
 
-    useEffect(() =>{
-      const selectedArtigo = glossarioDb.filter((artigo) => {
-        return artigo.url == glossary 
-      })
+  useEffect(() => {
+    if(!data) dispatch(getGlossaryContents())
+  }, [])
+ 
+  useEffect(() => {
+    data && setArtigo(data.filter(artigo => artigo.url == glossary)[0])
+  }, [data])
 
-      setArtigo(selectedArtigo[0])
-    })
-   
-    console.log(artigo);
-    
 
-  return (
+  return artigo ? (
     <>
       <Header />
       <AdSection />
@@ -55,7 +60,7 @@ export const GlossaryContent = () => {
             return <Link to={`/academia/guias/${categoria}`} key={categoria}><DetailButton texto={categoria}/></Link>
           })}
 
-          <DetailButton texto={artigo?.date} />
+          <DetailButton texto={convertISODate(artigo.createdAt)} />
         </ContentDetails>
       </GlossaryContentStyled>
     
@@ -63,9 +68,9 @@ export const GlossaryContent = () => {
       <MoreContentSectionContainer>
         <MoreContentSection>
           <MoreContentCardSection>
-            {artigo && <MoreContentCard artigo={glossarioDb[Math.floor(Math.random() * glossarioDb.length)]}/>}
-            {artigo && <MoreContentCard artigo={glossarioDb[Math.floor(Math.random() * glossarioDb.length)]}/>}
-            {artigo && <MoreContentCard artigo={glossarioDb[Math.floor(Math.random() * glossarioDb.length)]}/>}
+            {artigo && <MoreContentCard artigo={data[Math.floor(Math.random() * data.length)]}/>}
+            {artigo && <MoreContentCard artigo={data[Math.floor(Math.random() * data.length)]}/>}
+            {artigo && <MoreContentCard artigo={data[Math.floor(Math.random() * data.length)]}/>}
           </MoreContentCardSection>
           
           <MoreContentButton texto={'Explore todos os conteúdos >>'} url={'/academia/glossario'}/>
@@ -73,5 +78,5 @@ export const GlossaryContent = () => {
       </MoreContentSectionContainer>
       <AdSection />
     </>   
-  )
+  ) : <MainLoading />
 }

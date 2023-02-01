@@ -77,6 +77,17 @@ export interface IArtigo{
     id: number
 }
 
+
+export interface IGlossary{
+    title: string | undefined,
+    url: string,
+    content: string,
+    htmlContent: string,
+    categories: string[],
+    createdAt: string,
+    _id: string
+}
+
 // -------------------- Coins Interfaces -------------------------
 
 export interface ICoin {
@@ -90,19 +101,19 @@ export interface ICoin {
 
 // -------------------- Discover Interfaces -------------------------
 
-// export interface IDiscover {
-//     id: number,
-//     title: string,
-//     url: string,
-//     contentTitle: string,
-//     content: string[],
-//     categories: string[],
-//     image: string,
-//     date: string,
-//     readTime: number,
-//     mainColor: string,
-//     secondaryColor: string
-// }
+export interface IDiscovera {
+    id: number,
+    title: string,
+    url: string,
+    contentTitle: string,
+    content: string[],
+    categories: string[],
+    image: string,
+    date: string,
+    readTime: number,
+    mainColor: string,
+    secondaryColor: string
+}
 
 export interface IDiscover {
     title: String,
@@ -150,4 +161,86 @@ export interface IAllContents {
     readTime?: number,
     mainColor?: string,
     secondaryColor?: string
+}
+
+// -------------------- AuthSlice Interfaces -------------------------
+
+export interface IUser {
+    _id: string
+    username: string,
+    email: string,
+    level: Number,
+    xp: Number,
+    xpToNextLevel: Number,
+    accountBalance: Number,
+    miner1: IMiner,
+    miner2: IMiner,
+    miner3: IMiner,
+    profile: IProfile,
+    password: string,
+    contentsCompleted: IContentsCompleted,
+    viewedProfile: Number,
+    impressions: Number
+}
+
+export interface IMiner {
+    name: string,
+    level: Number,
+    time: Number,
+    reward: Number,
+    upgradeCost: Number,
+    blocked: boolean
+}
+
+export interface IProfile {
+    profileImage: Number,
+    posts: IPost[],
+    coinsLiked: ICoins[]
+}
+
+export interface IPost {
+    _id: string,
+    userId: string,
+    username: string,
+    coinId: string,
+    coinName: string,
+    coinImage:string,
+    coinSymbol: string,
+    message:string,
+    likes: IUser[]
+}
+
+export interface IContentsCompleted {
+    discover: string[],
+    glossary: string[],
+    expedition: string[],
+    guide: string[]
+}
+
+export interface ICoins {
+    _id: string,
+    name: string,
+    symbol: string,
+    image: string,
+    color: string,
+    likes: IUser[]
+    comments: IPost[]
+}
+
+export interface IAuthSlice {
+    user: IUser | null,
+    token: string | null,
+    posts: IPost[],
+    loading: boolean,
+    error: null | string,
+}
+
+export interface ICreateAccount {
+    username: string,
+    password: string,
+    email: string
+}
+export interface ILogin {
+    password: string,
+    email: string
 }

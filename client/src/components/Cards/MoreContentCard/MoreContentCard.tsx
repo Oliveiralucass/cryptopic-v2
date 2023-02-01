@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import { DetailButtonColored } from '../../Buttons/DetailButtonColored/DetailButtonColored'
 
 export const MoreContentCard = ({artigo}) => {
-    const { capitalizeText } = useContext(GlobalContext)
+    const { capitalizeText, convertISODate } = useContext(GlobalContext)
 
   return (
       <MoreContentCardStyled>
@@ -35,7 +35,7 @@ export const MoreContentCard = ({artigo}) => {
               </div>
 
               <div className='content-card-stat'>
-                <DetailButton texto={artigo.date} />
+                <DetailButton texto={convertISODate(artigo.createdAt)} />
               </div>
             </div>
           </div>

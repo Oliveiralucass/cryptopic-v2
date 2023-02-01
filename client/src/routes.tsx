@@ -22,6 +22,7 @@ import { Games } from './pages/Games/Games'
 import { GamesCassino } from './pages/Games/GamesCassino/GamesCassino'
 import { GamesMining } from './pages/Games/GamesMining/GamesMining'
 import { Home } from './pages/Home/Home/Home'
+import { Login } from './pages/Login/Login'
 import { News } from './pages/News/News'
 import { NewsBlockchain } from './pages/News/NewsBlockchain/NewsBlockchain'
 import { NewsContent } from './pages/News/NewsContent/NewsContent'
@@ -46,6 +47,8 @@ export const AppRoutes = () => {
         {/* PUBLIC ROUTES */}
 
         <Route path='/' element={<Home />} />
+
+        <Route path='/login' element={<Login />} />
 
         <Route path='/criptomoedas'>
           <Route index element={<Coins />} />

@@ -6,7 +6,7 @@ import discoverDb from '../../../../discoverDb.json'
 import ReactHtmlParser  from 'html-react-parser';
 import { DiscoverContentStyled, DiscoverHeader } from './DiscoverContent.styled'
 import { Link, useParams } from 'react-router-dom'
-import { IDiscover } from '../../../../utils/interfaces'
+import { IDiscover, IDiscovera } from '../../../../utils/interfaces'
 import { NotFind } from '../../../NotFind/NotFind'
 import { ColorLineStyled } from '../../../../components/ColorLine/ColorLine.styled'
 import { DetailButtonCustomColored } from '../../../../components/Buttons/DetailButtonCustomColored/DetailButtonCustomColored'
@@ -16,7 +16,7 @@ import { ReturnLinks } from '../../../../components/Navbar/ReturnLinks/ReturnLin
 export const DiscoverContent = () => {
 
   const { discover } = useParams()
-  const [ artigo, setArtigo ] = useState<IDiscover | undefined>(undefined)
+  const [ artigo, setArtigo ] = useState<IDiscovera | undefined>(undefined)
 
   useEffect(() =>{
     const selectedArtigo = discoverDb.filter((artigo) => {

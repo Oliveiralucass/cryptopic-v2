@@ -1,13 +1,6 @@
 import mongoose from "mongoose";
-
 const UserSchema = new mongoose.Schema({
-        firstName: {
-            type: String,
-            required: true,
-            min: 2,
-            max: 50
-        },
-        lastName: {
+        username: {
             type: String,
             required: true,
             min: 2,
@@ -19,21 +12,47 @@ const UserSchema = new mongoose.Schema({
             unique: true,
             max: 50
         },
+        level: {
+            type: Number,
+            required: true
+        },
+        xp: {
+            type: Number,
+            required: true
+        }, 
+        xpToNextLevel: {
+            type: Number,
+            required: true
+        },
+        accountBalance: {
+            type: Number,
+            required: true
+        },
+        miner1: {
+            type: Object,
+            required: true
+        },
+        miner2: {
+            type: Object,
+            required: true
+        },
+        miner3: {
+            type: Object,
+            required: true
+        },
+        profile: {
+            type: Object,
+            required: true
+        },
         password: {
             type: String,
             required: true,
             min: 5,
         },
-        picturePath: {
-            type: String,
-            default: ''
+        contentsCompleted: {
+            type: Object,
+            required: true
         },
-        picturePath: {
-            type: Array,
-            default: []
-        },
-        location: String,
-        occupation: String,
         viewedProfile: Number,
         impressions: Number
     },

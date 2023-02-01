@@ -23,7 +23,9 @@ strong{
   --color-background: #f8fafc;
   --color-text: #1e293b;
   --color-primary: #2563eb;
-  --color-secondary: #dbeafe;
+  --color-primary-on-hover:rgba(37, 99, 235,0.9);
+  --color-secondary-on-hover: rgba(219, 235, 255, 0.8);
+  --color-secondary: #dbebff;
   --color-muted-text: #64748b;
   --color-muted-background: #f3f4f6;
   --color-shadow:  #cbd5e1;

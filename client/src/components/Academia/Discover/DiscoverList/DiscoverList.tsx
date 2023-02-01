@@ -10,7 +10,7 @@ export const DiscoverList = () => {
   const { data, error, loading } = useAppSelector((state) => state.discover)
 
   useEffect(() => {
-    dispatch(getDiscoverContents())
+    if(!data) dispatch(getDiscoverContents())
   }, [])
 
   return data ? (
