@@ -22,7 +22,6 @@ import { Games } from './pages/Games/Games'
 import { GamesCassino } from './pages/Games/GamesCassino/GamesCassino'
 import { GamesMining } from './pages/Games/GamesMining/GamesMining'
 import { Home } from './pages/Home/Home/Home'
-import { Login } from './pages/Login/Login'
 import { News } from './pages/News/News'
 import { NewsBlockchain } from './pages/News/NewsBlockchain/NewsBlockchain'
 import { NewsContent } from './pages/News/NewsContent/NewsContent'
@@ -48,8 +47,6 @@ export const AppRoutes = () => {
 
         <Route path='/' element={<Home />} />
 
-        <Route path='/login' element={<Login />} />
-
         <Route path='/criptomoedas'>
           <Route index element={<Coins />} />
           <Route path='/criptomoedas/:moeda' element={<CoinsPage />} />
@@ -63,11 +60,6 @@ export const AppRoutes = () => {
             <Route path='/academia/glossario/:glossary' element={<GlossaryContent />} />
           </Route>
 
-          <Route path='/academia/trading'>
-            <Route index element={<Trading />} />
-            <Route path='/academia/trading/:trading' element={<TradingContent />} />
-          </Route>
-          
           <Route path='/academia/guias'>
             <Route index element={<Guides />} />
             <Route path='/academia/guias/:categoria'  element={<GuidesCategories /> } />

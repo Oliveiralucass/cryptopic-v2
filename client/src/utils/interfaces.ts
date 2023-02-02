@@ -244,3 +244,8 @@ export interface ILogin {
     password: string,
     email: string
 }
+
+export interface IAuthenticatedResponse {
+    user: IUser,
+    token: string
+}

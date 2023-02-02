@@ -1,24 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { HeaderNavbar } from '../HeaderNavbar/HeaderNavbar'
 import { HeaderStyled } from './Header.styled'
-import logoImg from '../../assets/coins/PICLogo.png'
 import { Link } from 'react-router-dom'
 import { Balance } from '../Balance/Balance'
+import { Login } from '../Login/Login'
+import { useAppSelector } from '../../hooks/useTypedSelectors'
+import { ProfileInfos } from '../ProfileInfos/ProfileInfos'
 
 export const Header = () => {
+
+  const [ showLogin, setShowLogin ] = useState(false)
+
+  const { user } = useAppSelector((state) => state.auth)
+  
   return (
     <HeaderStyled>
       <div className='logo-navbar'>
         <Link to={'/'} className='logo'>
-            <img src={logoImg} alt={'CryptoPIC Logo'} />
+            <img src={require('../../assets/coins/PICLogo.png')} alt={'CryptoPIC Logo'} />
             <h1>Crypto PIC</h1>
         </Link>
         
         <HeaderNavbar />
       </div>
       <div className='balance'>
-        <span><h1>Saphire:</h1></span>
-        <Balance />
+               
+        {user ? <ProfileInfos /> :
+        <div>
+          <p onClick={() => setShowLogin(!showLogin)}>Fazer Login</p>
+          {showLogin && <Login shouldShow={showLogin} onRequestClose={() => setShowLogin(false)}/>}
+        </div>}
+
+        
       </div>
     </HeaderStyled>
   )

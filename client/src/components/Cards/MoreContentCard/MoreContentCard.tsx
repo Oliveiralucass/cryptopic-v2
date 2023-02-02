@@ -17,7 +17,7 @@ export const MoreContentCard = ({artigo}) => {
             </div>
 
             <div className='content-container-example-text'>
-                <p>Uma criptomoeda que tem seu protocolo e algoritmo de mineração programado de certa forma que utilizar de máquinas ASIC</p>
+                <p>{artigo.content}</p>
             </div>
           </div>
 

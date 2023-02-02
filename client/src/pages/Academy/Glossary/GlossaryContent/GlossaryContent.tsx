@@ -27,12 +27,12 @@ export const GlossaryContent = () => {
   const { convertISODate } = useContext(GlobalContext)
 
   useEffect(() => {
-    if(!data) dispatch(getGlossaryContents())
+    dispatch(getGlossaryContents())
   }, [])
- 
+
   useEffect(() => {
     data && setArtigo(data.filter(artigo => artigo.url == glossary)[0])
-  }, [data])
+  }, [glossary, data])
 
 
   return artigo ? (

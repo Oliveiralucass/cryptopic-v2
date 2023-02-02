@@ -1,9 +1,20 @@
 import styled from 'styled-components'
 
+export const LoginBackground = styled.div`
+    position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+`
+
 export const LoginStyled = styled.form`
-    position: absolute;
+    position: fixed;
     left: 50%;
-    top: 49.6%;
+    top: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
@@ -14,6 +25,7 @@ export const LoginStyled = styled.form`
     gap: 30px;
     background-color: #ffffff;
     border-radius: 12px;
+    z-index: 2;
 
     label {
         display: flex;
@@ -30,9 +42,18 @@ export const LoginStyled = styled.form`
         padding: 12px;
         width: 360px;
         border-radius: 8px;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 1rem;
         background-color: var(--color-muted-background);
+        border: 1px solid transparent;
+    }
+
+    input::placeholder{
+        font-weight: 400;
+    }
+
+    input:focus{
+        border: 1px solid var(--color-primary);
     }
 
     input[type=submit] {
@@ -79,7 +100,7 @@ export const LoginStyled = styled.form`
 `
 
 export const SignupStyled = styled.form`
-     position: absolute;
+    position: fixed;
     left: 50%;
     top: 49.6%;
     transform: translate(-50%, -50%);
@@ -92,6 +113,7 @@ export const SignupStyled = styled.form`
     gap: 30px;
     background-color: #ffffff;
     border-radius: 12px;
+    z-index: 2;
 
     label {
         display: flex;

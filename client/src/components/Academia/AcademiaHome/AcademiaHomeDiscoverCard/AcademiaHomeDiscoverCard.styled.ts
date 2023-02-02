@@ -1,13 +1,12 @@
 import styled from 'styled-components'
 
-export const MoreContentCardStyled = styled.div`
+export const AcademiaHomeDiscoverCardStyled = styled.div`
     display: flex;
     flex-direction: column;
     width: 400px;
     height: 300px;
     box-shadow: #cbd5e1 1px 3px 3px 1px;
-    border-radius: 10px;   
-    background-color: var(--color-background);
+    border-radius: 10px;
     transition: all 150ms ease-in-out;
 
     &:hover{
@@ -25,12 +24,11 @@ export const MoreContentCardStyled = styled.div`
         .container-image-title{
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 16px;
             .container-image{
                 border: 1px solid var(--color-primary);
                 box-shadow: #cbd5e1 1px 3px 3px 1px;
                 border-radius: 10px;
-                padding: 12px;
             }
 
             img{
@@ -39,35 +37,18 @@ export const MoreContentCardStyled = styled.div`
                 margin: 12px;
             }
             .card-title{
-                font-size: 1.5rem;
-                font-weight: 600;
+                margin-left: 12px;
+                font-size: 1.75rem;
+                font-weight: 500;
             }
-
-            .content-container-example-text{
-                p {
-                    font-weight: 500;
-                    font-size: 1.125rem;
-                    display: -webkit-box;
-                    -webkit-line-clamp: 2;
-                    -webkit-box-orient: vertical;
-                    overflow: hidden;
-                    margin-left: 8px ;
-                }
-
-            }
-
-            
         }
 
-        .more-content-complete{
-            display: flex;
-            flex-direction: row-reverse;
-        }
 
         .content-card-categories-container{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin: 0 12px;
       
             .content-card-stat-container{
                 display: flex;

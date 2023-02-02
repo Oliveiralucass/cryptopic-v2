@@ -1,6 +1,7 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { useAppDispatch } from '../../hooks/useTypedSelectors';
 import { api } from '../../utils/api';
-import { IAuthSlice, ICreateAccount, ILogin } from '../../utils/interfaces';
+import { IAuthenticatedResponse, IAuthSlice, ICreateAccount, ILogin } from '../../utils/interfaces';
 
 export const createAccount = createAsyncThunk(
     'auth/createAccount',
@@ -19,7 +20,8 @@ export const handleLogin = createAsyncThunk(
     async (login: ILogin) => {
         try{
             const response = await api.post('/auth/login', login)
-            return console.log(response.data)
+        
+            return response.data
         } catch (error: any){
             return error.message
         }   
@@ -36,6 +38,7 @@ const initialState: IAuthSlice = {
     error: null,
 }
 
+
 export const authSlice = createSlice({
     name: 'auth',
     initialState,
@@ -43,6 +46,8 @@ export const authSlice = createSlice({
         setLogin: (state, action) => {
             state.user = action.payload.user;
             state.token = action.payload.token;
+
+            console.log(state)
         },
         setLogout: (state) => {
             state.user = null;
@@ -83,9 +88,10 @@ export const authSlice = createSlice({
         .addCase(handleLogin.pending, (state, action) => {
             state.loading = true;
         })
-        .addCase(handleLogin.fulfilled, (state, action: PayloadAction<any>) => {
+        .addCase(handleLogin.fulfilled, (state, action: PayloadAction<IAuthenticatedResponse>) => {
             state.loading = false;
-            console.log(action.payload)
+            state.user = action.payload.user;
+            state.token = action.payload.token;
         })
         .addCase(handleLogin.rejected, (state, action: PayloadAction<any>) => {
             state.loading = false;

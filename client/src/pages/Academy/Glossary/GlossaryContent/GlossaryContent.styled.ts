@@ -42,6 +42,10 @@ export const ContentContainer = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        h1{
+            font-weight: 600;
+        }
     }
 
     .article-text{

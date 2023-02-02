@@ -7,9 +7,10 @@ export const ContentCardStyled = styled.div`
     height: 300px;
     box-shadow: #cbd5e1 1px 3px 3px 1px;
     border-radius: 10px;
+    transition: all 150ms ease-in-out;
 
     &:hover{
-        box-shadow: 0.2rem 0.2rem 2rem rgb(0 0 0 / 25%);
+        box-shadow: #cbd5e1 4px 12px 12px 4px;
     }
     
 

@@ -9,10 +9,10 @@ export const GlossaryListItemStyled = styled.div`
     border: 1px solid transparent;
     border-radius: 10px;
     outline: 6px solid #f9fafb;
-    transition: 200ms all ease-in-out;
+    transition: 150ms all ease-in-out;
 
     &:hover{
-        box-shadow: 0.2rem 0.2rem 2rem rgb(0 0 0 / 25%);  
+        box-shadow: #cbd5e1 5px 15px 15px 5px;  
         border: 1px solid var(--color-primary);
     }
 `
