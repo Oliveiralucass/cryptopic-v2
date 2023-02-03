@@ -249,3 +249,11 @@ export interface IAuthenticatedResponse {
     user: IUser,
     token: string
 }
+
+// -------------------- IClaimSlice Interfaces -------------------------
+
+export interface IClaimSlice {
+    data: IUser | null,
+    loading: boolean,
+    error: null | string,
+}

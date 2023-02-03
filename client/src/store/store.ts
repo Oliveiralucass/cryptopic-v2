@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { TypedUseSelectorHook, useSelector } from 'react-redux'
 import authSlice from './features/authSlice'
+import claimSlice from './features/claimSlice'
 import discoverSlice from './features/discoverSlice'
 import glossarySlice from './features/glossarySlice'
 
@@ -9,7 +10,8 @@ export const store = configureStore({
   reducer: {
    discover: discoverSlice,
    glossary: glossarySlice,
-   auth: authSlice
+   auth: authSlice,
+   claim: claimSlice
   }
 })
 

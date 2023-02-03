@@ -16,6 +16,7 @@ import expeditionRoutes from './routes/expedition.js'
 import { register } from './controllers/auth.js'
 import { createPost } from './controllers/posts.js'
 import { verifyToken } from './middleware/auth.js'
+import userContent from './routes/userContent.js'
 
 /* CONFIGURATIONS */
 const __filename = fileURLToPath(import.meta.url);
@@ -52,6 +53,7 @@ app.use('/users', userRoutes)
 app.use('/discover', discoverRoutes)
 app.use('/glossary', glossaryRoutes)
 app.use('/expedition', expeditionRoutes)
+app.use('/userContent', userContent)
 
 /* MONGOOSE SETUP */
 

@@ -4,8 +4,7 @@ import { ProfileInfoBalance, ProfileInfoImage, ProfileInfoLevel, ProfileInfosSty
 
 export const ProfileInfos = () => {
     const { user } = useAppSelector((state) => state.auth)
-
-    console.log(user)
+    
   return user ? (
     <ProfileInfosStyled>
       <div>

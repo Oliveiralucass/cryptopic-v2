@@ -32,6 +32,9 @@ strong{
   --color-green: #22c55e;
   --color-bright: #f9fafb;
   --color-red: #ef4444;
+
+  --color-dark-mode-primary: #facc15;
+  --color-dark-mode-background: #27272a;
 }
 
 html::-webkit-scrollbar{

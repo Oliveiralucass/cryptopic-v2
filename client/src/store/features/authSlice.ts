@@ -28,6 +28,19 @@ export const handleLogin = createAsyncThunk(
     }
 )
 
+export const getLoggedUser = createAsyncThunk(
+    'auth/getLoggedUser',
+    async (token: string) => {
+        try{
+            const response = await api.get(`/auth/getLoggedUser/${token}`)
+        
+            return response.data
+        } catch (error: any){
+            return error.message
+        }   
+    }
+)
+
 
 
 const initialState: IAuthSlice = {
@@ -85,6 +98,8 @@ export const authSlice = createSlice({
             state.loading = false;
             state.error = action.payload
         })
+
+
         .addCase(handleLogin.pending, (state, action) => {
             state.loading = true;
         })
@@ -92,8 +107,22 @@ export const authSlice = createSlice({
             state.loading = false;
             state.user = action.payload.user;
             state.token = action.payload.token;
+            localStorage.setItem('token', action.payload.token)
         })
         .addCase(handleLogin.rejected, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.error = action.payload
+        })
+
+
+        .addCase(getLoggedUser.pending, (state, action) => {
+            state.loading = true;
+        })
+        .addCase(getLoggedUser.fulfilled, (state, action: PayloadAction<IAuthenticatedResponse>) => {
+            state.loading = false;
+            state.user = action.payload.user;
+        })
+        .addCase(getLoggedUser.rejected, (state, action: PayloadAction<any>) => {
             state.loading = false;
             state.error = action.payload
         })

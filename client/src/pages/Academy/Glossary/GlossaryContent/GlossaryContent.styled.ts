@@ -66,6 +66,12 @@ export const ContentContainer = styled.div`
 
 export const ContentDetails = styled.div`
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+`
+
+export const CategoriesDetails = styled.div`
+    display: flex;
     gap: 10px;
     padding: 0 10px;
 `

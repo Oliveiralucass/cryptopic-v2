@@ -79,9 +79,27 @@ export const login = async (req, res) => {
         const isMatch = await bcrypt.compare(password, user.password);
         if(!isMatch) return res.status(400).json({ msg: 'Invalid Credentials.'})
 
-        const token = jwt.sign({ id: user.__id}, process.env.JWT_SECRET)
+        const token = jwt.sign({ id: user._id}, process.env.JWT_SECRET)
         delete user.password;
         res.status(200).json({user, token })
+    } catch (err) {
+        res.status(500).json({ error: err.message});
+    }
+}
+
+/* GET LOGGED USER*/
+export const getLoggedUser = async (req, res) => {
+    try {
+        const { token } = req.params
+
+        let decodedJWT = JSON.parse(atob(token.split('.')[1]));
+
+        console.log(decodedJWT)
+
+        const user = await User.findById(decodedJWT.id);
+        if(!user) return res.status(400).json({ msg: 'User does not exist.'})
+
+        res.status(200).json(user)
     } catch (err) {
         res.status(500).json({ error: err.message});
     }
