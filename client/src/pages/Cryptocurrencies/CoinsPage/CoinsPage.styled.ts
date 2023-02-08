@@ -50,6 +50,22 @@ export const CoinsPageHeader = styled.div`
     .rank-container{
         display: flex;
     }
+
+    .likeButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: var(--color-secondary);
+        height: 28px;
+        border-radius: 6px;
+        padding: 4px 12px; 
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--color-secondary-on-hover);
+        }
+    }
 `
 
 export const CoinsPageLinks = styled.div`

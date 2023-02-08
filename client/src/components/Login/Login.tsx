@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Header } from '../Header/Header'
 import { LoginBackground, LoginStyled, SignupStyled } from './Login.styled'
 import  { useForm }  from 'react-hook-form'
 import { useAppDispatch } from '../../hooks/useTypedSelectors'
@@ -18,34 +17,33 @@ export const Login = ({shouldShow, onRequestClose}) => {
     return shouldShow && (
     <>
         {pageType === 'login' ? 
-        <LoginBackground onClick={onRequestClose}>
-            <LoginStyled onClick={e => e.stopPropagation()} onSubmit={handleSubmit((data: ILogin) => dispatch(handleLogin(data)))}>
-                <LogoWithImage />
-                <label htmlFor="email">
-                    Email
-                    <input type="text" id='email' placeholder='Insira o E-mail'{...register('email')}/>
-                </label>
+            <LoginBackground onClick={onRequestClose}>
+                <LoginStyled onClick={e => e.stopPropagation()} onSubmit={handleSubmit((data: ILogin) => dispatch(handleLogin(data)))}>
+                    <LogoWithImage />
+                    <label htmlFor="email">
+                        Email
+                        <input type="text" id='email' placeholder='Insira o E-mail'{...register('email')}/>
+                    </label>
 
-                <label htmlFor="password">
-                    Senha
-                    <input type="text" id='password' placeholder='Insira sua senha'{...register('password')}/>
-                </label>
+                    <label htmlFor="password">
+                        Senha
+                        <input type="text" id='password' placeholder='Insira sua senha'{...register('password')}/>
+                    </label>
 
-                <input type="submit" value={'Entrar'} />
+                    <input type="submit" value={'Entrar'} />
 
-                <div className='separator'>
-                    <hr />
-                    <p>OU</p>
-                    <hr />
-                </div>
+                    <div className='separator'>
+                        <hr />
+                        <p>OU</p>
+                        <hr />
+                    </div>
                 
-                <button onClick={() => setPageType('signup')}>Criar uma conta</button>
-            </LoginStyled>
-        </LoginBackground>
+                    <button onClick={() => setPageType('signup')}>Criar uma conta</button>
+                </LoginStyled>
+            </LoginBackground>
         :
-        <LoginBackground onClick={onRequestClose}>
-            <SignupStyled onClick={e => e.stopPropagation()} onSubmit={handleSubmit((data: ICreateAccount) => dispatch(createAccount(data)))}>
-
+            <LoginBackground onClick={onRequestClose}>
+                <SignupStyled onClick={e => e.stopPropagation()} onSubmit={handleSubmit((data: ICreateAccount) => dispatch(createAccount(data)))}>
                 <LogoWithImage />
                 <label htmlFor="email">
                     Email
@@ -54,7 +52,7 @@ export const Login = ({shouldShow, onRequestClose}) => {
 
                 <label htmlFor="username">
                     Usuário
-                    <input type="text" id='username' placeholder='Informe um Nome de Usuário'{...register('email')}/>
+                    <input type="text" id='username' placeholder='Informe um Nome de Usuário'{...register('username')}/>
                 </label>
 
                 <label htmlFor="password">
@@ -72,7 +70,6 @@ export const Login = ({shouldShow, onRequestClose}) => {
                 <button onClick={() => setPageType('login')}>Fazer Login</button>
             </SignupStyled>
         </LoginBackground>}
-
         <ProfileInfos />
     </>
   )

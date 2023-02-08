@@ -33,76 +33,74 @@ import { Servicos } from './pages/other/Servicos/Servicos'
 import { SobreNos } from './pages/other/SobreNos/SobreNos'
 import { Swap } from './pages/Swap/Swap'
 import store from './store/store'
+import { ScrollToTop } from './utils/ScrollToTop'
 
 export const AppRoutes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <UserProvider>
     <MiningProvider>
     <CoinGeckoProvider>
     <GlobalProvider>
     <Provider store={store}>
-      <Routes>
-        {/* PUBLIC ROUTES */}
+      {/* PUBLIC ROUTES */}
+      <ScrollToTop>
+        <Routes>
+          <Route path='*' element={<NotFind />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/sobre-nos'  element={<SobreNos /> } />
+          <Route path='/servicos'  element={<Servicos /> } />
+          <Route path='/privacidade'  element={<Privacidade /> } />
 
-        <Route path='/' element={<Home />} />
 
-        <Route path='/criptomoedas'>
-          <Route index element={<Coins />} />
-          <Route path='/criptomoedas/:moeda' element={<CoinsPage />} />
-        </Route>
-
-        <Route path='/academia'>
-          <Route index element={<Academy />} />
-
-          <Route path='/academia/glossario'>
-            <Route index element={<Glossary />} />
-            <Route path='/academia/glossario/:glossary' element={<GlossaryContent />} />
+          <Route path='/criptomoedas'>
+            <Route index element={<Coins />} />
+            <Route path='/criptomoedas/:moeda' element={<CoinsPage />} />
           </Route>
+        
+          <Route path='/academia'>
+            <Route index element={<Academy />} />
 
-          <Route path='/academia/guias'>
-            <Route index element={<Guides />} />
-            <Route path='/academia/guias/:categoria'  element={<GuidesCategories /> } />
+            <Route path='/academia/glossario'>
+              <Route index element={<Glossary />} />
+              <Route path='/academia/glossario/:glossary' element={<GlossaryContent />} />
+            </Route>
+
+            <Route path='/academia/guias'>
+              <Route index element={<Guides />} />
+              <Route path='/academia/guias/:categoria'  element={<GuidesCategories /> } />
+            </Route>
+            
+            <Route path='/academia/expedicao'>
+              <Route index element={<Expedition />} />
+              <Route path='/academia/expedicao/:expedition' element={<ExpeditionContent /> } />
+            </Route>
+
+            <Route path='/academia/descubra'>
+              <Route index element={<Discover />} />
+              <Route path='/academia/descubra/:discover' element={<DiscoverContent /> } />
+            </Route>
           </Route>
           
-          <Route path='/academia/expedicao'>
-            <Route index element={<Expedition />} />
-            <Route path='/academia/expedicao/:expedition' element={<ExpeditionContent /> } />
+          <Route path='/noticias'>
+            <Route index element={<News />} />
+            <Route path='/noticias/blockchain'  element={<NewsBlockchain /> } />
+            <Route path='/noticias/economia'  element={<NewsEconomia /> } />
+            <Route path='/noticias/trading'  element={<NewsTrading /> } />
+            <Route path='/noticias/noticia/:news'  element={<NewsContent /> } />
           </Route>
-
-          <Route path='/academia/descubra'>
-            <Route index element={<Discover />} />
-            <Route path='/academia/descubra/:discover' element={<DiscoverContent /> } />
-          </Route>
-        </Route>
-
-      
-        <Route path='/noticias'>
-          <Route index element={<News />} />
-          <Route path='/noticias/blockchain'  element={<NewsBlockchain /> } />
-          <Route path='/noticias/economia'  element={<NewsEconomia /> } />
-          <Route path='/noticias/trading'  element={<NewsTrading /> } />
-          <Route path='/noticias/noticia/:news'  element={<NewsContent /> } />
-        </Route>
-
-        <Route path='/swap'>
-          <Route index element ={<Swap />} />
-        </Route>
-
-        <Route path='/games'>
-          <Route index element ={<Games />} />
-          <Route path='/games/mining'  element={<GamesMining /> } />
-          <Route path='/games/cassino'  element={<GamesCassino /> } />
-        </Route>
-
-
-        <Route path='/sobre-nos'  element={<SobreNos /> } />
-        <Route path='/servicos'  element={<Servicos /> } />
-        <Route path='/privacidade'  element={<Privacidade /> } />
-
-        <Route path='*' element={<NotFind />} />
         
-      </Routes>
+          <Route path='/swap'>
+            <Route index element ={<Swap />} />
+          </Route>
+        
+          <Route path='/games'>
+            <Route index element ={<Games />} />
+            <Route path='/games/mining'  element={<GamesMining /> } />
+            <Route path='/games/cassino'  element={<GamesCassino /> } />
+          </Route>
+        </Routes>
+      </ScrollToTop>
     </Provider>
     </GlobalProvider>
     </CoinGeckoProvider>

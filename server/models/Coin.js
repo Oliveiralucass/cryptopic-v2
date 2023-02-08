@@ -14,10 +14,6 @@ const CoinSchema = new mongoose.Schema({
             type: String,
             required: true
         },
-        color: {
-            type: String,
-            required: true
-        }, 
         likes: {
             type: Map,
             required: true
@@ -26,7 +22,16 @@ const CoinSchema = new mongoose.Schema({
             type: Map,
             required: true
         },
-    }
+        url: {
+            type: String,
+            required: true
+        },
+        apiId: {
+            type: String,
+            unique: true,
+        }
+    },
+    {timestamps: true}
 );
 const Coin = mongoose.model("Coin", CoinSchema)
 

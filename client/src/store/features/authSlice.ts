@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { useAppDispatch } from '../../hooks/useTypedSelectors';
 import { api } from '../../utils/api';
-import { IAuthenticatedResponse, IAuthSlice, ICreateAccount, ILogin } from '../../utils/interfaces';
+import { IAuthenticatedResponse, IAuthSlice, ICreateAccount, ILogin, IUser } from '../../utils/interfaces';
 
 export const createAccount = createAsyncThunk(
     'auth/createAccount',
@@ -20,7 +20,7 @@ export const handleLogin = createAsyncThunk(
     async (login: ILogin) => {
         try{
             const response = await api.post('/auth/login', login)
-        
+            console.log(response.data)
             return response.data
         } catch (error: any){
             return error.message
@@ -118,9 +118,10 @@ export const authSlice = createSlice({
         .addCase(getLoggedUser.pending, (state, action) => {
             state.loading = true;
         })
-        .addCase(getLoggedUser.fulfilled, (state, action: PayloadAction<IAuthenticatedResponse>) => {
+        .addCase(getLoggedUser.fulfilled, (state, action: PayloadAction<IUser>) => {
+
             state.loading = false;
-            state.user = action.payload.user;
+            state.user = action.payload;
         })
         .addCase(getLoggedUser.rejected, (state, action: PayloadAction<any>) => {
             state.loading = false;

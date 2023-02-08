@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 
 export const ProfileInfosStyled = styled.div`
@@ -8,7 +7,6 @@ export const ProfileInfosStyled = styled.div`
     align-items: center;
     gap: 12px;
 `
-
 export const ProfileInfoUsername = styled.div`
     width: 200px;
     display: flex;
@@ -25,12 +23,11 @@ export const ProfileInfoLevel = styled.div`
     p{
         font-weight: 500;
     }
-
+    
     span{
         font-weight: 400;
     }
 `
-
 export const ProfileInfoBalance = styled.div`
     display: flex;
     gap: 4px;
@@ -40,12 +37,12 @@ export const ProfileInfoBalance = styled.div`
     align-items: center;
     width: 200px;
     font-weight: 500;
+
     img{
         width: 24px;
         height: 24px;
     }
 `
-
 export const ProfileInfoImage = styled.div`
     display: flex;
     justify-content: space-between;

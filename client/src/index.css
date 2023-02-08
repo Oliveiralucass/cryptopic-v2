@@ -35,6 +35,8 @@ strong{
 
   --color-dark-mode-primary: #facc15;
   --color-dark-mode-background: #27272a;
+
+  --box-shadow-default:  #cbd5e1 1px 3px 3px 1px;
 }
 
 html::-webkit-scrollbar{

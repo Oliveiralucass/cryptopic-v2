@@ -19,18 +19,20 @@ export const CoinsList = () => {
     <CoinsListStyled>
 
         <thead>
-            <th style={{width: '5%'}}>#</th>
-            <th style={{width: '15%'}}>Nome</th>
-            <th style={{width: '10%'}}>Preço</th>
-            <th style={{width: '5%'}}>1h%</th>
-            <th style={{width: '5%'}}>24h%</th>
-            <th style={{width: '5%'}}>7d%</th>
-            <th style={{width: '10%'}}>24h Volume</th>
-            <th style={{width: '10%'}}>Market Cap</th>
+            <tr>
+                <th style={{width: '5%'}}>#</th>
+                <th style={{width: '15%'}}>Nome</th>
+                <th style={{width: '10%'}}>Preço</th>
+                <th style={{width: '5%'}}>1h%</th>
+                <th style={{width: '5%'}}>24h%</th>
+                <th style={{width: '5%'}}>7d%</th>
+                <th style={{width: '10%'}}>24h Volume</th>
+                <th style={{width: '10%'}}>Market Cap</th>
+            </tr>
         </thead>
 
         <tbody>
-            {coinsList && coinsList.map((coin, index) => <tr>
+            {coinsList && coinsList.map((coin, index) => <tr key={coin.id}>
                 <td>{index + 1}</td>
                 <td>
                     <Link to={`/criptomoedas/${coin.id}`}>

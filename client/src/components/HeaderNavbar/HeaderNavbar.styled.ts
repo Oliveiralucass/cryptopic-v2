@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const HeaderNavbarStyled = styled.nav`
-
     display: flex;
     align-items: center;
 
@@ -12,7 +11,6 @@ export const HeaderNavbarStyled = styled.nav`
         li{
             display: flex;
             align-items: center;
-            
             
             a{
                 font-size: 1rem;
@@ -25,6 +23,5 @@ export const HeaderNavbarStyled = styled.nav`
                 color: var(--color-primary);
             }
         }
-
     }
 `

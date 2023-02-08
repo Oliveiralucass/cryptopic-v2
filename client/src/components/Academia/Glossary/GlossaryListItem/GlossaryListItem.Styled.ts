@@ -28,7 +28,6 @@ export const GlossaryListItemHeader = styled.div`
 `
 
 export const GlossaryListItemBody = styled.div`
-
     p{
         display: inline-block;
         text-overflow: ellipsis;

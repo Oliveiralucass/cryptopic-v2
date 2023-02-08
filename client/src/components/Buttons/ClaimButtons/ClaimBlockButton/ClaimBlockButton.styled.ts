@@ -1,8 +1,7 @@
-import React from 'react'
 import styled from 'styled-components'
 
 export const ClaimBlockButtonStyled = styled.div`
-z-index: 1;
+    z-index: 1;
     position: relative;
     background-color: var(--color-muted-background);
     padding: 4px 12px;
@@ -20,7 +19,7 @@ z-index: 1;
 `
 
 export const LockContainer = styled.div`
-z-index: 2;
+    z-index: 2;
     display: flex;
     position: relative;
     width: 100%;

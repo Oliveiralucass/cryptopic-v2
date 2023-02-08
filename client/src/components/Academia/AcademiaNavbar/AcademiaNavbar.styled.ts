@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const AcademiaNavbarStyled = styled.section`
-
-
     .nav-menu{
         display: flex;
         padding: 20px 20px;
@@ -20,6 +18,7 @@ export const AcademiaNavbarStyled = styled.section`
         font-weight: 400;
         flex-wrap: nowrap;
     }
+
     .nav-menu-item:hover{
         color: #2563eb;
     }
@@ -34,9 +33,7 @@ export const AcademiaNavbarStyled = styled.section`
         transition: all ease 200ms;
     }
 
-
     @media screen and (max-width: 898px) {
-
         .nav-menu {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -51,7 +48,6 @@ export const AcademiaNavbarStyled = styled.section`
             
         }
 
-
         a.nav-menu-item2{
             display: flex;
             text-align: center;
@@ -60,7 +56,6 @@ export const AcademiaNavbarStyled = styled.section`
             padding: 10px 10px;
             
         }
-
     }
 
     @media screen  and (max-width: 520px){
@@ -76,8 +71,7 @@ export const AcademiaNavbarStyled = styled.section`
             grid-column: 1;
             grid-row: 1 / 3;
             
-            }
-
+        }
 
         a.nav-menu-item2{
             display: flex;
@@ -86,5 +80,4 @@ export const AcademiaNavbarStyled = styled.section`
             padding: 10px 10px;
         }
     }
-
 `

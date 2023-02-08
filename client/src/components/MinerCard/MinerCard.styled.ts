@@ -1,14 +1,12 @@
 import styled from 'styled-components'
 
 export const MinerCardStyled = styled.div`
-
     display: flex;
     flex-direction: column;
     height: 360px;
     width: 300px;
     align-items: center;
     border-radius: 12px;
-
     border: 1px solid var(--color-primary);
 
     span{
@@ -31,7 +29,6 @@ export const MinerCardStyled = styled.div`
         margin-top: 30px;
         
         .mine{
-
             text-align: center;
 
             button{
@@ -42,11 +39,9 @@ export const MinerCardStyled = styled.div`
                 border-radius: 8px;
                 color: #ffffff;
             }
-
         }
 
         .upgrade{
-
             text-align: center;
 
             button{
@@ -57,11 +52,6 @@ export const MinerCardStyled = styled.div`
                 border-radius: 8px;
                 color: #ffffff;
             }
-
         }
-        
-
-
     }
-
 `

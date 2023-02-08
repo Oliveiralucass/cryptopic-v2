@@ -25,12 +25,12 @@ export const HeaderStyled = styled.header`
                 width: 40px;
                 height: 40px;
             }
+            
             h1{
                 font-size: 1.875rem;
                 font-weight: 600;
             }
         }
-       
     }
 
     .balance{

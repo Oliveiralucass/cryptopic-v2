@@ -1,5 +1,5 @@
 import React from 'react'
-import { AcademiaSectionsExpeditionsStyled } from './AcademiaSectionsExpeditions.styled'
+import { AcademiaSectionsExpeditionsStyled } from './AcademiaSectionsExpedition.styled'
 
 export const AcademiaSectionsExpedition = () => {
   return (

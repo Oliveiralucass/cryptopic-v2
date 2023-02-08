@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const AcademiaHomeDiscoverCardStyled = styled.div`
+export const DiscoverMoreContentCardStyled = styled.div`
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -13,6 +13,7 @@ export const AcademiaHomeDiscoverCardStyled = styled.div`
         box-shadow: #cbd5e1 4px 12px 12px 4px;
     }
     
+
     .content-card-container{
         margin: 12px;
         display: flex;
@@ -35,13 +36,13 @@ export const AcademiaHomeDiscoverCardStyled = styled.div`
                 border-radius: 100%;
                 margin: 12px;
             }
-            
             .card-title{
                 margin-left: 12px;
                 font-size: 1.75rem;
                 font-weight: 500;
             }
         }
+
 
         .content-card-categories-container{
             display: flex;

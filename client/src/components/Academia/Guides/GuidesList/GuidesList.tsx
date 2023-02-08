@@ -37,7 +37,7 @@ export const GuidesList = () => {
 
             console.log(data);
             
-            return <ContentCard artigo={data} />
+            return <ContentCard artigo={data} key={data.title}/>
         })}
     </GuidesListStyled>
   )

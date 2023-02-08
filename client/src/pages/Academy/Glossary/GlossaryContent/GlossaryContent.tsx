@@ -3,9 +3,9 @@ import { Link, useParams } from 'react-router-dom'
 import { AcademiaNavbar } from '../../../../components/Academia/AcademiaNavbar/AcademiaNavbar'
 import { AdSection } from '../../../../components/AdSection/AdSection'
 import { Header } from '../../../../components/Header/Header'
-import { IArtigo, IGlossary } from '../../../../utils/interfaces'
+import { IGlossary } from '../../../../utils/interfaces'
 import ReactHtmlParser  from 'html-react-parser';
-import { CategoriesDetails, ContentContainer, ContentDetails, GlossaryContentStyled, GlossaryReturnLinks, MoreContentCardSection, MoreContentSection, MoreContentSectionContainer } from './GlossaryContent.styled'
+import { CategoriesDetails, ContentContainer, ContentDetails, GlossaryContentStyled, MoreContentCardSection, MoreContentSection, MoreContentSectionContainer } from './GlossaryContent.styled'
 import { ColorLineStyled } from '../../../../components/ColorLine/ColorLine.styled'
 import { DetailButtonColored } from '../../../../components/Buttons/DetailButtonColored/DetailButtonColored'
 import { DetailButton } from '../../../../components/Buttons/DetailButton/DetailButton'
@@ -18,78 +18,24 @@ import { addGlossaryContent } from '../../../../store/features/claimSlice'
 import { MainLoading } from '../../../../components/Loadings/MainLoading/MainLoading'
 import { GlobalContext } from '../../../../contexts/GlobalContext/GlobalContext'
 import { ClaimedButton } from '../../../../components/Buttons/ClaimButtons/ClaimedButton/ClaimedButton'
-import { ClaimBlockButton } from '../../../../components/Buttons/ClaimButtons/ClaimBlockButton/ClaimBlockButton'
 import { ClaimButton } from '../../../../components/Buttons/ClaimButtons/ClaimButton/ClaimButton'
-import { getLoggedUser } from '../../../../store/features/authSlice'
+import { GlossaryElement } from '../../../../components/Academia/Glossary/GlossaryElement/GlossaryElement'
 
 export const GlossaryContent = () => {
 
   const dispatch = useAppDispatch()
-  const { data, error, loading } = useAppSelector((state) => state.glossary)
-  const { user, token } = useAppSelector((state) => state.auth)
+  const { data } = useAppSelector((state) => state.glossary)
+
   const { glossary } = useParams()
   const [ artigo, setArtigo ] = useState<IGlossary | null>(null)
-  const { convertISODate } = useContext(GlobalContext)
 
-  useEffect(() => {
-    dispatch(getGlossaryContents())
-  }, [])
-
-  useEffect(() => {
-    data && setArtigo(data.filter(artigo => artigo.url == glossary)[0])
-  }, [glossary, data])
-
-
-  return artigo ? (
+  return (
     <>
       <Header />
       <AdSection />
       <AcademiaNavbar />
-
-      <ReturnLinks section={'Glossário'} sectionUrl={'/academia/glossario'} content={artigo?.title} contentUrl={`/academia/glossario/${glossary}`} mainColor={'#2563eb'}/>
-      
-      <GlossaryContentStyled>
-        <ColorLineStyled color={'#2563eb'} />
-
-        <ContentContainer>
-          <div className='content-title-detail'>
-            <h1>{artigo?.title}</h1>
-            <DetailButtonColored texto={'Glossário'}/>
-          </div>
-
-          {artigo && ReactHtmlParser(artigo.htmlContent)}
-        </ContentContainer>
-
-        <ContentDetails>
-          <CategoriesDetails>
-            {artigo?.categories.map((categoria) => {
-              return <Link to={`/academia/guias/${categoria}`} key={categoria}><DetailButton texto={categoria}/></Link>
-            })}
-
-            <DetailButton texto={convertISODate(artigo.createdAt)} />
-          </CategoriesDetails>
-          {user && <ClaimButton xp={5} safyr={3} onRequestAction={() => dispatch(addGlossaryContent({
-            xp: 3,
-            safyr: 5,
-            userId: user._id,
-            glossaryId: artigo._id
-          }))}/>}
-        </ContentDetails>
-      </GlossaryContentStyled>
-    
-          
-      <MoreContentSectionContainer>
-        <MoreContentSection>
-          <MoreContentCardSection>
-            {artigo && <MoreContentCard artigo={data[Math.floor(Math.random() * data.length)]}/>}
-            {artigo && <MoreContentCard artigo={data[Math.floor(Math.random() * data.length)]}/>}
-            {artigo && <MoreContentCard artigo={data[Math.floor(Math.random() * data.length)]}/>}
-          </MoreContentCardSection>
-          
-          <MoreContentButton texto={'Explore todos os conteúdos >>'} url={'/academia/glossario'}/>
-        </MoreContentSection>
-      </MoreContentSectionContainer>
+      <GlossaryElement />
       <AdSection />
     </>   
-  ) : <MainLoading />
+  )
 }

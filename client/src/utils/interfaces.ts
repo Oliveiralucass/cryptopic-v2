@@ -101,39 +101,25 @@ export interface ICoin {
 
 // -------------------- Discover Interfaces -------------------------
 
-export interface IDiscovera {
-    id: number,
+export interface IDiscover {
     title: string,
     url: string,
     contentTitle: string,
     content: string[],
     categories: string[],
     image: string,
-    date: string,
-    readTime: number,
-    mainColor: string,
-    secondaryColor: string
-}
-
-export interface IDiscover {
-    title: String,
-    url: String,
-    contentTitle: String,
-    content: [String],
-    categories: [String],
-    image: String,
     readTime: Number,
-    mainColor: String,
-    secondaryColor: String,
+    mainColor: string,
+    secondaryColor: string,
     createdAt: Date,
-    __id: string,
-    __v: number
+    _id: string,
+    _v: number
 }
 
     
 
 export interface IExpedition {
-    id: number,
+    _id: string,
     title: string,
     url: string,
     contentTitle: string,
@@ -144,6 +130,8 @@ export interface IExpedition {
     readTime: number,
     mainColor: string,
     secondaryColor: string
+    createdAt: Date,
+    _v: number
 }
 
 // -------------------- Guides Interfaces -------------------------
@@ -222,9 +210,11 @@ export interface ICoins {
     name: string,
     symbol: string,
     image: string,
-    color: string,
-    likes: IUser[]
-    comments: IPost[]
+    likes: IUser[],
+    comments: IPost[],
+    url: string,
+    apiId: string
+    createdAt: string
 }
 
 export interface IAuthSlice {
@@ -250,10 +240,46 @@ export interface IAuthenticatedResponse {
     token: string
 }
 
-// -------------------- IClaimSlice Interfaces -------------------------
+
+export interface IUserInfos{
+    username: string,
+    level: number,
+    xp: number,
+    xpToNextLevel: number,
+    accountBalance: number
+  }
+
+// -------------------- ClaimSlice Interfaces -------------------------
 
 export interface IClaimSlice {
     data: IUser | null,
     loading: boolean,
     error: null | string,
+}
+
+// -------------------- CoinSlice Interfaces -------------------------
+
+export interface ICoinSlice {
+    loading: boolean,
+    error: null | string,
+    data: null | ICoin[]
+    selectedCoin: null | ICoin
+    selectedCoingeckoCoin: null | object,
+    coingeckoData: null | object[]
+}
+
+export interface ICoinPost {
+    name: string,
+    symbol: string,
+    image: string,
+    likes: IUser[],
+    comments: IPost[],
+    url: string,
+    apiId: string
+}
+
+export interface ICoingeckoQuery {
+    currency: string,
+    page: string, 
+    perPage: string
 }

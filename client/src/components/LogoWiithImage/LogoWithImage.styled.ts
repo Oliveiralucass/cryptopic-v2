@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 
 export const LogoWithImageStyled = styled.div`
@@ -6,22 +5,22 @@ export const LogoWithImageStyled = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 2px;
-   
-   .logo{
-    display: flex;
-    gap: 4px;
-    align-items: center;
+    
+    .logo{
+        display: flex;
+        gap: 4px;
+        align-items: center;
 
-    img{
-        width: 40px;
-        height: 40px;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+        h1{
+            font-size: 1.875rem;
+            font-weight: 600;
+            color: var(--color-text);
+        }
     }
-    h1{
-        font-size: 1.875rem;
-        font-weight: 600;
-        color: var(--color-text);
-    }
-   }
     
     p{
         color: var(--color-muted-text);

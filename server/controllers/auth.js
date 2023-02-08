@@ -12,6 +12,8 @@ export const register = async (req, res) => {
             password,
         } = req.body;
 
+        console.log(req.body)
+
         const salt = await bcrypt.genSalt();
         const passwordHash = await bcrypt.hash(password, salt);
 
@@ -50,7 +52,7 @@ export const register = async (req, res) => {
             profile: {
                 profileImage: 0,
                 posts: [],
-                CoinsLiked: []
+                coinsLiked: []
             },
             contentsCompleted: {
                 discover:[],
@@ -62,7 +64,7 @@ export const register = async (req, res) => {
             impressions: 0
 
         });
-        const savedUser = await  newUser.save();
+        const savedUser = await newUser.save();
         res.status(201).json(savedUser)
     } catch (err) {
         res.status(500).json({ error: err.message});

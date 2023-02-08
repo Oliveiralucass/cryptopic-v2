@@ -13,6 +13,7 @@ import userRoutes from './routes/users.js'
 import discoverRoutes from './routes/discover.js'
 import glossaryRoutes from './routes/glossary.js'
 import expeditionRoutes from './routes/expedition.js'
+import coinsRoutes from './routes/coins.js'
 import { register } from './controllers/auth.js'
 import { createPost } from './controllers/posts.js'
 import { verifyToken } from './middleware/auth.js'
@@ -54,7 +55,7 @@ app.use('/discover', discoverRoutes)
 app.use('/glossary', glossaryRoutes)
 app.use('/expedition', expeditionRoutes)
 app.use('/userContent', userContent)
-
+app.use('/coins', coinsRoutes)
 /* MONGOOSE SETUP */
 
 const PORT = process.env.PORT || 6001;

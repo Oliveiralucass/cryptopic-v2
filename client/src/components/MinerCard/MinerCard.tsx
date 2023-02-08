@@ -17,7 +17,6 @@ export const MinerCard = () => {
         </div>
         
         <div className='miner-stats-container'>
-
             <h2>Atributos:</h2>
             
             <div className='miner-stats'>
@@ -45,9 +44,7 @@ export const MinerCard = () => {
                     <button onClick={miner1Upgrade}>{miner1.upgradeCost} SPH</button>
                 </div>
             </div>
-
         </div>
-
     </MinerCardStyled>
   )
 }

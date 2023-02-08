@@ -1,4 +1,3 @@
-import express from 'express'
 import DiscoverContent from '../models/discoverContent.js';
 
 export const getDiscoverContents = async (req, res) => {

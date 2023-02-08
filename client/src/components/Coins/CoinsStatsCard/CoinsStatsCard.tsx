@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { DetailButtonColored } from '../../Buttons/DetailButtonColored/DetailButtonColored'
-import { CoinsStatsCardsStyled, CoinStatsCardsHeaderStyled } from './CoinsStatsCards.styled'
+import { CoinsStatsCardsStyled, CoinStatsCardsHeaderStyled } from './CoinsStatsCard.styled'
 
 interface ICoinsStatsCard {
     title: string,

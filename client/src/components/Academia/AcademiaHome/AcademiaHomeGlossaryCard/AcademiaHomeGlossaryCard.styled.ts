@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const AcademiaHomeGlossaryCardStyled = styled.div`
-        width: 100%;
+    width: 100%;
+
     a{
         display: flex;
         flex-direction: column;
@@ -31,7 +32,6 @@ export const AcademiaHomeGlossaryListItemHeader = styled.div`
 `
 
 export const AcademiaHomeGlossaryListItemBody = styled.div`
-
     p{
         display: inline-block;
         text-overflow: ellipsis;
