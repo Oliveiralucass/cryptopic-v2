@@ -7,7 +7,7 @@ export const getExpeditionContents = async (req, res) => {
 
         console.log(expeditionContents);
 
-        res.status(200).json(expeditionContents)
+        res.status(200).json(expeditionContents.sort((a, b) => (a.title.toLowerCase().localeCompare(b.title.toLowerCase()))))
     } catch (error) {
         res.status(400).json({message: error.message });
     }

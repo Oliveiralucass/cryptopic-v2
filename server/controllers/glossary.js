@@ -7,7 +7,7 @@ export const getGlossaryContents = async (req, res) => {
 
         console.log(glossaryContents);
 
-        res.status(200).json(glossaryContents)
+        res.status(200).json(glossaryContents.sort((a, b) => (a.title.toLowerCase().localeCompare(b.title.toLowerCase()))))
     } catch (error) {
         res.status(400).json({message: error.message });
     }

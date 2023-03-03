@@ -14,6 +14,7 @@ import discoverRoutes from './routes/discover.js'
 import glossaryRoutes from './routes/glossary.js'
 import expeditionRoutes from './routes/expedition.js'
 import coinsRoutes from './routes/coins.js'
+import postsRoutes from './routes/posts.js'
 import { register } from './controllers/auth.js'
 import { createPost } from './controllers/posts.js'
 import { verifyToken } from './middleware/auth.js'
@@ -46,7 +47,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage })
 
 /* ROUTES WITH FILES */
-app.post('/posts', verifyToken, upload.single('picture'), createPost)
+// app.post('/posts', verifyToken, upload.single('picture'), createPost)
 
 /* ROUTES */
 app.use('/auth', authRoutes)
@@ -56,6 +57,7 @@ app.use('/glossary', glossaryRoutes)
 app.use('/expedition', expeditionRoutes)
 app.use('/userContent', userContent)
 app.use('/coins', coinsRoutes)
+app.use('/posts' , postsRoutes)
 /* MONGOOSE SETUP */
 
 const PORT = process.env.PORT || 6001;

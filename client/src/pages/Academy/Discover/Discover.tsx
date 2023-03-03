@@ -3,6 +3,7 @@ import { AcademiaNavbar } from '../../../components/Academia/AcademiaNavbar/Acad
 import { DiscoverList } from '../../../components/Academia/Discover/DiscoverList/DiscoverList'
 import { AdSection } from '../../../components/AdSection/AdSection'
 import { SectionBanner } from '../../../components/Banners/SectionBanner/SectionBanner'
+import { Footer } from '../../../components/Footer/Footer'
 import { Header } from '../../../components/Header/Header'
 
 export const Discover = () => {
@@ -13,6 +14,7 @@ export const Discover = () => {
       <AcademiaNavbar />
       <SectionBanner titulo={'Crypto PIC | Descubra'} subtitulo={'Descubra um novo mundo de Criptomoedas'}/>
       <DiscoverList />
+      <Footer />
     </>
   )
 }

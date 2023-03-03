@@ -1,7 +1,5 @@
 import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
 import { GlobalContext } from '../../../../contexts/GlobalContext/GlobalContext'
-import { IArtigo } from '../../../../utils/interfaces'
 import { DetailButton } from '../../../Buttons/DetailButton/DetailButton'
 import { DetailButtonColored } from '../../../Buttons/DetailButtonColored/DetailButtonColored'
 import { GlossaryListItemBody, GlossaryListItemHeader, GlossaryListItemStyled } from './GlossaryListItem.Styled'

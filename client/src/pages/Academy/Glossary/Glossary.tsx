@@ -3,6 +3,7 @@ import { AcademiaNavbar } from '../../../components/Academia/AcademiaNavbar/Acad
 import { GlossaryList } from '../../../components/Academia/Glossary/GlossaryList/GlossaryList'
 import { AdSection } from '../../../components/AdSection/AdSection'
 import { SectionBanner } from '../../../components/Banners/SectionBanner/SectionBanner'
+import { Footer } from '../../../components/Footer/Footer'
 import { Header } from '../../../components/Header/Header'
 
 export const Glossary = () => {
@@ -13,6 +14,7 @@ export const Glossary = () => {
       <AcademiaNavbar />
       <SectionBanner titulo={'Crypto PIC | Glossário'} subtitulo={'Entenda as palavras de Cripto'}/>
       <GlossaryList />
+      <Footer />
     </>
   )
 }

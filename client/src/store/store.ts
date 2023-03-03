@@ -6,6 +6,7 @@ import coinSlice from './features/coinSlice'
 import discoverSlice from './features/discoverSlice'
 import expeditionSlice from './features/expeditionSlice'
 import glossarySlice from './features/glossarySlice'
+import userSlice  from './features/userSlice'
 
 
 export const store = configureStore({
@@ -15,7 +16,8 @@ export const store = configureStore({
    glossary: glossarySlice,
    auth: authSlice,
    claim: claimSlice,
-   coin: coinSlice
+   coin: coinSlice,
+   user: userSlice
   }
 })
 

@@ -37,7 +37,6 @@ export const LoginStyled = styled.form`
     }
     
     input{
-        border: none;
         outline: none;
         padding: 12px;
         width: 360px;

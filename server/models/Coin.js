@@ -16,11 +16,11 @@ const CoinSchema = new mongoose.Schema({
         },
         likes: {
             type: Map,
+            of: Boolean,
             required: true
         },
         comments: {
-            type: Map,
-            required: true
+            type: [],
         },
         url: {
             type: String,

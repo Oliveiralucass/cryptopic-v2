@@ -14,7 +14,6 @@ import ReactHtmlParser  from 'html-react-parser';
 import { MainLoading } from '../../../Loadings/MainLoading/MainLoading'
 import { ClaimButton } from '../../../Buttons/ClaimButtons/ClaimButton/ClaimButton'
 import { ClaimedButton } from '../../../Buttons/ClaimButtons/ClaimedButton/ClaimedButton'
-import { DiscoverContentCard } from '../../../Cards/DiscoverContentCard/DiscoverContentCard'
 import { MoreContentButton } from '../../../Buttons/MoreContentButton/MoreContentButton'
 import { DiscoverMoreContentCard } from '../../../Cards/DiscoverMoreContentCard/DiscoverMoreContentCard'
 
@@ -27,14 +26,23 @@ export const DiscoverElement = () => {
     const { data } = useAppSelector(state => state.discover)
     const { user, token } = useAppSelector((state) => state.auth)
   
-    useEffect(() => {
-      if(!data)dispatch(getDiscoverContents())
-    }, [])
+    // useEffect(() => {
+    //   if(!data)dispatch(getDiscoverContents())
+    // }, [])
+  
+    // useEffect(() => {
+    //   data && setArtigo(data.filter(artigo => artigo.url == discover)[0])
+    // }, [discover, data])
   
     useEffect(() => {
+      const dispatchDiscoverContents = async () => {
+        await dispatch(getDiscoverContents())
+      }
+
+      if(!data) dispatchDiscoverContents()
+
       data && setArtigo(data.filter(artigo => artigo.url == discover)[0])
-    }, [discover, data])
-  
+    }, [data, discover])
     
   return artigo ? (
    <>

@@ -27,13 +27,25 @@ export const GlossaryElement = () => {
   const [ artigo, setArtigo ] = useState<IGlossary | null>(null)
   const { convertISODate } = useContext(GlobalContext)
 
-  useEffect(() => {
-    dispatch(getGlossaryContents())
-  }, [])
+  // useEffect(() => {
+  //   dispatch(getGlossaryContents())
+  // }, [])
+
+  // useEffect(() => {
+  //   data && setArtigo(data.filter(artigo => artigo.url == glossary)[0])
+  // }, [glossary, data])
+
+
 
   useEffect(() => {
+    const dispatchDiscoverContents = async () => {
+      await dispatch(getGlossaryContents())
+    }
+
+    if(!data) dispatchDiscoverContents()
+
     data && setArtigo(data.filter(artigo => artigo.url == glossary)[0])
-  }, [glossary, data])
+  }, [data, glossary])
 
   return artigo ? (
     <>
@@ -59,16 +71,14 @@ export const GlossaryElement = () => {
 
                 <DetailButton texto={convertISODate(artigo.createdAt)} />
             </CategoriesDetails>
-            {user && !user.contentsCompleted.glossary.includes(artigo._id) ? <ClaimButton xp={5} safyr={3} onRequestAction={() => {
-
-              return dispatch(getLoggedUser(token)) &&
+            {user && !user.contentsCompleted.glossary.includes(artigo._id) ? <ClaimButton xp={5} safyr={3} onRequestAction={() => 
                 dispatch(addGlossaryContent({
                   xp: 5,
                   safyr: 3,
                   userId: user._id,
                   contentId: artigo._id
                 }))
-              }}/> : user && user.contentsCompleted.glossary.includes(artigo._id) ? <ClaimedButton xp={5} safyr={3} /> : ''}
+              }/> : user && user.contentsCompleted.glossary.includes(artigo._id) ? <ClaimedButton xp={5} safyr={3} /> : ''}
             </ContentDetails>
         </GlossaryElementStyled>
 

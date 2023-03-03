@@ -12,13 +12,8 @@ export const GlobalProvider = ({children}: IChildren) => {
         return str.split(" ").map(word => word.toLowerCase()).join("-");
     }
 
-    const toCurrency = (str: string): string => {
-        const newString = parseFloat(str).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
-        return newString
-    }
-
-    const toCurrencyUsd = (str: string): string => {
-        const newString = parseFloat(str).toLocaleString('es-US', { style: 'currency', currency: 'USD' });
+    const toCurrency = (str: string, locale: string, currency: string): string => {
+        const newString = parseFloat(str).toLocaleString(locale, { style: 'currency', currency});
         return newString
     }
 
@@ -34,12 +29,12 @@ export const GlobalProvider = ({children}: IChildren) => {
         const year = dateObject.getFullYear();
         return `${day}/${month}/${year}`;
     }
+   
     return (
         <GlobalContext.Provider value={{
             convertToLowercase,
             toCurrency,
             capitalizeText,
-            toCurrencyUsd,
             convertISODate
         }}>
             {children}

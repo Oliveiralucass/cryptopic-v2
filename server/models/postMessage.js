@@ -1,11 +1,15 @@
 import mongoose from 'mongoose'
+import User from './User.js';
 
 const postSchema = mongoose.Schema({
     title: String,
-    message: String,
-    creator: String,
-    tags: [String],
-    selectedFile: String,
+    userId: String,
+    username: String,
+    coinId: String,
+    coinName: String,
+    coinImage: String,
+    coinSymbol: String,
+    likes: [],
     likeCount: {
         type: Number,
         default: 0
@@ -13,8 +17,12 @@ const postSchema = mongoose.Schema({
     createdAt: {
         type: Date,
         default: new Date()
-    }
+    },
+    comments: []
 });
+
+
+
 
 const postMessage = mongoose.model('PostMessage', postSchema)
 

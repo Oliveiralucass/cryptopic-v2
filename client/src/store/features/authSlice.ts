@@ -1,5 +1,4 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { useAppDispatch } from '../../hooks/useTypedSelectors';
 import { api } from '../../utils/api';
 import { IAuthenticatedResponse, IAuthSlice, ICreateAccount, ILogin, IUser } from '../../utils/interfaces';
 
@@ -8,7 +7,8 @@ export const createAccount = createAsyncThunk(
     async (newUser: ICreateAccount) => {
         try{
             const response = await api.post('/auth/register', newUser)
-            return console.log(response.data)
+            console.log(response.data)
+            return response.data
         } catch (error: any){
             return error.message
         }   

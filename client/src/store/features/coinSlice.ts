@@ -1,9 +1,9 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { api, coinGeckoApi } from "../../utils/api";
-import { ICoin, ICoingeckoQuery, ICoinPost, ICoinSlice } from "../../utils/interfaces";
+import { ICoin, ICoingeckoQuery, ICoinPost, ICoinSlice, IPost } from "../../utils/interfaces";
 
 export const getCoinsList = createAsyncThunk(
-    "coin/getCoinsList",
+    'coin/getCoinsList',
     async (data, thunkApi) => {
         try{ 
             const response = await api.get<ICoin[]>('/coins')
@@ -14,8 +14,21 @@ export const getCoinsList = createAsyncThunk(
     }
 )
 
+export const getCoinById = createAsyncThunk(
+    'coin/getCoinById',
+    async (coinId: string, thunkApi) => {
+        try{ 
+            const response = await api.get<ICoin>(`/coins/${coinId}`)
+            return response.data
+        } catch(err: any) {
+            return thunkApi.rejectWithValue(err.message);
+        }
+    }
+
+)
+
 export const createCoin = createAsyncThunk(
-    "coin/createCoin",
+    'coin/createCoin',
     async (newCoin: ICoinPost, thunkApi) => { 
         try{
             const response = await api.post<ICoinPost>('/coins', newCoin)
@@ -41,10 +54,60 @@ export const getCoingeckoCoinById = createAsyncThunk(
 
 export const getCoingeckoCoinsList = createAsyncThunk(
     'coin/getCoingeckoCoinsList',
-    async({currency, page, perPage}: ICoingeckoQuery,  thunkApi) => {
+    async({currency, page, perPage}: ICoingeckoQuery, thunkApi) => {
         try{
             const response = await coinGeckoApi.get(`/coins/markets?vs_currency=${currency}&order=market_cap_desc&per_page=${perPage}&page=${page}&sparkline=false&price_change_percentage=1h%2C24h%2C7d`)
         } catch(err: any) {
+            return thunkApi.rejectWithValue(err.message);
+        }
+    }
+)
+
+export interface ILikeCoin {
+    id: string, 
+    coinId: string
+}
+
+
+
+
+export const likeCoin = createAsyncThunk(
+    'coin/likeCoin',
+    async({id, coinId}: ILikeCoin, thunkApi) => {
+        try{
+            const response = await api.post(`/coins/${id}/likeCoin/${coinId}`)
+            return response.data
+        } catch(err: any) {
+            return thunkApi.rejectWithValue(err.message);
+        }
+    }
+)
+
+export interface ICreatePost {
+    userId: string,
+    coinId: string,
+    title: string, 
+    message: string
+}
+
+export const createPost = createAsyncThunk(
+    'coin/createPost',
+    async({ userId, coinId, title, message }: ICreatePost, thunkApi) => {
+        try { 
+            const post = {
+                userId,
+                coinId,
+                title,
+                message
+            }
+
+            const response = await api.post('/posts', post, {
+                headers: {
+                    Authorization: `Bearer ${localStorage.getItem('token')}`,
+                },
+            })
+            return response.data
+        } catch (err: any) {
             return thunkApi.rejectWithValue(err.message);
         }
     }
@@ -56,13 +119,18 @@ const initialState = {
     data: null,
     selectedCoin: null,
     selectedCoingeckoCoin: null,
-    coingeckoData: null
+    coingeckoData: null,
+    activeFiat: {locale: 'pt-BR', currency: 'usd'}
 } as ICoinSlice
 
 const coinSlice = createSlice({
     name: 'coin',
     initialState,
-    reducers:{},
+    reducers:{
+        setActiveFiat: (state, action) => {
+            state.activeFiat = action.payload
+        }
+    },
     extraReducers(builder) {
         builder
         .addCase(getCoinsList.pending, (state, action) => {
@@ -73,6 +141,19 @@ const coinSlice = createSlice({
             state.data = action.payload;
         })
         .addCase(getCoinsList.rejected, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.error = action.payload
+        })
+
+
+        .addCase(getCoinById.pending, (state, action) => {
+            state.loading = true;
+        })
+        .addCase(getCoinById.fulfilled, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.selectedCoin = action.payload;
+        })
+        .addCase(getCoinById.rejected, (state, action: PayloadAction<any>) => {
             state.loading = false;
             state.error = action.payload
         })
@@ -111,6 +192,31 @@ const coinSlice = createSlice({
             state.selectedCoingeckoCoin = action.payload;
         })
         .addCase(getCoingeckoCoinById.rejected, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.error = action.payload
+        })
+
+
+        .addCase(likeCoin.pending, (state) => {
+            state.loading = false;
+        })
+        .addCase(likeCoin.fulfilled, (state) => {
+            state.loading = false;
+        })
+        .addCase(likeCoin.rejected, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.error = action.payload
+        })
+
+
+        .addCase(createPost.pending, (state) => {
+            state.loading = false;
+        })
+        .addCase(createPost.fulfilled, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.selectedCoin = action.payload
+        })
+        .addCase(createPost.rejected, (state, action: PayloadAction<any>) => {
             state.loading = false;
             state.error = action.payload
         })

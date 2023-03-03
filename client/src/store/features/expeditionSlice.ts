@@ -7,7 +7,7 @@ export const getExpeditionContents = createAsyncThunk(
     async (data, thunkApi) => {
         try{ 
             const response = await api.get<IExpedition[]>('/expedition')
-            return response.data.sort((a, b) => (a.title > b.title) ? 1 : -1)
+            return response.data
         } catch(err: any) {
             return thunkApi.rejectWithValue(err.message);
         }

@@ -6,7 +6,7 @@ export const getDiscoverContents = async (req, res) => {
 
         console.log(discoverContents);
 
-        res.status(200).json(discoverContents)
+        res.status(200).json(discoverContents.sort((a, b) => (a.title.toLowerCase().localeCompare(b.title.toLowerCase()))))
     } catch (error) {
         res.status(400).json({message: error.message });
     }

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { useAppDispatch, useAppSelector } from '../../hooks/useTypedSelectors'
-import { getLoggedUser } from '../../store/features/authSlice'
-import { IUser, IUserInfos } from '../../utils/interfaces'
+import { useAppSelector } from '../../hooks/useTypedSelectors'
+import { IUserInfos } from '../../utils/interfaces'
 import { ProfileInfoBalance, ProfileInfoImage, ProfileInfoLevel, ProfileInfosStyled, ProfileInfoUsername } from './ProfileInfos.styled'
 
 export const ProfileInfos = () => {

@@ -19,30 +19,48 @@ export const getPosts = async (req, res) => {
 /* CREATE */
 
 export const createPost = async (req, res) => {
-    const post = req.body;
 
-    const newPost = new PostMessage(post)
     try {
-        
-        const{ userId, coinId, message } = req.body
+        const{ userId, coinId, title, message } = req.body
         const user = await User.findById(userId)
         const coin = await Coin.findById(coinId)
-        const newPost = newPost({
-            userId,
-            username: user.username,
-            coinId,
-            coinName: coin.name,
-            coinImage: coin.image,
-            coinSymbol: coin.symbol,
-            message,
-            likes: {},
-            comments: {}
-        })
+        
+       if(user.accountBalance >= 10){
 
-        await newPost.save()
+            const newPost = new Post({
+                userId,
+                username: user.username,
+                userLevel: user.level,
+                userImage: user.profile.profileImage,
+                coinId,
+                coinName: coin.name,
+                coinImage: coin.image,
+                coinSymbol: coin.symbol,
+                message,
+                title,
+                likes: [],
+                comments: [],
+            })
+            await newPost.save()
+            user.profile.posts.unshift(newPost)
+            user.accountBalance = user.accountBalance - 10
+            coin.comments.unshift(newPost)
 
-        const post = await Post.find()
-        res.status(201).json(post)
+            const updatedUser = await User.findByIdAndUpdate(
+                userId,
+                { profile: user.profile, accountBalance: user.accountBalance},
+                { new: true}
+            );
+
+            await user.save()
+            await coin.save()
+
+            const post = await Post.find()
+            res.status(201).json(coin)
+       } else {
+            res.status(500).send('Saldo insuficiente')
+       }
+
     } catch (error){
         res.status(409).json({ message: error.message })
     }
@@ -93,5 +111,21 @@ export const likePost = async (req, res) => {
         res.status(200).json(updatedPost)
     } catch (error){
         res.status(404).json({ message: error.message })
+    }
+}
+
+/* DELETE */
+
+export const deletePost = async(req, res) => {
+    const { id } = req.params;
+
+    const post = Post.findById(id)
+    const user = User.findById(post.userId)
+    const coin = User.findById(post.coinId)
+
+    try {
+        user.profile.posts.unshift(newPost)
+    } catch {
+
     }
 }

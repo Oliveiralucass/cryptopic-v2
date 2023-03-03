@@ -31,6 +31,7 @@ import { NotFind } from './pages/NotFind/NotFind'
 import { Privacidade } from './pages/other/Privacidade/Privacidade'
 import { Servicos } from './pages/other/Servicos/Servicos'
 import { SobreNos } from './pages/other/SobreNos/SobreNos'
+import { Perfil } from './pages/Perfil/Perfil'
 import { Swap } from './pages/Swap/Swap'
 import store from './store/store'
 import { ScrollToTop } from './utils/ScrollToTop'
@@ -48,10 +49,10 @@ export const AppRoutes = () => {
         <Routes>
           <Route path='*' element={<NotFind />} />
           <Route path='/' element={<Home />} />
+          <Route path='/user/:user' element={<Perfil />} />
           <Route path='/sobre-nos'  element={<SobreNos /> } />
           <Route path='/servicos'  element={<Servicos /> } />
           <Route path='/privacidade'  element={<Privacidade /> } />
-
 
           <Route path='/criptomoedas'>
             <Route index element={<Coins />} />

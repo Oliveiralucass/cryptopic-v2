@@ -47,9 +47,8 @@ export interface IMiner1 {
 
 export interface IGlobalContext {
     convertToLowercase: (str: string) => void,
-    toCurrency: (str: string) => string,
     capitalizeText: (str: string) => string,
-    toCurrencyUsd: (str: string) => string,
+    toCurrency: (str: string, locale: string, currency: string) => string,
     convertISODate: (date: string) => string
 }
 
@@ -97,6 +96,10 @@ export interface ICoin {
     img: string,
     url: string,
     apiId: string
+    comments: IPost
+    createdAt: string,
+    likes: [],
+    _id: string
 }
 
 // -------------------- Discover Interfaces -------------------------
@@ -190,12 +193,18 @@ export interface IPost {
     _id: string,
     userId: string,
     username: string,
+    userLevel: string,
+    userImage: string   ,
     coinId: string,
     coinName: string,
     coinImage:string,
     coinSymbol: string,
     message:string,
     likes: IUser[]
+    comments:[],
+    createdAt: string,
+    likeCount: number,
+    title: string,
 }
 
 export interface IContentsCompleted {
@@ -266,6 +275,10 @@ export interface ICoinSlice {
     selectedCoin: null | ICoin
     selectedCoingeckoCoin: null | object,
     coingeckoData: null | object[]
+    activeFiat: {
+        locale: string,
+        currency: string
+    }
 }
 
 export interface ICoinPost {

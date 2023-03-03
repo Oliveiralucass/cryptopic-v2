@@ -5,6 +5,7 @@ import { AcademiaNavbar } from '../../../components/Academia/AcademiaNavbar/Acad
 import { AdSection } from '../../../components/AdSection/AdSection'
 import { SectionBanner } from '../../../components/Banners/SectionBanner/SectionBanner'
 import { MoreContentButton } from '../../../components/Buttons/MoreContentButton/MoreContentButton'
+import { Footer } from '../../../components/Footer/Footer'
 import { Header } from '../../../components/Header/Header'
 import { MainLoading } from '../../../components/Loadings/MainLoading/MainLoading'
 import { useAppDispatch, useAppSelector } from '../../../hooks/useTypedSelectors'
@@ -61,7 +62,7 @@ export const Academy = () => {
         <MoreContentButton  texto={'Explore todos os conteúdos - Glossário'} url={'/academia/glossario'}/>
 
       </AcademyStyled> 
-      
+      <Footer />
     </>
   )
 }

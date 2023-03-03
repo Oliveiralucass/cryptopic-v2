@@ -96,28 +96,3 @@ export const addExpeditionContent = async (req, res ) => {
         res.status(404).json({ message: error.message })
     }
 }
-
-export const likeCoin = async (req, res) => {
-    try {
-        const { id, coinId } = req.params;
-
-        const user = await User.findById(id)
-        const coin = await Coin.findById(coinId)
-
-        if(user.profile.coinsLiked.some(e => e._id === coinId)) {
-            user.profile.coinsLiked = user.profile.coinsLiked.filter(e => e._id !== coinId)
-            coin.likes = coin.likes.filter(e => e._id !== id)
-
-            return res.send(true)
-
-        } else {    
-            user.profile.coinsLiked.push(coin)
-                   coin.likes.push(user)
-
-            return res.send(false)
-        }
-
-    } catch (error){
-        res.status(404).json({ message: error.message })
-    }
-}

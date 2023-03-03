@@ -10,6 +10,14 @@ const postSchema = mongoose.Schema(
             type: String,
             required: true
         },
+        userLevel:{
+            type: Number,
+            required: true
+        },
+        userImage: {
+            type: Number,
+            required: true
+        },
         coinId: {
             type: String,
             required: true
@@ -19,10 +27,14 @@ const postSchema = mongoose.Schema(
             required: true
         },
         coinImage: {
-            type: String,
+            type: String,   
             required: true
         },
         coinSymbol: {
+            type: String,
+            required: true
+        },
+        title:{
             type: String,
             required: true
         },
@@ -30,10 +42,17 @@ const postSchema = mongoose.Schema(
             type: String,
             required: true
         },
+        comments: {
+            type: [],
+        },
         likes: {
             type: Map,
             of: Boolean,
-        }
+        },
+        likeCount: {
+            type: Number,
+            default: 0
+        },
     },
     {timestamps: true}
 );

@@ -26,13 +26,25 @@ export const ExpeditionElement = () => {
     const { data } = useAppSelector(state => state.expedition)
     const { user, token } = useAppSelector((state) => state.auth)
   
-    useEffect(() => {
-      if(!data)dispatch(getExpeditionContents())
-    }, [])
+    // useEffect(() => {
+    //   if(!data)dispatch(getExpeditionContents())
+    // }, [])
   
+    // useEffect(() => {
+    //   data && setArtigo(data.filter(artigo => artigo.url == expedition)[0])
+    // }, [expedition, data])
+
+
+
     useEffect(() => {
+      const dispatchDiscoverContents = async () => {
+        await dispatch(getExpeditionContents())
+      }
+
+      if(!data) dispatchDiscoverContents()
+
       data && setArtigo(data.filter(artigo => artigo.url == expedition)[0])
-    }, [expedition, data])
+    }, [data, expedition])
 
   return artigo ? (
     <>
