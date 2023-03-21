@@ -16,6 +16,7 @@ import { ClaimButton } from '../../../Buttons/ClaimButtons/ClaimButton/ClaimButt
 import { ClaimedButton } from '../../../Buttons/ClaimButtons/ClaimedButton/ClaimedButton'
 import { MoreContentButton } from '../../../Buttons/MoreContentButton/MoreContentButton'
 import { DiscoverMoreContentCard } from '../../../Cards/DiscoverMoreContentCard/DiscoverMoreContentCard'
+import { Footer } from '../../../Footer/Footer'
 
 export const DiscoverElement = () => {
 
@@ -59,9 +60,9 @@ export const DiscoverElement = () => {
             </div>
 
             <div className='categories-container'>
-            {artigo.categories.map(categoria => <Link to={`/academia/guias/${categoria}`} key={categoria}>
+            {artigo.categories.map(categoria => 
                 <DetailButton texto={categoria} />
-            </Link>)}
+           )}
             <DetailButtonCustomColored texto={`${artigo.readTime}m`} bgColor={artigo.secondaryColor} textColor={artigo.mainColor} />
             </div>
         </DiscoverElementHeader>
@@ -97,6 +98,7 @@ export const DiscoverElement = () => {
         <MoreContentButton texto={'Explore todos os conteúdos >>'} url={'/academia/descubra'}/>
       </MoreContentSection>
     </MoreContentSectionContainer>
+    <Footer />
    </>
   ) : <MainLoading />
 }

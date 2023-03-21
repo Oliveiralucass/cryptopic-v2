@@ -28,7 +28,7 @@ export const CoinElement = () => {
 
   const copyTextToClipboard = (string) => {
     return navigator.clipboard.writeText(string);
-}
+  }
 
   useEffect(() => {
     moeda && dispatch(getCoingeckoCoinById(moeda))
@@ -146,29 +146,6 @@ export const CoinElement = () => {
               : 
               ''}
             </CoinsPageLinks>
-
-            <div className="link-section-contract">
-              <a href="https://etherscan.io/token/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9" target="_blank">
-                <div className="contractNetwork">
-                    <img src="../../../images/ETHLogo.png" alt="ETHLogo" />
-                    Ethereum:
-                </div>
-              </a>    
-            
-              <div className="contractCopyContainer">
-                <input type="text" size={16} className="contractText" id="contractId"  readOnly />
-                <button className="contractCopyButton" onClick={() => copyTextToClipboard((document.getElementById('contractId') as HTMLInputElement).value)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" height="16px" width="16px" 
-                        viewBox="0 0 24 24" className="copySVG"><path d="M5.7 14.7H4.8C4.32261 14.7 3.86477 
-                        14.5104 3.52721 14.1728C3.18964 13.8352 3 13.3774 3 12.9V4.8C3 4.32261 3.18964 
-                        3.86477 3.52721 3.52721C3.86477 3.18964 4.32261 3 4.8 3H12.9C13.3774 3 13.8352 
-                        3.18964 14.1728 3.52721C14.5104 3.86477 14.7 4.32261 14.7 4.8V5.7M11.1 9.3H19.2C20.1941 
-                        9.3 21 10.1059 21 11.1V19.2C21 20.1941 20.1941 21 19.2 21H11.1C10.1059 21 9.3 20.1941 9.3 
-                        19.2V11.1C9.3 10.1059 10.1059 9.3 11.1 9.3Z" stroke-linecap="none" stroke-linejoin="round" ></path>
-                    </svg>
-                </button>
-              </div>
-            </div>
           </CoinsPageLeft>
         
           <CoinsPageRight>
@@ -207,8 +184,7 @@ export const CoinElement = () => {
 
         <CoinsPageStats>
           <CoinsStatsCard title={'Market Cap'} url={'/academia/glossario/market-capitalization-market-cap'} content={`${toCurrency(selectedCoingeckoCoin?.market_data.market_cap.brl, 'pt-BR', 'BRL')}`}/>
-          <CoinsStatsCard title={'Fully Diluted Market Cap'} url={'/academia/glossario/fully-dilluted-market-cap'} content={`${toCurrency(selectedCoingeckoCoin?.market_data.fully_diluted_valuation
-.brl, 'pt-BR', 'BRL')}`}/>
+          <CoinsStatsCard title={'Fully Diluted Market Cap'} url={'/academia/glossario/fully-dilluted-market-cap'} content={`${toCurrency(selectedCoingeckoCoin?.market_data.fully_diluted_valuation.brl, 'pt-BR', 'BRL')}`}/>
 
           <CoinsStatsCard title={'Volume 24h'} url={'/academia/glossario/volume'} content={`${toCurrency(selectedCoingeckoCoin?.market_data.total_volume.brl, 'pt-BR', 'BRL')}`}/>
 

@@ -81,4 +81,5 @@ export const CoinsPageStats = styled.div`
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 40px;
 `

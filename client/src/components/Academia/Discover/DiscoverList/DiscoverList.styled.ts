@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const DiscoverListStyled = styled.div`
     max-width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 64px;
     display: flex;
     flex-wrap: wrap;
     gap: 60px;

@@ -35,11 +35,7 @@ export const AcademiaNavbar = () => {
                     className="nav-menu-item">Glossário</NavLink>
                 </li>
 
-                <li><NavLink to={'/academia/guias'}
-                    style={({ isActive }) =>
-                    isActive ? activeStyle : undefined}
-                    className="nav-menu-item">Guias</NavLink>
-                </li>
+             
 
                 <li><NavLink to={'/academia/expedicao'} 
                     style={({ isActive }) =>

@@ -16,6 +16,7 @@ import { ClaimedButton } from '../../../Buttons/ClaimButtons/ClaimedButton/Claim
 import { addDiscoverContent } from '../../../../store/features/claimSlice'
 import { MoreContentButton } from '../../../Buttons/MoreContentButton/MoreContentButton'
 import { ExpeditionMoreContentCard } from '../../../Cards/ExpeditionMoreContentCard/ExpeditionMoreContentCard'
+import { Footer } from '../../../Footer/Footer'
 
 export const ExpeditionElement = () => {
 
@@ -98,6 +99,7 @@ export const ExpeditionElement = () => {
             <MoreContentButton texto={'Explore todos os conteúdos >>'} url={'/academia/expedicao'}/>
           </MoreContentSection>
       </MoreContentSectionContainer>
+      <Footer />
     </>
   ) : <MainLoading />
 }

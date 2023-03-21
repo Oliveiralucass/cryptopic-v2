@@ -10,8 +10,6 @@ export const HeaderNavbar = () => {
         <li><Link to={'/academia'}>Academia</Link></li>
         <li><Link to={'/academia/glossario'}>Glossário</Link></li>
         <li><Link to={'/noticias'}>Notícias</Link></li>
-        <li><Link to={'/swap'}>Swap</Link></li>
-        <li><Link to={'/games'}>Games</Link></li>
       </ul>  
     </HeaderNavbarStyled>
   )
