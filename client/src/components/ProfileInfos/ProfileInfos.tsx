@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useAppSelector } from '../../hooks/useTypedSelectors'
 import { IUserInfos } from '../../utils/interfaces'
 import { ProfileInfoBalance, ProfileInfoImage, ProfileInfoLevel, ProfileInfosStyled, ProfileInfoUsername } from './ProfileInfos.styled'
@@ -19,7 +20,7 @@ export const ProfileInfos = () => {
     <ProfileInfosStyled>
       <div>
         <ProfileInfoUsername>
-          {userInfos.username}
+          <Link to={`/user/${userInfos.username}`}>{userInfos.username}</Link>
         </ProfileInfoUsername>
 
         <ProfileInfoLevel>

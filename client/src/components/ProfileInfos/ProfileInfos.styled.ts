@@ -14,6 +14,12 @@ export const ProfileInfoUsername = styled.div`
     align-items: center;
     padding: 0 4px 0 8px;
     font-weight: 500;
+    color: var(--color-primary);
+    cursor: pointer;
+
+    &:hover{
+        color: var(--color-primary-on-hover);
+    }
 `
 export const ProfileInfoLevel = styled.div`
     width: 200px;

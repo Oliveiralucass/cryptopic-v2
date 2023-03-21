@@ -45,5 +45,16 @@ export const HeaderStyled = styled.header`
         span h1{
             color: var(--text-color);
         }
+        
+        .login-button{
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 1.125rem;
+            color: var(--color-primary);
+            &:hover{
+                color: var(--color-primary-on-hover);
+            }
+        }
+            
     }
 `

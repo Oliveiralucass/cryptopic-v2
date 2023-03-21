@@ -24,7 +24,7 @@ export const Header = () => {
       <div className='balance'>    
         {user ? <ProfileInfos /> :
         <div>
-          <p onClick={() => setShowLogin(!showLogin)}>Fazer Login</p>
+          <p className='login-button' onClick={() => setShowLogin(!showLogin)}>Fazer Login</p>
           {showLogin && <Login shouldShow={showLogin} onRequestClose={() => setShowLogin(false)}/>}
         </div>}
       </div>
