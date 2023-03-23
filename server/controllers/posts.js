@@ -21,7 +21,7 @@ export const getPosts = async (req, res) => {
 export const createPost = async (req, res) => {
 
     try {
-        const{ userId, coinId, title, message } = req.body
+        const{ userId, coinId, title, message, coinApiId } = req.body
         const user = await User.findById(userId)
         const coin = await Coin.findById(coinId)
         
@@ -33,6 +33,7 @@ export const createPost = async (req, res) => {
                 userLevel: user.level,
                 userImage: user.profile.profileImage,
                 coinId,
+                coinApiId,
                 coinName: coin.name,
                 coinImage: coin.image,
                 coinSymbol: coin.symbol,
@@ -83,6 +84,17 @@ export const getUserPosts = async(req, res) => {
         const post = await Post.find({ userId });
         res.status(200).json(post)
     } catch (error){
+        res.status(404).json({ message: error.message })
+    }
+}
+
+export const getPostById = async(req, res) => {
+    try{
+        const { postId } = req.params;
+        const post = await Post.findById( postId )
+
+        res.status(200).json(post)
+    } catch(error){
         res.status(404).json({ message: error.message })
     }
 }

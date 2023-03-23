@@ -4,7 +4,7 @@ import { HeaderStyled } from './Header.styled'
 import { Link } from 'react-router-dom'
 import { Login } from '../Login/Login'
 import { useAppSelector } from '../../hooks/useTypedSelectors'
-import { ProfileInfos } from '../ProfileInfos/ProfileInfos'
+import { ProfileInfos } from '../Profile/ProfileInfos/ProfileInfos'
 
 export const Header = () => {
 

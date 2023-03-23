@@ -32,6 +32,7 @@ import { Privacidade } from './pages/other/Privacidade/Privacidade'
 import { Servicos } from './pages/other/Servicos/Servicos'
 import { SobreNos } from './pages/other/SobreNos/SobreNos'
 import { Perfil } from './pages/Perfil/Perfil'
+import { Post } from './pages/Post/Post'
 import { Swap } from './pages/Swap/Swap'
 import store from './store/store'
 import { ScrollToTop } from './utils/ScrollToTop'
@@ -53,6 +54,8 @@ export const AppRoutes = () => {
           <Route path='/sobre-nos'  element={<SobreNos /> } />
           <Route path='/servicos'  element={<Servicos /> } />
           <Route path='/privacidade'  element={<Privacidade /> } />
+          <Route path='/user/:user/:post' element={<Post />} />
+          
 
           <Route path='/criptomoedas'>
             <Route index element={<Coins />} />

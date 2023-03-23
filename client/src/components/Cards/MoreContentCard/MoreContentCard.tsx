@@ -30,7 +30,7 @@ export const MoreContentCard = ({artigo}) => {
           <div className='content-card-categories-container'>
             <div className='content-card-stat-container'>
               <div className='content-card-stat'>
-                {artigo.categories && artigo.categories.map(categorie => <DetailButton texto={capitalizeText(categorie)}/>
+                {artigo.categories && artigo.categories.map(categorie => <DetailButton texto={capitalizeText(categorie)} key={categorie}/>
                 )} 
               </div>
 

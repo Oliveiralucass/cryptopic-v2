@@ -22,6 +22,10 @@ const postSchema = mongoose.Schema(
             type: String,
             required: true
         },
+        coinApiId: {
+            type: String,
+            required: true
+        },
         coinName: {
             type: String,
             required: true

@@ -16,9 +16,10 @@ import { MainLoading } from '../../../components/Loadings/MainLoading/MainLoadin
 import { getLoggedUser } from '../../../store/features/authSlice'
 import { CoinPostCard } from '../CoinPostCard/CoinPostCard'
 import { CoinCreatePostCard } from '../CoinCreatePostCard/CoinCreatePostCard'
+import { DivisorStyled } from '../../Divisor/Divisor.Styled'
 
 export const CoinElement = () => {
-    const { moeda } = useParams()
+  const { moeda } = useParams()
   const { toCurrency } = useContext(GlobalContext)
   const [ coin, setCoin ] = useState<ICoins | null>(null)
 
@@ -63,7 +64,7 @@ export const CoinElement = () => {
 
     coin && dispatch(getCoinById(coin._id))
     
-    
+    console.log(selectedCoingeckoCoin)
   }, [data, moeda])
 
   const handleLike = async() =>{
@@ -72,12 +73,11 @@ export const CoinElement = () => {
     await dispatch(getLoggedUser(token));
   }
 
-  console.log(selectedCoingeckoCoin)
+  
   return coin && selectedCoin && coin.apiId == moeda ? (
     
     <CoinsPageStyled>
         <ColorLineStyled color={'#2563eb'}/>
-
         <div className='container'>
           <CoinsPageLeft>
             <CoinsPageHeader>
@@ -89,16 +89,16 @@ export const CoinElement = () => {
                 {user && user.profile.coinsLiked.some(e => e._id == coin._id) ? 
                   <div className='likeButton' onClick={() => handleLike()}>
                     <FaHeart fill={'#2563eb'} size={18}/>
-                    <p>{Object.keys(selectedCoin.likes).length}</p>
+                    <p>{selectedCoin.likes ? Object.keys(selectedCoin.likes).length : 0}</p>
                   </div>  
                   : user ?
                   <div className='likeButton' onClick={() => handleLike()}>
                     <FaRegHeart fill={'#2563eb'} size={18}/>
-                    <p>{Object.keys(selectedCoin.likes).length}</p>
+                    <p>{selectedCoin.likes ? Object.keys(selectedCoin.likes).length : 0}</p>
                   </div>
                 : <div className='likeButton'>
                     <FaRegHeart fill={'#2563eb'} size={18}/>
-                    <p>{Object.keys(selectedCoin.likes).length}</p>
+                    <p>{selectedCoin.likes ? Object.keys(selectedCoin.likes).length : 0}</p>
                   </div>}
 
               </div>
@@ -206,11 +206,9 @@ export const CoinElement = () => {
 
       {user && selectedCoin && <CoinCreatePostCard coin={coin} user={user}/>}
 
+      <DivisorStyled />
 
-
-      {selectedCoin && selectedCoin.comments.map(comment => <CoinPostCard key={comment._id}  comment={comment}/>
-
-      )}
+      {selectedCoin && selectedCoin.comments.map(comment => <CoinPostCard key={comment._id}  comment={comment}/>)}
     </CoinsPageStyled>
   ) : <MainLoading />
 }

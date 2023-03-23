@@ -5,5 +5,5 @@ export const AdSectionStyled = styled.div`
     height: 140px;
     padding: 20px 0;
     border-bottom: 1px solid var(--color-secondary);
-    margin-top: 82px;
+    margin-top: 94px;
 `

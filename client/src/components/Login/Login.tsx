@@ -5,7 +5,7 @@ import { useAppDispatch } from '../../hooks/useTypedSelectors'
 import { createAccount, handleLogin } from '../../store/features/authSlice'
 import { ICreateAccount, ILogin } from '../../utils/interfaces'
 import { LogoWithImage } from '../LogoWiithImage/LogoWithImage'
-import { ProfileInfos } from '../ProfileInfos/ProfileInfos'
+import { ProfileInfos } from '../Profile/ProfileInfos/ProfileInfos'
 
 export const Login = ({shouldShow, onRequestClose}) => {
 
@@ -13,6 +13,17 @@ export const Login = ({shouldShow, onRequestClose}) => {
     const [ pageType, setPageType ] = useState<string>('login')
 
     const dispatch = useAppDispatch()
+
+    const registerAndLogin = async (data)  => {
+        await dispatch(createAccount(data))
+        
+        let loginData = {
+            email: data.email,
+            password: data.password
+        }
+
+        await dispatch(handleLogin(loginData))
+    }
 
     return shouldShow && (
     <>
@@ -43,7 +54,7 @@ export const Login = ({shouldShow, onRequestClose}) => {
             </LoginBackground>
         :
             <LoginBackground onClick={onRequestClose}>
-                <SignupStyled onClick={e => e.stopPropagation()} onSubmit={handleSubmit((data: ICreateAccount) => dispatch(createAccount(data)))}>
+                <SignupStyled onClick={e => e.stopPropagation()} onSubmit={handleSubmit((data: ICreateAccount) => registerAndLogin(data))}>
                 <LogoWithImage />
                 <label htmlFor="email">
                     Email

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 import { GlobalContext } from '../../../contexts/GlobalContext/GlobalContext'
 import { DetailButton } from '../../Buttons/DetailButton/DetailButton'
 import { DivisorStyled } from '../../Divisor/Divisor.Styled'
-import { CoinPostCardBody, CoinPostCardBodyHeader, CoinPostCardBodyMessage, CoinPostCardHeader, CoinPostCardInteractions, CoinPostCardStyled } from './CoinPostCard.styled'
+import { CoinPostCardBody, CoinPostCardBodyHeader, CoinPostCardBodyMessage, CoinPostCardHeader, CoinPostCardInteractions, CoinPostCardStyled } from './PostCard.styled'
 
-export const CoinPostCard = ({comment}) => {
+export const PostCard = ({comment}) => {
     const { convertISODate } = useContext(GlobalContext)
 
   return (

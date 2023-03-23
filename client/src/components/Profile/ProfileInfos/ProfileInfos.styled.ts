@@ -6,9 +6,10 @@ export const ProfileInfosStyled = styled.div`
     justify-content: space-between;
     align-items: center;
     gap: 12px;
+    margin: 10px;
 `
 export const ProfileInfoUsername = styled.div`
-    width: 200px;
+    width: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,6 +17,10 @@ export const ProfileInfoUsername = styled.div`
     font-weight: 500;
     color: var(--color-primary);
     cursor: pointer;
+
+    a{
+        width: fit-content;
+    }
 
     &:hover{
         color: var(--color-primary-on-hover);
@@ -54,9 +59,10 @@ export const ProfileInfoImage = styled.div`
     justify-content: space-between;
     padding: 4px 8px;
     border-radius: 8px;
+    cursor: pointer;
 
     img{
-        width: 48px;
-        height: 48px;
+        width: 64px;
+        height: 64px;
     }
 ` 

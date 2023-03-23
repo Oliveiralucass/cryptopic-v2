@@ -66,7 +66,7 @@ export const GlossaryElement = () => {
             <ContentDetails>
             <CategoriesDetails>
                 {artigo?.categories.map((categoria) => {
-                return <DetailButton texto={categoria}/>
+                return <DetailButton texto={categoria} key={categoria}/>
                 })}
 
                 <DetailButton texto={convertISODate(artigo.createdAt)} />

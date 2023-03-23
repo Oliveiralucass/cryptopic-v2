@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useAppSelector } from '../../hooks/useTypedSelectors'
-import { IUserInfos } from '../../utils/interfaces'
+import { useAppSelector } from '../../../hooks/useTypedSelectors'
+import { IUserInfos } from '../../../utils/interfaces'
+import { ProfileActions } from '../ProfileActions/ProfileActions'
 import { ProfileInfoBalance, ProfileInfoImage, ProfileInfoLevel, ProfileInfosStyled, ProfileInfoUsername } from './ProfileInfos.styled'
 
 export const ProfileInfos = () => {
-  const { user, token } = useAppSelector((state) => state.auth)
+  const { user } = useAppSelector((state) => state.auth)
   const [ userInfos, setUserInfos ] = useState<IUserInfos | null>(null);
+
+  const [ showActions, setShowActions ] = useState(false)
 
   useEffect(() => {
     setUserInfos(user)
@@ -29,13 +32,14 @@ export const ProfileInfos = () => {
         </ProfileInfoLevel>
 
         <ProfileInfoBalance>
-          <img src={require('../../assets/coins/PICLogo.png')} alt="" />
+          <img src={require('../../../assets/coins/PICLogo.png')} alt="" />
           <p>{userInfos.accountBalance}</p>
         </ProfileInfoBalance>
       </div>
 
-      <ProfileInfoImage>
-        <img src={require('../../assets/coins/PICLogo.png')} alt="" />
+      <ProfileInfoImage onClick={() => setShowActions(!showActions)}>
+        <img src={require('../../../assets/coins/PICLogo.png')} alt="" />
+        {showActions && <ProfileActions user={user} shouldShow={showActions} onRequestClose={() => setShowActions(false)}/>}
       </ProfileInfoImage>
     </ProfileInfosStyled>
   ) : null

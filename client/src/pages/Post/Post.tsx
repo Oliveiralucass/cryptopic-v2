@@ -1,15 +1,14 @@
 import React from 'react'
 import { AdSection } from '../../components/AdSection/AdSection'
 import { Header } from '../../components/Header/Header'
-import { ProfileElement } from '../../components/Profile/ProfileElement/ProfileElement'
+import { PostElement } from '../../components/Post/PostElement/PostElement'
 
-export const Perfil = () => {
-
+export const Post = () => {
   return (
     <>
       <Header />
       <AdSection />
-      <ProfileElement />
+      <PostElement />
     </>
   )
 }

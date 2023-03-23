@@ -9,7 +9,7 @@ import { createPost, getCoinById, ICreatePost } from '../../../store/features/co
 import { getLoggedUser } from '../../../store/features/authSlice'
 export const CoinCreatePostCard = ({coin, user}) => {
 
-    const { register, handleSubmit } = useForm<ICreatePost>()
+    const { register, handleSubmit, reset } = useForm<ICreatePost>()
     const dispatch = useAppDispatch()
     const { selectedCoin } = useAppSelector(state => state.coin)
     const { token } = useAppSelector(state => state.auth)
@@ -19,9 +19,11 @@ export const CoinCreatePostCard = ({coin, user}) => {
     }, [selectedCoin])
 
     const handleClick = async(data) =>{
-        await dispatch(createPost({...data, coinId: coin._id, userId: user._id})) 
+        await dispatch(createPost({...data, coinId: coin._id, userId: user._id, coinApiId: coin.apiId})) 
         await dispatch(getLoggedUser(token))
-      }
+
+        reset()
+    }
 
   return (
     <CoinCreatePostCardStyled onSubmit={handleSubmit((data) => handleClick(data))}>

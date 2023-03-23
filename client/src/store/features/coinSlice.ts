@@ -87,18 +87,20 @@ export interface ICreatePost {
     userId: string,
     coinId: string,
     title: string, 
-    message: string
+    message: string,
+    coinApiId: string
 }
 
 export const createPost = createAsyncThunk(
     'coin/createPost',
-    async({ userId, coinId, title, message }: ICreatePost, thunkApi) => {
+    async({ userId, coinId, title, message, coinApiId }: ICreatePost, thunkApi) => {
         try { 
             const post = {
                 userId,
                 coinId,
                 title,
-                message
+                message,
+                coinApiId
             }
 
             const response = await api.post('/posts', post, {
@@ -113,12 +115,27 @@ export const createPost = createAsyncThunk(
     }
 )
 
+export const getPostById = createAsyncThunk(
+    'post/getPostById',
+    async(postId: String, thunkApi) => {
+        try {
+            const response = await api.get(`/posts/${postId}`)
+
+            return response.data
+        } catch (err: any) {
+            return thunkApi.rejectWithValue(err.message);
+        }
+    }
+)
+
+
 const initialState = {
     loading: false,
     error: null,
     data: null,
     selectedCoin: null,
     selectedCoingeckoCoin: null,
+    selectedPost: null,
     coingeckoData: null,
     activeFiat: {locale: 'pt-BR', currency: 'usd'}
 } as ICoinSlice
@@ -217,6 +234,19 @@ const coinSlice = createSlice({
             state.selectedCoin = action.payload
         })
         .addCase(createPost.rejected, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.error = action.payload
+        })
+
+
+        .addCase(getPostById.pending, (state, action) => {
+            state.loading = true;
+        })
+        .addCase(getPostById.fulfilled, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.selectedPost = action.payload;
+        })
+        .addCase(getPostById.rejected, (state, action: PayloadAction<any>) => {
             state.loading = false;
             state.error = action.payload
         })

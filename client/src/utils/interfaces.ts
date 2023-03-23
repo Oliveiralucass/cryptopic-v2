@@ -274,6 +274,7 @@ export interface ICoinSlice {
     data: null | ICoin[]
     selectedCoin: null | ICoin
     selectedCoingeckoCoin: null | object,
+    selectedPost: null | IPost
     coingeckoData: null | object[]
     activeFiat: {
         locale: string,

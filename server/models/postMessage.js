@@ -6,6 +6,7 @@ const postSchema = mongoose.Schema({
     userId: String,
     username: String,
     coinId: String,
+    coinApiId: String,
     coinName: String,
     coinImage: String,
     coinSymbol: String,
