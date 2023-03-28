@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import { AdSection } from '../../../components/AdSection/AdSection'
 import { SectionBanner } from '../../../components/Banners/SectionBanner/SectionBanner'
+import { BetaSection } from '../../../components/BetaSection/BetaSection'
 import { CoinsList } from '../../../components/Coins/CoinsList/CoinsList'
 import { Footer } from '../../../components/Footer/Footer'
 import { Header } from '../../../components/Header/Header'
@@ -13,6 +14,7 @@ export const Coins = () => {
       <Header />
       <AdSection />
       <SectionBanner titulo={'Mercado de Criptomoedas'} subtitulo={'Acompanhe o preço, variação, valor de mercado e muito mais.'}/>
+      <BetaSection />
       <CoinsList />
       <Footer />
     </div>

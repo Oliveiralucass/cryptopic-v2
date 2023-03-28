@@ -1,7 +1,6 @@
 
 /* POST */
 
-import Coin from "../models/Coin.js";
 import User from "../models/User.js";
 
 export const addGlossaryContent = async (req, res ) => {
@@ -15,9 +14,18 @@ export const addGlossaryContent = async (req, res ) => {
             user.xp = user.xp + xp
             user.accountBalance = user.accountBalance + safyr 
 
+            if(user.xp >= user.xpToNextLevel) {
+                user.level++
+                user.xpToNextLevel = Math.floor( 100 + (user.xpToNextLevel * 1.15)).toFixed(0)
+            } else{
+                console.log('naaaaaa')
+            }
+
             const updatedUser = await User.findByIdAndUpdate(
                 id,
                 { 
+                    level: user.level,
+                    xpToNextLevel: user.xpToNextLevel,
                     xp: user.xp,
                     accountBalance: user.accountBalance,
                     contentsCompleted: user.contentsCompleted

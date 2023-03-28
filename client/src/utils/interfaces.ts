@@ -194,8 +194,9 @@ export interface IPost {
     userId: string,
     username: string,
     userLevel: string,
-    userImage: string   ,
+    userImage: string,
     coinId: string,
+    coinApiId: string,
     coinName: string,
     coinImage:string,
     coinSymbol: string,
@@ -274,7 +275,8 @@ export interface ICoinSlice {
     data: null | ICoin[]
     selectedCoin: null | ICoin
     selectedCoingeckoCoin: null | object,
-    selectedPost: null | IPost
+    selectedPost: null | IPost,
+    postFeed: null | IPost[]
     coingeckoData: null | object[]
     activeFiat: {
         locale: string,
@@ -294,6 +296,6 @@ export interface ICoinPost {
 
 export interface ICoingeckoQuery {
     currency: string,
-    page: string, 
-    perPage: string
+    page: number, 
+    perPage: number
 }

@@ -7,7 +7,7 @@ export const SectionBannerStyled = styled.div`
     align-items: center;
     text-align: center;
     padding: 8px;
-    border: 1px solid var(--color-secondary);
+    border-bottom: 1px solid var(--color-secondary);
     gap: 12px;
     margin-bottom: 48px;
 

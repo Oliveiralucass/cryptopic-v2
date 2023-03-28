@@ -57,6 +57,7 @@ export const getCoingeckoCoinsList = createAsyncThunk(
     async({currency, page, perPage}: ICoingeckoQuery, thunkApi) => {
         try{
             const response = await coinGeckoApi.get(`/coins/markets?vs_currency=${currency}&order=market_cap_desc&per_page=${perPage}&page=${page}&sparkline=false&price_change_percentage=1h%2C24h%2C7d`)
+            return response.data
         } catch(err: any) {
             return thunkApi.rejectWithValue(err.message);
         }
@@ -128,6 +129,19 @@ export const getPostById = createAsyncThunk(
     }
 )
 
+export const getDefaultPostsFeed = createAsyncThunk(
+    'post/getDefaultPostsFeed',
+    async(data, thunkApi) => {
+        try {
+            const response = await api.get(`/posts`)
+
+            return response.data
+        } catch (err: any) {
+            return thunkApi.rejectWithValue(err.message);
+        }
+    }
+)
+
 
 const initialState = {
     loading: false,
@@ -135,6 +149,7 @@ const initialState = {
     data: null,
     selectedCoin: null,
     selectedCoingeckoCoin: null,
+    postFeed: null,
     selectedPost: null,
     coingeckoData: null,
     activeFiat: {locale: 'pt-BR', currency: 'usd'}
@@ -215,7 +230,7 @@ const coinSlice = createSlice({
 
 
         .addCase(likeCoin.pending, (state) => {
-            state.loading = false;
+            state.loading = true;
         })
         .addCase(likeCoin.fulfilled, (state) => {
             state.loading = false;
@@ -227,7 +242,7 @@ const coinSlice = createSlice({
 
 
         .addCase(createPost.pending, (state) => {
-            state.loading = false;
+            state.loading = true;
         })
         .addCase(createPost.fulfilled, (state, action: PayloadAction<any>) => {
             state.loading = false;
@@ -247,6 +262,19 @@ const coinSlice = createSlice({
             state.selectedPost = action.payload;
         })
         .addCase(getPostById.rejected, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.error = action.payload
+        })
+
+
+        .addCase(getDefaultPostsFeed.pending, (state, action) => {
+            state.loading = true;
+        })
+        .addCase(getDefaultPostsFeed.fulfilled, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.postFeed = action.payload;
+        })
+        .addCase(getDefaultPostsFeed.rejected, (state, action: PayloadAction<any>) => {
             state.loading = false;
             state.error = action.payload
         })

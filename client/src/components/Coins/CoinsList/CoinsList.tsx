@@ -1,21 +1,26 @@
 import React, { useContext, useEffect } from 'react'
-import { CoinGeckoContext } from '../../../contexts/CoinGeckoContext/CoinGeckoContext';
 import { GlobalContext } from '../../../contexts/GlobalContext/GlobalContext';
 import { CoinsListStyled } from './CoinsList.styled'
 import { Link } from 'react-router-dom'
-import { useAppSelector } from '../../../hooks/useTypedSelectors';
+import { useAppDispatch, useAppSelector } from '../../../hooks/useTypedSelectors';
+import { MainLoading } from '../../Loadings/MainLoading/MainLoading';
+import { getCoingeckoCoinsList } from '../../../store/features/coinSlice';
  
 export const CoinsList = () => {
 
-    const { getCoinsList, coinsList} = useContext(CoinGeckoContext);
     const { toCurrency } = useContext(GlobalContext)
-    const { activeFiat } = useAppSelector(state => state.coin)
+
+    
+    const { activeFiat, coingeckoData } = useAppSelector(state => state.coin)
+    const dispatch = useAppDispatch();
 
     useEffect(() => {
-      getCoinsList(activeFiat.currency, '1', '100')
-    }, [activeFiat])
-  
-    console.log(coinsList);
+        const callApi = async () => {
+            dispatch(getCoingeckoCoinsList({currency: activeFiat.currency, page: 1, perPage: 100}))
+        }
+        
+        callApi() 
+    }, [])
     
   return (
     <CoinsListStyled>
@@ -34,7 +39,7 @@ export const CoinsList = () => {
         </thead>
 
         <tbody>
-            {coinsList && coinsList.map((coin, index) => <tr key={coin.id}>
+            {coingeckoData && coingeckoData.map((coin, index) => <tr key={coin.id}>
                 <td>{index + 1}</td>
                 <td>
                     <Link to={`/criptomoedas/${coin.id}`}>

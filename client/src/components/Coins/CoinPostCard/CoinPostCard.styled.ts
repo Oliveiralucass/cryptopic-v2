@@ -15,6 +15,7 @@ export const CoinPostCardHeader = styled.div`
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    margin: 8px;
     
     img{
         width: 40px;
@@ -41,6 +42,7 @@ export const CoinPostCardBody = styled.div`
     display: flex;
     flex-direction: column;
     gap: 12px;
+    margin: 8px;
 `
 export const CoinPostCardBodyHeader = styled.div`
     .coin-info a{
@@ -48,6 +50,7 @@ export const CoinPostCardBodyHeader = styled.div`
         display: flex;
         gap: 8px;
         align-items: center;
+        margin: 0 0 8px;
 
         img{
             width: 24px;
@@ -62,6 +65,14 @@ export const CoinPostCardBodyHeader = styled.div`
 
 
 export const CoinPostCardBodyMessage = styled.div`
+    max-height: 320px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    font-size: 1.25rem;
 
 `
 
@@ -70,4 +81,5 @@ export const CoinPostCardInteractions = styled.div`
     align-items: center;
     text-align: center;
     gap: 8px;
+    margin: 8px;
 `

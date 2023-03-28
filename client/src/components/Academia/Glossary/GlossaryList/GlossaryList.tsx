@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { GlossaryListStyled } from './GlossaryList.styled'
 import { IGlossary } from '../../../../utils/interfaces'
 import { GlossaryListItem } from '../GlossaryListItem/GlossaryListItem'
@@ -15,11 +15,32 @@ export const GlossaryList = () => {
     if(!data) dispatch(getGlossaryContents())
   }, [])
 
+  const [ search, setSearch ] = useState('')
+
+  const filteredContent = search.length > 0 && data
+    ? data.filter(content => content.title.toLowerCase().includes(search.toLowerCase())) : []
+
+    console.log('render')
+
   return (
     <GlossaryListStyled>
-        {data && data.map((artigo: IGlossary) => {
-            return <Link to={`/academia/glossario/${artigo.url}`} key={artigo._id}><GlossaryListItem artigo={artigo}/></Link>
-        })}
+      <div>
+        <input className='glossary-list-search-input' type="text" placeholder='Pesquise Termos aqui...' onChange={e => setSearch(e.target.value)} />
+
+      </div>
+
+      {search.length > 0 ?
+        
+        filteredContent && filteredContent.map((artigo: IGlossary) => {
+          return <Link to={`/academia/glossario/${artigo.url}`} key={artigo._id}><GlossaryListItem artigo={artigo}/></Link>
+        }) 
+        : 
+        data && data.map((artigo: IGlossary) => {
+          return <Link to={`/academia/glossario/${artigo.url}`} key={artigo._id}><GlossaryListItem artigo={artigo}/></Link>
+        })
+      }    
+      
+        
     </GlossaryListStyled>
   )
 }

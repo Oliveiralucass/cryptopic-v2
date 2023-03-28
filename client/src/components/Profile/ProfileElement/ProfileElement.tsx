@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useAppDispatch, useAppSelector } from '../../../hooks/useTypedSelectors'
 import { getUserByUsername } from '../../../store/features/userSlice'
@@ -11,6 +11,7 @@ import {TbArrowNarrowRight} from 'react-icons/tb'
 import { DivisorStyled } from '../../Divisor/Divisor.Styled'
 import { DetailButton } from '../../Buttons/DetailButton/DetailButton'
 import { CoinPostCard } from '../../Coins/CoinPostCard/CoinPostCard'
+import { PostCard } from '../../Post/PostCard/PostCard'
 
 export const ProfileElement = () => {
 
@@ -19,6 +20,8 @@ export const ProfileElement = () => {
 
     const dispatch = useAppDispatch()
     const { selectedUser } = useAppSelector(state => state.user)
+
+    const [ liked, setLiked ] = useState<boolean>(false)
   
     useEffect(() => {
       user && dispatch(getUserByUsername(user))
@@ -83,7 +86,7 @@ export const ProfileElement = () => {
                 <DivisorStyled />
 
                 <ProfileElementHeaderBottom>
-                {selectedUser.profile.coinsLiked.map(coin => <Link to={`/${coin.url}`} key={coin.id}>
+                {selectedUser.profile.coinsLiked.map(coin => <Link to={`/${coin.url}`} key={coin._id}>
                         <ProfileElementHeaderBottomCoinCard> 
                             <img src={coin.image} alt="" />
 
@@ -97,7 +100,7 @@ export const ProfileElement = () => {
             </ProfileElementHeader>
 
             <ProfileElementBody>
-            {selectedUser.profile.posts.map(post => <CoinPostCard key={post._id}  comment={post}/>)}
+            {selectedUser.profile.posts.map(post => <PostCard key={post._id}  comment={post} />)}
 
             </ProfileElementBody>
 

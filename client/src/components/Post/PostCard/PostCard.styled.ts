@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-export const CoinPostCardStyled = styled.div`
+export const PostCardStyled = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 4px;
     margin: 100px auto;
     padding: 12px;
     border-radius: 6px;
@@ -11,10 +11,15 @@ export const CoinPostCardStyled = styled.div`
     box-shadow: var(--box-shadow-medium);
 `
 
-export const CoinPostCardHeader = styled.div`
+export const PostCardHeader = styled.div`
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    margin: 8px;
+    
+    a{
+        width: fit-content;
+    }
     
     img{
         width: 40px;
@@ -37,17 +42,19 @@ export const CoinPostCardHeader = styled.div`
     }
 `
 
-export const CoinPostCardBody = styled.div`
+export const PostCardBody = styled.div`
     display: flex;
     flex-direction: column;
     gap: 12px;
+    margin: 8px;
 `
-export const CoinPostCardBodyHeader = styled.div`
+export const PostCardBodyHeader = styled.div`
     .coin-info a{
         width: fit-content;
         display: flex;
         gap: 8px;
         align-items: center;
+        margin: 0 0 8px;
 
         img{
             width: 24px;
@@ -61,13 +68,33 @@ export const CoinPostCardBodyHeader = styled.div`
 `
 
 
-export const CoinPostCardBodyMessage = styled.div`
+export const PostCardBodyMessage = styled.div`
+    max-height: 320px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    font-size: 1.25rem;
 
 `
 
-export const CoinPostCardInteractions = styled.div`
+export const PostCardInteractions = styled.div`
     display: flex;
     align-items: center;
     text-align: center;
     gap: 8px;
+    margin: 8px;
+
+    .likeButton {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+
+      svg:hover{
+        cursor: pointer;
+        fill: var(--color-primary-on-hover);
+      }
+    }
 `

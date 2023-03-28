@@ -32,9 +32,11 @@ export const CoinElement = () => {
   }
 
   useEffect(() => {
-    moeda && dispatch(getCoingeckoCoinById(moeda))
     // Async dispatches 
 
+    const dispatchCoingeckoCoinById = async () =>{
+      moeda && await dispatch(getCoingeckoCoinById(moeda))
+    }
 
     const dispatchCoinsList = async () => {
       await dispatch(getCoinsList())
@@ -54,6 +56,8 @@ export const CoinElement = () => {
 
     // calls
 
+    moeda && dispatchCoingeckoCoinById()
+
     if(!data) dispatchCoinsList()
     data && data.some(e => e.apiId === moeda) && dispatch(getCoinById(data.filter(e => e.apiId === moeda)[0]._id)) && setCoin(data.filter(e => e.apiId === moeda)[0])
 
@@ -69,14 +73,15 @@ export const CoinElement = () => {
 
   const handleLike = async() =>{
     coin && await dispatch(likeCoin({id: user._id, coinId: coin._id})); 
-    coin && moeda && dispatch(getCoinById(coin._id));
+    coin && moeda && await dispatch(getCoinById(coin._id));
     await dispatch(getLoggedUser(token));
   }
 
   
-  return coin && selectedCoin && coin.apiId == moeda ? (
-    
+  return coin && selectedCoin && selectedCoin.apiId == moeda && coin.apiId == moeda ? (
     <CoinsPageStyled>
+      
+      
         <ColorLineStyled color={'#2563eb'}/>
         <div className='container'>
           <CoinsPageLeft>

@@ -72,7 +72,10 @@ export const createPost = async (req, res) => {
 export const getFeedPosts = async (req, res) => {
     try{
         const post = await Post.find()
-        res.status(200).json(post)
+
+        const sortedPost = post.sort((a,b) => Number(b.createdAt) - Number(a.createdAt))
+       
+        res.status(200).json(sortedPost)
     } catch (error){
         res.status(404).json({ message: error.message })
     }

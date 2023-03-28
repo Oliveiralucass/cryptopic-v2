@@ -14,6 +14,26 @@ export const getUserByUsername = createAsyncThunk(
     }
 )
 
+export interface ILikePost{
+    postId: string,
+    userId: string
+}
+
+export const likePost = createAsyncThunk(
+    'post/likePost',
+    async ({postId, userId}: ILikePost, thunkApi) =>{
+        try {
+
+            const data = {userId}
+
+            const response = await api.patch(`/posts/${postId}/like`, data)
+            return response.data
+        }  catch(err: any) {
+            return thunkApi.rejectWithValue(err.message);
+        }
+    }
+)
+
 export interface IUserSlice{
     selectedUser: IUser | null,
     allUsers: IUser[] | null
@@ -42,6 +62,18 @@ export const userSlice = createSlice({
             state.selectedUser = action.payload
         })
         .addCase(getUserByUsername.rejected, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+            state.error = action.payload
+        })
+
+        
+        .addCase(likePost.pending, (state, action) => {
+            state.loading = true;
+        })
+        .addCase(likePost.fulfilled, (state, action: PayloadAction<any>) => {
+            state.loading = false;
+        })
+        .addCase(likePost.rejected, (state, action: PayloadAction<any>) => {
             state.loading = false;
             state.error = action.payload
         })
